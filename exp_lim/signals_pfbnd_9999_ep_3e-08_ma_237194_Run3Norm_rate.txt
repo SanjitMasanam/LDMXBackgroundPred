@@ -1,0 +1,4 @@
+../rpf2x0_Binningv6_Inputv9_SR_Blind_pfbnd_0.9999/Signal_M1500GeV-2x0_area, ../rpf2x0_Binningv6_Inputv9_SR_Blind_pfbnd_0.9999/Signal_M2000GeV-2x0_area, ../rpf2x0_Binningv6_Inputv9_SR_Blind_pfbnd_0.9999/Signal_M2500GeV-2x0_area, ../rpf2x0_Binningv6_Inputv9_SR_Blind_pfbnd_0.9999/Signal_M3000GeV-2x0_area, ../rpf2x0_Binningv6_Inputv9_SR_Blind_pfbnd_0.9999/Signal_M3500GeV-2x0_area, ../rpf2x0_Binningv6_Inputv9_SR_Blind_pfbnd_0.9999/Signal_M4000GeV-2x0_area, ../rpf2x0_Binningv6_Inputv9_SR_Blind_pfbnd_0.9999/Signal_M4500GeV-2x0_area, ../rpf2x0_Binningv6_Inputv9_SR_Blind_pfbnd_0.9999/Signal_M5000GeV-2x0_area
+3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
+26.32733, 45.93648, 59.80226, 68.05165, 72.19179, 73.60540, 73.29169, 71.92007
+14.2857142857, 14.2857142857, 14.2857142857, 14.2857142857, 14.2857142857, 14.2857142857, 14.2857142857, 14.2857142857, 14.2857142857, 14.2857142857

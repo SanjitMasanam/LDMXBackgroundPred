@@ -1,0 +1,97 @@
+{
+    "NAME": "EaDM",
+    "GLOBAL": {
+        "FILE": "EaDM_$process.root",
+        "HIST": "h$region",
+        "HIST_UP": "h$region_$syst_up",
+        "HIST_DOWN": "h$region_$syst_down",
+        "path": "./histograms_for_2DAlphabet_v12",
+        "SIGNAME": ["Signal_M500GeV_VR","Signal_M1000GeV_VR","Signal_M1500GeV_VR","Signal_M2000GeV_VR","Signal_M2500GeV_VR","Signal_M3000GeV_VR","Signal_M3500GeV_VR","Signal_M4000GeV_VR","Signal_M4500GeV_VR","Signal_M5000GeV_VR"]
+    },
+    "REGIONS": {
+        "pass": {
+            "PROCESSES": ["SIGNAME"],
+            "BINNING": "default"
+        },
+        "fail": {
+            "PROCESSES": ["SIGNAME"],
+            "BINNING": "default"
+        }
+    },
+    "PROCESSES": {
+        "data_obs": {
+            "SYSTEMATICS":[],
+            "COLOR": "black",
+            "SCALE": 1,
+            "TYPE": "DATA",
+            "TITLE": "Cosmics_Data_VR",
+            "ALIAS": "Cosmics_Data_VR",
+            "LOC": "path/FILE:HIST"
+        },
+        "SIGNAME": {
+            "SYSTEMATICSvolt": ["lumi","pileup", "systOnF", "systOnG", "systOnTrigger", "systOnPt", "systOnMuReco", "systOnMuID", "systOnMuTrigger"],
+            "SYSTEMATICS":["lumi","RNN","pT","t0"],
+            "COLOR": "red",
+            "SCALE": 1.0,
+            "TYPE": "SIGNAL",
+            "TITLE": "DM signal",
+            "LOC": "path/FILE:HIST"
+        }
+    },
+    "SYSTEMATICS": {
+        "lumi": {
+                "CODE": 0,
+                "VAL": 1.05
+        },
+        "pT": {
+            "ALIAS": "pTsyst",
+            "UP": "path/FILE:HIST_UP",
+            "DOWN": "path/FILE:HIST_DOWN",
+            "SIGMA": 1.0
+        },
+        "t0": {
+            "ALIAS": "t0syst",
+            "UP": "path/FILE:HIST_UP",
+            "DOWN": "path/FILE:HIST_DOWN",
+            "SIGMA": 1.0
+        },
+        "RNN": {
+            "ALIAS": "RNNsyst",
+            "UP": "path/FILE:HIST_UP",
+            "DOWN": "path/FILE:HIST_DOWN",
+            "SIGMA": 1.0
+        }
+
+    },
+    "BINNING": {
+        "default": {
+            "X": {
+                "NAME": "pT",
+                "TITLE": "p_{T}",
+		"BINSv1":   [0,100,200,300,400,500,600,800,1000,1200,1400,1600,1900,2200,2600,3400,4200,5000],
+		"BINSv2":   [0,50,100,150,200,250,300,350,400,450,500,550,600,800,1000,1200,1400,1600,1900,2200,2600,3400,4200,5000],
+                "BINSv3":   [0,50,140,270,440,650,900,1190,1520,1890,2300,2750,3240,3770,4340,5000],
+                "BINS":   [200,320,610,1010,1520,2300,3240,4340,5600],
+		"SIGSTART": 610,
+                "SIGEND": 1010,
+		"NBINStest": 50,
+		"MINtest": 500,
+		"MAXtest": 5500
+            },
+            "Y": {
+                "NAME": "N",
+                "TITLE": "N",
+                "NBINS": 1,
+                "MIN": 1,
+                "MAX": 50
+            }
+        }
+    },
+    "OPTIONS": {
+        "blindedFitNA": ["pass"],
+        "blindedPlotsNA": ["pass"],
+        "plotTemplateComparisonsNA": true,
+        "plotEvtsPerUnitVolt" : true
+    }
+}
+

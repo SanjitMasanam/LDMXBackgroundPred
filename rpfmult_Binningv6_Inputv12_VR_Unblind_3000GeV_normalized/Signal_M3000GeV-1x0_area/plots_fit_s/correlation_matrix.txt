@@ -1,0 +1,13 @@
+CMS_AN23122_Background_rpf_1x0_par0:lumi = -0.08898525104169822
+CMS_AN23122_Background_rpf_1x0_par0:pT = -0.031979505641389266
+CMS_AN23122_Background_rpf_1x0_par0:t0 = -0.0
+CMS_AN23122_Background_rpf_1x0_par1:CMS_AN23122_Background_rpf_1x0_par0 = -0.6592635418274215
+CMS_AN23122_Background_rpf_1x0_par1:lumi = 0.1536913652321821
+CMS_AN23122_Background_rpf_1x0_par1:pT = 0.05523357888481446
+CMS_AN23122_Background_rpf_1x0_par1:t0 = 0.0
+pT:lumi = 0.03316815953695159
+r:CMS_AN23122_Background_rpf_1x0_par0 = 0.2929100020955667
+r:CMS_AN23122_Background_rpf_1x0_par1 = -0.5059011193975047
+r:lumi = -0.303797244524347
+r:pT = -0.10917860564699358
+r:t0 = -0.0

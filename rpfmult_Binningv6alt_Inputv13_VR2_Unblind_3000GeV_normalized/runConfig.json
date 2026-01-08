@@ -1,0 +1,201 @@
+{
+  "BINNING": {
+    "default": {
+      "X": {
+        "BINS": [
+          10,
+          19,
+          34,
+          55,
+          82,
+          115,
+          155,
+          200
+        ],
+        "BINSv1": [
+          0,
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          800,
+          1000,
+          1200,
+          1400,
+          1600,
+          1900,
+          2200,
+          2600,
+          3400,
+          4200,
+          5000
+        ],
+        "BINSv2": [
+          0,
+          50,
+          100,
+          150,
+          200,
+          250,
+          300,
+          350,
+          400,
+          450,
+          500,
+          550,
+          600,
+          800,
+          1000,
+          1200,
+          1400,
+          1600,
+          1900,
+          2200,
+          2600,
+          3400,
+          4200,
+          5000
+        ],
+        "BINSv3": [
+          0,
+          50,
+          140,
+          270,
+          440,
+          650,
+          900,
+          1190,
+          1520,
+          1890,
+          2300,
+          2750,
+          3240,
+          3770,
+          4340,
+          5000
+        ],
+        "MAXtest": 5500,
+        "MINtest": 500,
+        "NAME": "pT",
+        "NBINStest": 50,
+        "SIGEND": 155,
+        "SIGSTART": 115,
+        "TITLE": "p_{T}"
+      },
+      "Y": {
+        "MAX": 50,
+        "MIN": 1,
+        "NAME": "N",
+        "NBINS": 1,
+        "TITLE": "N"
+      }
+    }
+  },
+  "GLOBAL": {
+    "FILE": "EaDM_$process.root",
+    "HIST": "h$region",
+    "HIST_DOWN": "h$region_$syst_down",
+    "HIST_UP": "h$region_$syst_up",
+    "SIGNAME": [
+      "Signal_M1000GeV_SR",
+      "Signal_M1500GeV_SR",
+      "Signal_M2000GeV_SR",
+      "Signal_M2500GeV_SR",
+      "Signal_M3000GeV_SR",
+      "Signal_M3500GeV_SR",
+      "Signal_M4000GeV_SR",
+      "Signal_M4500GeV_SR"
+    ],
+    "path": "./histograms_for_2DAlphabet_v13"
+  },
+  "NAME": "EaDM",
+  "OPTIONS": {
+    "blindedFitNA": [
+      "pass"
+    ],
+    "blindedPlotsNA": [
+      "pass"
+    ],
+    "plotEvtsPerUnitVolt": true,
+    "plotTemplateComparisonsNA": true
+  },
+  "PROCESSES": {
+    "SIGNAME": {
+      "COLOR": "red",
+      "LOC": "./histograms_for_2DAlphabet_v13/EaDM_$process.root:h$region",
+      "NAME": "SIGNAME",
+      "SCALE": 1.0,
+      "SYSTEMATICS": [
+        "lumi",
+        "RNN",
+        "pT",
+        "t0"
+      ],
+      "SYSTEMATICSvolt": [
+        "lumi",
+        "pileup",
+        "systOnF",
+        "systOnG",
+        "systOnTrigger",
+        "systOnPt",
+        "systOnMuReco",
+        "systOnMuID",
+        "systOnMuTrigger"
+      ],
+      "TITLE": "DM signal",
+      "TYPE": "SIGNAL",
+      "VARIATION": "nominal"
+    },
+    "data_obs": {
+      "ALIAS": "Cosmics_Data_SR",
+      "COLOR": "black",
+      "LOC": "./histograms_for_2DAlphabet_v13/EaDM_$process.root:h$region",
+      "NAME": "data_obs",
+      "SCALE": 1,
+      "SYSTEMATICS": [],
+      "TITLE": "Cosmics_Data_SR",
+      "TYPE": "DATA",
+      "VARIATION": "nominal"
+    }
+  },
+  "REGIONS": {
+    "fail": {
+      "BINNING": "default",
+      "PROCESSES": [
+        "SIGNAME"
+      ]
+    },
+    "pass": {
+      "BINNING": "default",
+      "PROCESSES": [
+        "SIGNAME"
+      ]
+    }
+  },
+  "SYSTEMATICS": {
+    "RNN": {
+      "ALIAS": "RNNsyst",
+      "DOWN": "./histograms_for_2DAlphabet_v13/EaDM_$process.root:h$region_$syst_down",
+      "SIGMA": 1.0,
+      "UP": "./histograms_for_2DAlphabet_v13/EaDM_$process.root:h$region_$syst_up"
+    },
+    "lumi": {
+      "CODE": 0,
+      "VAL": 1.05
+    },
+    "pT": {
+      "ALIAS": "pTsyst",
+      "DOWN": "./histograms_for_2DAlphabet_v13/EaDM_$process.root:h$region_$syst_down",
+      "SIGMA": 1.0,
+      "UP": "./histograms_for_2DAlphabet_v13/EaDM_$process.root:h$region_$syst_up"
+    },
+    "t0": {
+      "ALIAS": "t0syst",
+      "DOWN": "./histograms_for_2DAlphabet_v13/EaDM_$process.root:h$region_$syst_down",
+      "SIGMA": 1.0,
+      "UP": "./histograms_for_2DAlphabet_v13/EaDM_$process.root:h$region_$syst_up"
+    }
+  }
+}

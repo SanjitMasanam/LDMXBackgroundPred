@@ -1,0 +1,9 @@
+CMS_AN23122_Background_rpf_1x0_par0:RNN = 0.0
+CMS_AN23122_Background_rpf_1x0_par0:lumi = 0.0
+CMS_AN23122_Background_rpf_1x0_par0:pT = 0.0
+CMS_AN23122_Background_rpf_1x0_par0:t0 = 0.0
+CMS_AN23122_Background_rpf_1x0_par1:CMS_AN23122_Background_rpf_1x0_par0 = -0.5727494679769928
+CMS_AN23122_Background_rpf_1x0_par1:RNN = -0.0
+CMS_AN23122_Background_rpf_1x0_par1:lumi = -0.0
+CMS_AN23122_Background_rpf_1x0_par1:pT = -0.0
+CMS_AN23122_Background_rpf_1x0_par1:t0 = -0.0

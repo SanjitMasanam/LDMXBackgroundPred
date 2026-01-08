@@ -1,0 +1,113 @@
+ <<< Combine >>> 
+ <<< v10.0.1 >>>
+>>> Random number generator seed is 123456
+>>> Method used is FitDiagnostics
+Set Default Value of Parameter mask_pass_SIG To : 1
+Set Default Value of Parameter mask_pass_HIGH To : 1
+Set Default Value of Parameter r To : 1
+>>> 2 out of 6 channels masked
+
+>> Found 16 floating parameters
+>> The following parameters are protected in the event of negative eigenvalues:
+>> Parameter CMS_AN23122_Background_rpf_2x0_par2 does not have a valid stencil and will be dropped
+>> Verifying eigenvalues are all positive (iteration 0)
+Eigenvalue 14 : -0.000167699
+ - 0.734839	CMS_AN23122_Background_rpf_2x0_par3
+ - -0.665864	CMS_AN23122_Background_rpf_2x0_par0
+ - -0.128983	CMS_AN23122_Background_rpf_2x0_par1
+ - 0.000383121	CMS_AN23122_Background_fail_LOW_bin_3-1
+ - -0.000174586	CMS_AN23122_Background_fail_LOW_bin_1-1
+>> Attempt 0 failed, remove the variable with largest eigenvector component...
+>> Dropping CMS_AN23122_Background_rpf_2x0_par3 from the hessian
+>> Verifying eigenvalues are all positive (iteration 1)
+>> All eigenvalues are positive
+>> Inverting Hessian...
+>> Matrix inverted
+>> Note: the following parameters were dropped as their ranges are either too narrow or the parameter has no effect on the NLL:
+     - CMS_AN23122_Background_rpf_2x0_par2
+>> Note: the following parameters were dropped to make the covariance matrix pos-def:
+     - CMS_AN23122_Background_rpf_2x0_par3
+ Fit B-only, status = 0, numBadNLL = 0, covariance quality = -1
+Running Minos for POI r
+WARNING: underflow to inf in pdf_binpass_LOW_obsOnly for bin 0, weight 50
+FASTEXIT from pdf_binpass_LOW_obsOnly
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (29.9689) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	CMS_AN23122_Background_fail_HIGH_bin_1-1=568622	CMS_AN23122_Background_fail_HIGH_bin_2-1=121305	CMS_AN23122_Background_fail_HIGH_bin_3-1=387179	CMS_AN23122_Background_fail_HIGH_bin_4-1=993300	CMS_AN23122_Background_fail_LOW_bin_1-1=699.801	CMS_AN23122_Background_fail_LOW_bin_2-1=84106.6	CMS_AN23122_Background_fail_LOW_bin_3-1=4674.91	CMS_AN23122_Background_fail_SIG_bin_1-1=21.4306	CMS_AN23122_Background_rpf_2x0_par0=73.6694	CMS_AN23122_Background_rpf_2x0_par1=98.2919	CMS_AN23122_Background_rpf_2x0_par2=-4.69449	CMS_AN23122_Background_rpf_2x0_par3=0.0965812	RNN=-79855.5	lumi=-4688.38	pT=-43.4637	r=25.9636	t0=0
+RooAbsReal::pass_LOW[ params=(CMS_AN23122_Background_fail_LOW_bin_1-1,CMS_AN23122_Background_fail_LOW_bin_2-1,CMS_AN23122_Background_fail_LOW_bin_3-1,CMS_AN23122_Background_rpf_2x0_par0,CMS_AN23122_Background_rpf_2x0_par1,CMS_AN23122_Background_rpf_2x0_par2,CMS_AN23122_Background_rpf_2x0_par3,RNN,lumi,n_exp_binpass_LOW_proc_CMS_AN23122_Background_2x0,pT,r,t0) catParams=() ]
+     Number of events is negative or error @ params=(CMS_AN23122_Background_fail_LOW_bin_1-1 = 699.801 +/- 311.239,CMS_AN23122_Background_fail_LOW_bin_2-1 = 84106.6 +/- 192.242,CMS_AN23122_Background_fail_LOW_bin_3-1 = 4674.91 +/- 93.5279,CMS_AN23122_Background_rpf_2x0_par0 = 73.6694 +/- 0.980351,CMS_AN23122_Background_rpf_2x0_par1 = 98.2919 +/- 44.4833,CMS_AN23122_Background_rpf_2x0_par2 = -4.69449 +/- 39.9845,CMS_AN23122_Background_rpf_2x0_par3 = 0.0965812 +/- 5.76947e-05,RNN = -79855.5 +/- 1.00012,lumi = -4688.38 +/- 1.00024,n_exp_binpass_LOW_proc_CMS_AN23122_Background_2x0 = 1,pT = -43.4637 +/- 1.00012,r = 25.9636 +/- 46.994,t0 = 0 +/- 1), catParams=()
+
+WARNING: underflow to inf in pdf_binpass_LOW_obsOnly for bin 0, weight 50
+FASTEXIT from pdf_binpass_LOW_obsOnly
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (29.9689) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	CMS_AN23122_Background_fail_HIGH_bin_1-1=842909	CMS_AN23122_Background_fail_HIGH_bin_2-1=962231	CMS_AN23122_Background_fail_HIGH_bin_3-1=117517	CMS_AN23122_Background_fail_HIGH_bin_4-1=479374	CMS_AN23122_Background_fail_LOW_bin_1-1=979229	CMS_AN23122_Background_fail_LOW_bin_2-1=2501.9	CMS_AN23122_Background_fail_LOW_bin_3-1=176.572	CMS_AN23122_Background_fail_SIG_bin_1-1=588.252	CMS_AN23122_Background_rpf_2x0_par0=9.03593	CMS_AN23122_Background_rpf_2x0_par1=69.0436	CMS_AN23122_Background_rpf_2x0_par2=-34.2257	CMS_AN23122_Background_rpf_2x0_par3=0.0424922	RNN=-39927.3	lumi=-2344.22	pT=-21.7364	r=25.9636	t0=0
+RooAbsReal::pass_LOW[ params=(CMS_AN23122_Background_fail_LOW_bin_1-1,CMS_AN23122_Background_fail_LOW_bin_2-1,CMS_AN23122_Background_fail_LOW_bin_3-1,CMS_AN23122_Background_rpf_2x0_par0,CMS_AN23122_Background_rpf_2x0_par1,CMS_AN23122_Background_rpf_2x0_par2,CMS_AN23122_Background_rpf_2x0_par3,RNN,lumi,n_exp_binpass_LOW_proc_CMS_AN23122_Background_2x0,pT,r,t0) catParams=() ]
+     Number of events is negative or error @ params=(CMS_AN23122_Background_fail_LOW_bin_1-1 = 979229 +/- 311.239,CMS_AN23122_Background_fail_LOW_bin_2-1 = 2501.9 +/- 192.242,CMS_AN23122_Background_fail_LOW_bin_3-1 = 176.572 +/- 93.5279,CMS_AN23122_Background_rpf_2x0_par0 = 9.03593 +/- 0.980351,CMS_AN23122_Background_rpf_2x0_par1 = 69.0436 +/- 44.4833,CMS_AN23122_Background_rpf_2x0_par2 = -34.2257 +/- 39.9845,CMS_AN23122_Background_rpf_2x0_par3 = 0.0424922 +/- 5.76947e-05,RNN = -39927.3 +/- 1.00012,lumi = -2344.22 +/- 1.00024,n_exp_binpass_LOW_proc_CMS_AN23122_Background_2x0 = 1,pT = -21.7364 +/- 1.00012,r = 25.9636 +/- 46.994,t0 = 0 +/- 1), catParams=()
+
+WARNING: underflow to inf in pdf_binpass_LOW_obsOnly for bin 0, weight 50
+FASTEXIT from pdf_binpass_LOW_obsOnly
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (29.9689) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	CMS_AN23122_Background_fail_HIGH_bin_1-1=319955	CMS_AN23122_Background_fail_HIGH_bin_2-1=614484	CMS_AN23122_Background_fail_HIGH_bin_3-1=35319.1	CMS_AN23122_Background_fail_HIGH_bin_4-1=846394	CMS_AN23122_Background_fail_LOW_bin_1-1=722123	CMS_AN23122_Background_fail_LOW_bin_2-1=5183.6	CMS_AN23122_Background_fail_LOW_bin_3-1=997071	CMS_AN23122_Background_fail_SIG_bin_1-1=998503	CMS_AN23122_Background_rpf_2x0_par0=31.5874	CMS_AN23122_Background_rpf_2x0_par1=99.2915	CMS_AN23122_Background_rpf_2x0_par2=-3.42827	CMS_AN23122_Background_rpf_2x0_par3=0.013255	RNN=-19963.2	lumi=-1172.14	pT=-10.8728	r=25.9636	t0=0
+RooAbsReal::pass_LOW[ params=(CMS_AN23122_Background_fail_LOW_bin_1-1,CMS_AN23122_Background_fail_LOW_bin_2-1,CMS_AN23122_Background_fail_LOW_bin_3-1,CMS_AN23122_Background_rpf_2x0_par0,CMS_AN23122_Background_rpf_2x0_par1,CMS_AN23122_Background_rpf_2x0_par2,CMS_AN23122_Background_rpf_2x0_par3,RNN,lumi,n_exp_binpass_LOW_proc_CMS_AN23122_Background_2x0,pT,r,t0) catParams=() ]
+     Number of events is negative or error @ params=(CMS_AN23122_Background_fail_LOW_bin_1-1 = 722123 +/- 311.239,CMS_AN23122_Background_fail_LOW_bin_2-1 = 5183.6 +/- 192.242,CMS_AN23122_Background_fail_LOW_bin_3-1 = 997071 +/- 93.5279,CMS_AN23122_Background_rpf_2x0_par0 = 31.5874 +/- 0.980351,CMS_AN23122_Background_rpf_2x0_par1 = 99.2915 +/- 44.4833,CMS_AN23122_Background_rpf_2x0_par2 = -3.42827 +/- 39.9845,CMS_AN23122_Background_rpf_2x0_par3 = 0.013255 +/- 5.76947e-05,RNN = -19963.2 +/- 1.00012,lumi = -1172.14 +/- 1.00024,n_exp_binpass_LOW_proc_CMS_AN23122_Background_2x0 = 1,pT = -10.8728 +/- 1.00012,r = 25.9636 +/- 46.994,t0 = 0 +/- 1), catParams=()
+
+WARNING: underflow to inf in pdf_binpass_LOW_obsOnly for bin 0, weight 50
+FASTEXIT from pdf_binpass_LOW_obsOnly
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (29.9689) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	CMS_AN23122_Background_fail_HIGH_bin_1-1=99067.3	CMS_AN23122_Background_fail_HIGH_bin_2-1=796371	CMS_AN23122_Background_fail_HIGH_bin_3-1=988245	CMS_AN23122_Background_fail_HIGH_bin_4-1=714509	CMS_AN23122_Background_fail_LOW_bin_1-1=618620	CMS_AN23122_Background_fail_LOW_bin_2-1=17613.7	CMS_AN23122_Background_fail_LOW_bin_3-1=425701	CMS_AN23122_Background_fail_SIG_bin_1-1=454144	CMS_AN23122_Background_rpf_2x0_par0=75.0618	CMS_AN23122_Background_rpf_2x0_par1=82.5584	CMS_AN23122_Background_rpf_2x0_par2=-29.9275	CMS_AN23122_Background_rpf_2x0_par3=0.0958981	RNN=-9981.19	lumi=-586.104	pT=-5.441	r=25.9636	t0=0
+RooAbsReal::pass_LOW[ params=(CMS_AN23122_Background_fail_LOW_bin_1-1,CMS_AN23122_Background_fail_LOW_bin_2-1,CMS_AN23122_Background_fail_LOW_bin_3-1,CMS_AN23122_Background_rpf_2x0_par0,CMS_AN23122_Background_rpf_2x0_par1,CMS_AN23122_Background_rpf_2x0_par2,CMS_AN23122_Background_rpf_2x0_par3,RNN,lumi,n_exp_binpass_LOW_proc_CMS_AN23122_Background_2x0,pT,r,t0) catParams=() ]
+     Number of events is negative or error @ params=(CMS_AN23122_Background_fail_LOW_bin_1-1 = 618620 +/- 311.239,CMS_AN23122_Background_fail_LOW_bin_2-1 = 17613.7 +/- 192.242,CMS_AN23122_Background_fail_LOW_bin_3-1 = 425701 +/- 93.5279,CMS_AN23122_Background_rpf_2x0_par0 = 75.0618 +/- 0.980351,CMS_AN23122_Background_rpf_2x0_par1 = 82.5584 +/- 44.4833,CMS_AN23122_Background_rpf_2x0_par2 = -29.9275 +/- 39.9845,CMS_AN23122_Background_rpf_2x0_par3 = 0.0958981 +/- 5.76947e-05,RNN = -9981.19 +/- 1.00012,lumi = -586.104 +/- 1.00024,n_exp_binpass_LOW_proc_CMS_AN23122_Background_2x0 = 1,pT = -5.441 +/- 1.00012,r = 25.9636 +/- 46.994,t0 = 0 +/- 1), catParams=()
+
+WARNING: underflow to inf in pdf_binpass_LOW_obsOnly for bin 0, weight 50
+FASTEXIT from pdf_binpass_LOW_obsOnly
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (29.9689) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	CMS_AN23122_Background_fail_HIGH_bin_1-1=968061	CMS_AN23122_Background_fail_HIGH_bin_2-1=258710	CMS_AN23122_Background_fail_HIGH_bin_3-1=568210	CMS_AN23122_Background_fail_HIGH_bin_4-1=749747	CMS_AN23122_Background_fail_LOW_bin_1-1=84377.2	CMS_AN23122_Background_fail_LOW_bin_2-1=26538	CMS_AN23122_Background_fail_LOW_bin_3-1=91849.9	CMS_AN23122_Background_fail_SIG_bin_1-1=113213	CMS_AN23122_Background_rpf_2x0_par0=8.58397	CMS_AN23122_Background_rpf_2x0_par1=69.902	CMS_AN23122_Background_rpf_2x0_par2=-6.7545	CMS_AN23122_Background_rpf_2x0_par3=0.0381545	RNN=-4990.17	lumi=-293.084	pT=-2.72509	r=25.9636	t0=0
+RooAbsReal::pass_LOW[ params=(CMS_AN23122_Background_fail_LOW_bin_1-1,CMS_AN23122_Background_fail_LOW_bin_2-1,CMS_AN23122_Background_fail_LOW_bin_3-1,CMS_AN23122_Background_rpf_2x0_par0,CMS_AN23122_Background_rpf_2x0_par1,CMS_AN23122_Background_rpf_2x0_par2,CMS_AN23122_Background_rpf_2x0_par3,RNN,lumi,n_exp_binpass_LOW_proc_CMS_AN23122_Background_2x0,pT,r,t0) catParams=() ]
+     Number of events is negative or error @ params=(CMS_AN23122_Background_fail_LOW_bin_1-1 = 84377.2 +/- 311.239,CMS_AN23122_Background_fail_LOW_bin_2-1 = 26538 +/- 192.242,CMS_AN23122_Background_fail_LOW_bin_3-1 = 91849.9 +/- 93.5279,CMS_AN23122_Background_rpf_2x0_par0 = 8.58397 +/- 0.980351,CMS_AN23122_Background_rpf_2x0_par1 = 69.902 +/- 44.4833,CMS_AN23122_Background_rpf_2x0_par2 = -6.7545 +/- 39.9845,CMS_AN23122_Background_rpf_2x0_par3 = 0.0381545 +/- 5.76947e-05,RNN = -4990.17 +/- 1.00012,lumi = -293.084 +/- 1.00024,n_exp_binpass_LOW_proc_CMS_AN23122_Background_2x0 = 1,pT = -2.72509 +/- 1.00012,r = 25.9636 +/- 46.994,t0 = 0 +/- 1), catParams=()
+
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (29.9689) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	CMS_AN23122_Background_fail_HIGH_bin_1-1=608554	CMS_AN23122_Background_fail_HIGH_bin_2-1=939229	CMS_AN23122_Background_fail_HIGH_bin_3-1=182209	CMS_AN23122_Background_fail_HIGH_bin_4-1=232472	CMS_AN23122_Background_fail_LOW_bin_1-1=110.058	CMS_AN23122_Background_fail_LOW_bin_2-1=968336	CMS_AN23122_Background_fail_LOW_bin_3-1=11289.5	CMS_AN23122_Background_fail_SIG_bin_1-1=979118	CMS_AN23122_Background_rpf_2x0_par0=31.9586	CMS_AN23122_Background_rpf_2x0_par1=63.8652	CMS_AN23122_Background_rpf_2x0_par2=-35.7142	CMS_AN23122_Background_rpf_2x0_par3=0.0903848	RNN=-2494.66	lumi=-146.574	pT=-1.36714	r=25.9636	t0=0
+
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (29.9689) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	CMS_AN23122_Background_fail_HIGH_bin_1-1=797314	CMS_AN23122_Background_fail_HIGH_bin_2-1=393983	CMS_AN23122_Background_fail_HIGH_bin_3-1=54041.2	CMS_AN23122_Background_fail_HIGH_bin_4-1=947486	CMS_AN23122_Background_fail_LOW_bin_1-1=973634	CMS_AN23122_Background_fail_LOW_bin_2-1=317769	CMS_AN23122_Background_fail_LOW_bin_3-1=999967	CMS_AN23122_Background_fail_SIG_bin_1-1=545871	CMS_AN23122_Background_rpf_2x0_par0=24.7659	CMS_AN23122_Background_rpf_2x0_par1=61.0964	CMS_AN23122_Background_rpf_2x0_par2=-46.9706	CMS_AN23122_Background_rpf_2x0_par3=0.0361804	RNN=-1246.9	lumi=-73.3195	pT=-0.688164	r=25.9636	t0=0
+
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (29.9689) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	CMS_AN23122_Background_fail_HIGH_bin_1-1=257586	CMS_AN23122_Background_fail_HIGH_bin_2-1=122126	CMS_AN23122_Background_fail_HIGH_bin_3-1=982830	CMS_AN23122_Background_fail_HIGH_bin_4-1=594691	CMS_AN23122_Background_fail_LOW_bin_1-1=269639	CMS_AN23122_Background_fail_LOW_bin_2-1=40391.9	CMS_AN23122_Background_fail_LOW_bin_3-1=544580	CMS_AN23122_Background_fail_SIG_bin_1-1=856092	CMS_AN23122_Background_rpf_2x0_par0=22.0699	CMS_AN23122_Background_rpf_2x0_par1=59.7948	CMS_AN23122_Background_rpf_2x0_par2=-49.5864	CMS_AN23122_Background_rpf_2x0_par3=0.0888591	RNN=-623.023	lumi=-36.692	pT=-0.348676	r=25.9636	t0=0
+
+RooAbsMinimizerFcn: Minimized function has error status.
+Returning maximum FCN so far (29.9689) to force MIGRAD to back out of this region. Error log follows.
+Parameter values: 	CMS_AN23122_Background_fail_HIGH_bin_1-1=59575.9	CMS_AN23122_Background_fail_HIGH_bin_2-1=961991	CMS_AN23122_Background_fail_HIGH_bin_3-1=579474	CMS_AN23122_Background_fail_HIGH_bin_4-1=166262	CMS_AN23122_Background_fail_LOW_bin_1-1=13199.5	CMS_AN23122_Background_fail_LOW_bin_2-1=16.7958	CMS_AN23122_Background_fail_LOW_bin_3-1=199099	CMS_AN23122_Background_fail_SIG_bin_1-1=335165	CMS_AN23122_Background_rpf_2x0_par0=70.262	CMS_AN23122_Background_rpf_2x0_par1=59.1671	CMS_AN23122_Background_rpf_2x0_par2=-49.9925	CMS_AN23122_Background_rpf_2x0_par3=0.0683394	RNN=-311.084	lumi=-18.3783	pT=-0.178931	r=25.9636	t0=0
+
+>> Found 17 floating parameters
+>> The following parameters are protected in the event of negative eigenvalues: r
+>> Parameter CMS_AN23122_Background_rpf_2x0_par2 does not have a valid stencil and will be dropped
+>> Verifying eigenvalues are all positive (iteration 0)
+Eigenvalue 15 : -0.00245057
+ - -0.663423	r
+ - 0.457011	CMS_AN23122_Background_rpf_2x0_par1
+ - 0.375754	CMS_AN23122_Background_fail_HIGH_bin_4-1
+ - 0.32237	CMS_AN23122_Background_fail_HIGH_bin_3-1
+ - -0.293855	CMS_AN23122_Background_rpf_2x0_par3
+>> Attempt 0 failed, remove the variable with largest eigenvector component...
+>> Dropping CMS_AN23122_Background_rpf_2x0_par1 from the hessian
+>> Verifying eigenvalues are all positive (iteration 1)
+>> All eigenvalues are positive
+>> Inverting Hessian...
+>> Matrix inverted
+>> Note: the following parameters were dropped as their ranges are either too narrow or the parameter has no effect on the NLL:
+     - CMS_AN23122_Background_rpf_2x0_par2
+>> Note: the following parameters were dropped to make the covariance matrix pos-def:
+     - CMS_AN23122_Background_rpf_2x0_par1
+Fit S+B, status = 0, numBadNLL = 0, covariance quality = -1
+
+ --- FitDiagnostics ---
+Best fit r: 9.55864e-06  -9.55864e-06/+50  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+29 log messages saved to combine_logger.out

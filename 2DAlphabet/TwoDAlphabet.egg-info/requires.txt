@@ -1,0 +1,6 @@
+pandas
+Pillow
+tabulate
+doxypypy
+pytest
+pytest-cov

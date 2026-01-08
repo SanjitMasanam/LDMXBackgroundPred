@@ -1,0 +1,55 @@
+imax 6
+jmax 2
+kmax 4
+------------------------------------------------------------------------------------------------------------------------
+shapes  Signal_M4000GeV_SR   fail_LOW ../base.root w:Signal_M4000GeV_SR_fail_LOW w:Signal_M4000GeV_SR_fail_LOW_$SYSTEMATIC
+shapes  Signal_M4000GeV_SR   fail_SIG ../base.root w:Signal_M4000GeV_SR_fail_SIG w:Signal_M4000GeV_SR_fail_SIG_$SYSTEMATIC
+shapes  Signal_M4000GeV_SR   fail_HIGH ../base.root w:Signal_M4000GeV_SR_fail_HIGH w:Signal_M4000GeV_SR_fail_HIGH_$SYSTEMATIC
+shapes  Signal_M4000GeV_SR   pass_LOW ../base.root w:Signal_M4000GeV_SR_pass_LOW w:Signal_M4000GeV_SR_pass_LOW_$SYSTEMATIC
+shapes  Signal_M4000GeV_SR   pass_SIG ../base.root w:Signal_M4000GeV_SR_pass_SIG w:Signal_M4000GeV_SR_pass_SIG_$SYSTEMATIC
+shapes  Signal_M4000GeV_SR   pass_HIGH ../base.root w:Signal_M4000GeV_SR_pass_HIGH w:Signal_M4000GeV_SR_pass_HIGH_$SYSTEMATIC
+shapes  data_obs             fail_LOW ../base.root w:data_obs_fail_LOW
+shapes  data_obs             fail_SIG ../base.root w:data_obs_fail_SIG
+shapes  data_obs             fail_HIGH ../base.root w:data_obs_fail_HIGH
+shapes  data_obs             pass_LOW ../base.root w:data_obs_pass_LOW
+shapes  data_obs             pass_SIG ../base.root w:data_obs_pass_SIG
+shapes  data_obs             pass_HIGH ../base.root w:data_obs_pass_HIGH
+shapes  CMS_AN23122_Background fail_LOW ../base.root w:CMS_AN23122_Background_fail_LOW
+shapes  CMS_AN23122_Background fail_SIG ../base.root w:CMS_AN23122_Background_fail_SIG
+shapes  CMS_AN23122_Background fail_HIGH ../base.root w:CMS_AN23122_Background_fail_HIGH
+shapes  CMS_AN23122_Background_2x0 pass_LOW ../base.root w:CMS_AN23122_Background_2x0_pass_LOW
+shapes  CMS_AN23122_Background_2x0 pass_SIG ../base.root w:CMS_AN23122_Background_2x0_pass_SIG
+shapes  CMS_AN23122_Background_2x0 pass_HIGH ../base.root w:CMS_AN23122_Background_2x0_pass_HIGH
+------------------------------------------------------------------------------------------------------------------------
+bin                 pass_LOW             pass_SIG             pass_HIGH            fail_LOW             fail_SIG             fail_HIGH           
+observation                   -1                   -1                   -1                   -1                   -1                   -1
+------------------------------------------------------------------------------------------------------------------------
+bin                                      fail_LOW             fail_SIG             fail_HIGH            pass_LOW             pass_SIG             pass_HIGH            fail_LOW             fail_SIG             fail_HIGH            pass_LOW             pass_SIG             pass_HIGH            
+process                                  Signal_M4000GeV_SR   Signal_M4000GeV_SR   Signal_M4000GeV_SR   Signal_M4000GeV_SR   Signal_M4000GeV_SR   Signal_M4000GeV_SR   CMS_AN23122_Background CMS_AN23122_Background CMS_AN23122_Background CMS_AN23122_Background_2x0 CMS_AN23122_Background_2x0 CMS_AN23122_Background_2x0 
+process                                                     0                    0                    0                    0                    0                    0                    1                    1                    1                    2                    2                    2 
+rate                                     -1                   -1                   -1                   -1                   -1                   -1                   1                    1                    1                    1                    1                    1                    
+------------------------------------------------------------------------------------------------------------------------
+RNN                  shapes                                1.0                  1.0                  1.0                  1.0                  1.0                  1.0 -                    -                    -                    -                    -                    -                    
+lumi                 lnN                                  1.05                 1.05                 1.05                 1.05                 1.05                 1.05 -                    -                    -                    -                    -                    -                    
+pT                   shapes                                1.0                  1.0                  1.0                  1.0                  1.0                  1.0 -                    -                    -                    -                    -                    -                    
+t0                   shapes                                1.0                  1.0                  1.0                  1.0                  1.0                  1.0 -                    -                    -                    -                    -                    -                    
+CMS_AN23122_Background_fail_LOW_bin_1-1  flatParam
+CMS_AN23122_Background_fail_LOW_bin_2-1  flatParam
+CMS_AN23122_Background_fail_LOW_bin_3-1  flatParam
+CMS_AN23122_Background_fail_SIG_bin_1-1  flatParam
+CMS_AN23122_Background_fail_HIGH_bin_1-1 flatParam
+CMS_AN23122_Background_fail_HIGH_bin_2-1 flatParam
+CMS_AN23122_Background_fail_HIGH_bin_3-1 flatParam
+CMS_AN23122_Background_fail_HIGH_bin_4-1 flatParam
+CMS_AN23122_Background_fail_LOW_bin_1-1  flatParam
+CMS_AN23122_Background_fail_LOW_bin_2-1  flatParam
+CMS_AN23122_Background_fail_LOW_bin_3-1  flatParam
+CMS_AN23122_Background_fail_SIG_bin_1-1  flatParam
+CMS_AN23122_Background_fail_HIGH_bin_1-1 flatParam
+CMS_AN23122_Background_fail_HIGH_bin_2-1 flatParam
+CMS_AN23122_Background_fail_HIGH_bin_3-1 flatParam
+CMS_AN23122_Background_fail_HIGH_bin_4-1 flatParam
+CMS_AN23122_Background_rpf_2x0_par0      flatParam
+CMS_AN23122_Background_rpf_2x0_par1      flatParam
+CMS_AN23122_Background_rpf_2x0_par2      flatParam
+CMS_AN23122_Background_rpf_2x0_par3      flatParam

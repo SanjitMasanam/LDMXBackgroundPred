@@ -1,0 +1,225 @@
+{
+  "BINNING": {
+    "default": {
+      "X": {
+        "BINS": [
+          180,
+          320,
+          610,
+          1010,
+          1520,
+          2300,
+          3240,
+          4340,
+          5600
+        ],
+        "BINSv1": [
+          0,
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          800,
+          1000,
+          1200,
+          1400,
+          1600,
+          1900,
+          2200,
+          2600,
+          3400,
+          4200,
+          5000
+        ],
+        "BINSv2": [
+          0,
+          50,
+          100,
+          150,
+          200,
+          250,
+          300,
+          350,
+          400,
+          450,
+          500,
+          550,
+          600,
+          800,
+          1000,
+          1200,
+          1400,
+          1600,
+          1900,
+          2200,
+          2600,
+          3400,
+          4200,
+          5000
+        ],
+        "BINSv3": [
+          0,
+          50,
+          140,
+          270,
+          440,
+          650,
+          900,
+          1190,
+          1520,
+          1890,
+          2300,
+          2750,
+          3240,
+          3770,
+          4340,
+          5000
+        ],
+        "MAXna": 5500,
+        "MINna": 500,
+        "NAME": "pT",
+        "NBINSna": 50,
+        "SIGEND": 1520,
+        "SIGSTART": 1010,
+        "TITLE": "p_{T}"
+      },
+      "Y": {
+        "MAX": 50,
+        "MIN": 1,
+        "NAME": "N",
+        "NBINS": 1,
+        "TITLE": "N"
+      }
+    }
+  },
+  "GLOBAL": {
+    "FILE": "EaDM_$process.root",
+    "HIST": "h$region",
+    "HIST_DOWN": "h$region_$syst_down",
+    "HIST_UP": "h$region_$syst_up",
+    "SIGNAME": [
+      "Signal_M800GeV_SR",
+      "Signal_M900GeV_SR",
+      "Signal_M1000GeV_SR",
+      "Signal_M1100GeV_SR",
+      "Signal_M1200GeV_SR",
+      "Signal_M1300GeV_SR",
+      "Signal_M1400GeV_SR",
+      "Signal_M1500GeV_SR",
+      "Signal_M1600GeV_SR",
+      "Signal_M1700GeV_SR",
+      "Signal_M1800GeV_SR",
+      "Signal_M1900GeV_SR",
+      "Signal_M2000GeV_SR",
+      "Signal_M2100GeV_SR",
+      "Signal_M2200GeV_SR",
+      "Signal_M2300GeV_SR",
+      "Signal_M2400GeV_SR",
+      "Signal_M2500GeV_SR",
+      "Signal_M2600GeV_SR",
+      "Signal_M2700GeV_SR",
+      "Signal_M2800GeV_SR",
+      "Signal_M2900GeV_SR",
+      "Signal_M3000GeV_SR",
+      "Signal_M3250GeV_SR",
+      "Signal_M3500GeV_SR",
+      "Signal_M3750GeV_SR",
+      "Signal_M4000GeV_SR",
+      "Signal_M4250GeV_SR",
+      "Signal_M4500GeV_SR",
+      "Signal_M4750GeV_SR",
+      "Signal_M5000GeV_SR"
+    ],
+    "path": "./histograms_for_2DAlphabet_v11"
+  },
+  "NAME": "EaDM",
+  "OPTIONS": {
+    "blindedFit": [
+      "pass"
+    ],
+    "blindedPlots": [
+      "pass"
+    ],
+    "plotEvtsPerUnitVolt": true,
+    "plotTemplateComparisonsNA": true
+  },
+  "PROCESSES": {
+    "SIGNAME": {
+      "COLOR": "red",
+      "LOC": "./histograms_for_2DAlphabet_v11/EaDM_$process.root:h$region",
+      "NAME": "SIGNAME",
+      "SCALE": 1.0,
+      "SYSTEMATICS": [
+        "lumi",
+        "RNN",
+        "pT",
+        "t0"
+      ],
+      "SYSTEMATICSvolt": [
+        "lumi",
+        "pileup",
+        "systOnF",
+        "systOnG",
+        "systOnTrigger",
+        "systOnPt",
+        "systOnMuReco",
+        "systOnMuID",
+        "systOnMuTrigger"
+      ],
+      "TITLE": "DM signal",
+      "TYPE": "SIGNAL",
+      "VARIATION": "nominal"
+    },
+    "data_obs": {
+      "ALIAS": "Cosmics_Data_SR",
+      "COLOR": "black",
+      "LOC": "./histograms_for_2DAlphabet_v11/EaDM_$process.root:h$region",
+      "NAME": "data_obs",
+      "SCALE": 1,
+      "SYSTEMATICS": [],
+      "TITLE": "Cosmics_Data_SR",
+      "TYPE": "DATA",
+      "VARIATION": "nominal"
+    }
+  },
+  "REGIONS": {
+    "fail": {
+      "BINNING": "default",
+      "PROCESSES": [
+        "SIGNAME"
+      ]
+    },
+    "pass": {
+      "BINNING": "default",
+      "PROCESSES": [
+        "SIGNAME"
+      ]
+    }
+  },
+  "SYSTEMATICS": {
+    "RNN": {
+      "ALIAS": "RNNsyst",
+      "DOWN": "./histograms_for_2DAlphabet_v11/EaDM_$process.root:h$region_$syst_down",
+      "SIGMA": 1.0,
+      "UP": "./histograms_for_2DAlphabet_v11/EaDM_$process.root:h$region_$syst_up"
+    },
+    "lumi": {
+      "CODE": 0,
+      "VAL": 1.05
+    },
+    "pT": {
+      "ALIAS": "pTsyst",
+      "DOWN": "./histograms_for_2DAlphabet_v11/EaDM_$process.root:h$region_$syst_down",
+      "SIGMA": 1.0,
+      "UP": "./histograms_for_2DAlphabet_v11/EaDM_$process.root:h$region_$syst_up"
+    },
+    "t0": {
+      "ALIAS": "t0syst",
+      "DOWN": "./histograms_for_2DAlphabet_v11/EaDM_$process.root:h$region_$syst_down",
+      "SIGMA": 1.0,
+      "UP": "./histograms_for_2DAlphabet_v11/EaDM_$process.root:h$region_$syst_up"
+    }
+  }
+}

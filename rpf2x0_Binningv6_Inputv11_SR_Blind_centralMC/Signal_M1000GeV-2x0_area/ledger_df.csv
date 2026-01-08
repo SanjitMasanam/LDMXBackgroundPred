@@ -1,0 +1,19 @@
+,process,region,binning,color,process_type,scale,variation,source_filename,source_histname,alias,title,combine_idx,lnN,shapes,syst_type,direction,variation_alias
+0,data_obs,pass,default,black,DATA,1.0,nominal,./histograms_for_2DAlphabet_v11/EaDM_Cosmics_Data_SR.root,hpass,Cosmics_Data_SR,Cosmics_Data_SR,,,,,,
+17,Signal_M1000GeV_SR,pass,default,red,SIGNAL,1.0,lumi,./histograms_for_2DAlphabet_v11/EaDM_Signal_M1000GeV_SR.root,hpass,Signal_M1000GeV_SR,DM signal,,1.05,,lnN,,
+18,Signal_M1000GeV_SR,pass,default,red,SIGNAL,1.0,RNN,./histograms_for_2DAlphabet_v11/EaDM_Signal_M1000GeV_SR.root,hpass_RNNsyst_up,Signal_M1000GeV_SR,DM signal,,,1.0,shapes,Up,RNNsyst
+19,Signal_M1000GeV_SR,pass,default,red,SIGNAL,1.0,RNN,./histograms_for_2DAlphabet_v11/EaDM_Signal_M1000GeV_SR.root,hpass_RNNsyst_down,Signal_M1000GeV_SR,DM signal,,,1.0,shapes,Down,RNNsyst
+20,Signal_M1000GeV_SR,pass,default,red,SIGNAL,1.0,pT,./histograms_for_2DAlphabet_v11/EaDM_Signal_M1000GeV_SR.root,hpass_pTsyst_up,Signal_M1000GeV_SR,DM signal,,,1.0,shapes,Up,pTsyst
+21,Signal_M1000GeV_SR,pass,default,red,SIGNAL,1.0,pT,./histograms_for_2DAlphabet_v11/EaDM_Signal_M1000GeV_SR.root,hpass_pTsyst_down,Signal_M1000GeV_SR,DM signal,,,1.0,shapes,Down,pTsyst
+22,Signal_M1000GeV_SR,pass,default,red,SIGNAL,1.0,t0,./histograms_for_2DAlphabet_v11/EaDM_Signal_M1000GeV_SR.root,hpass_t0syst_up,Signal_M1000GeV_SR,DM signal,,,1.0,shapes,Up,t0syst
+23,Signal_M1000GeV_SR,pass,default,red,SIGNAL,1.0,t0,./histograms_for_2DAlphabet_v11/EaDM_Signal_M1000GeV_SR.root,hpass_t0syst_down,Signal_M1000GeV_SR,DM signal,,,1.0,shapes,Down,t0syst
+24,Signal_M1000GeV_SR,pass,default,red,SIGNAL,1.0,nominal,./histograms_for_2DAlphabet_v11/EaDM_Signal_M1000GeV_SR.root,hpass,Signal_M1000GeV_SR,DM signal,,,,,,
+249,data_obs,fail,default,black,DATA,1.0,nominal,./histograms_for_2DAlphabet_v11/EaDM_Cosmics_Data_SR.root,hfail,Cosmics_Data_SR,Cosmics_Data_SR,,,,,,
+266,Signal_M1000GeV_SR,fail,default,red,SIGNAL,1.0,lumi,./histograms_for_2DAlphabet_v11/EaDM_Signal_M1000GeV_SR.root,hfail,Signal_M1000GeV_SR,DM signal,,1.05,,lnN,,
+267,Signal_M1000GeV_SR,fail,default,red,SIGNAL,1.0,RNN,./histograms_for_2DAlphabet_v11/EaDM_Signal_M1000GeV_SR.root,hfail_RNNsyst_up,Signal_M1000GeV_SR,DM signal,,,1.0,shapes,Up,RNNsyst
+268,Signal_M1000GeV_SR,fail,default,red,SIGNAL,1.0,RNN,./histograms_for_2DAlphabet_v11/EaDM_Signal_M1000GeV_SR.root,hfail_RNNsyst_down,Signal_M1000GeV_SR,DM signal,,,1.0,shapes,Down,RNNsyst
+269,Signal_M1000GeV_SR,fail,default,red,SIGNAL,1.0,pT,./histograms_for_2DAlphabet_v11/EaDM_Signal_M1000GeV_SR.root,hfail_pTsyst_up,Signal_M1000GeV_SR,DM signal,,,1.0,shapes,Up,pTsyst
+270,Signal_M1000GeV_SR,fail,default,red,SIGNAL,1.0,pT,./histograms_for_2DAlphabet_v11/EaDM_Signal_M1000GeV_SR.root,hfail_pTsyst_down,Signal_M1000GeV_SR,DM signal,,,1.0,shapes,Down,pTsyst
+271,Signal_M1000GeV_SR,fail,default,red,SIGNAL,1.0,t0,./histograms_for_2DAlphabet_v11/EaDM_Signal_M1000GeV_SR.root,hfail_t0syst_up,Signal_M1000GeV_SR,DM signal,,,1.0,shapes,Up,t0syst
+272,Signal_M1000GeV_SR,fail,default,red,SIGNAL,1.0,t0,./histograms_for_2DAlphabet_v11/EaDM_Signal_M1000GeV_SR.root,hfail_t0syst_down,Signal_M1000GeV_SR,DM signal,,,1.0,shapes,Down,t0syst
+273,Signal_M1000GeV_SR,fail,default,red,SIGNAL,1.0,nominal,./histograms_for_2DAlphabet_v11/EaDM_Signal_M1000GeV_SR.root,hfail,Signal_M1000GeV_SR,DM signal,,,,,,

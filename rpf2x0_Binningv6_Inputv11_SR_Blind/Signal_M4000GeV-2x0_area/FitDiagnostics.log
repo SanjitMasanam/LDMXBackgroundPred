@@ -1,0 +1,73 @@
+ <<< Combine >>> 
+ <<< v10.0.1 >>>
+>>> Random number generator seed is 123456
+>>> Method used is FitDiagnostics
+Set Default Value of Parameter mask_pass_SIG To : 1
+Set Default Value of Parameter mask_pass_HIGH To : 1
+Set Default Value of Parameter r To : 1
+>>> 2 out of 6 channels masked
+
+>> Found 16 floating parameters
+>> The following parameters are protected in the event of negative eigenvalues:
+>> Parameter CMS_AN23122_Background_rpf_2x0_par2 does not have a valid stencil and will be dropped
+>> Verifying eigenvalues are all positive (iteration 0)
+Eigenvalue 14 : -0.000167699
+ - 0.734839	CMS_AN23122_Background_rpf_2x0_par3
+ - -0.665864	CMS_AN23122_Background_rpf_2x0_par0
+ - -0.128983	CMS_AN23122_Background_rpf_2x0_par1
+ - 0.000383121	CMS_AN23122_Background_fail_LOW_bin_3-1
+ - -0.000174586	CMS_AN23122_Background_fail_LOW_bin_1-1
+>> Attempt 0 failed, remove the variable with largest eigenvector component...
+>> Dropping CMS_AN23122_Background_rpf_2x0_par3 from the hessian
+>> Verifying eigenvalues are all positive (iteration 1)
+>> All eigenvalues are positive
+>> Inverting Hessian...
+>> Matrix inverted
+>> Note: the following parameters were dropped as their ranges are either too narrow or the parameter has no effect on the NLL:
+     - CMS_AN23122_Background_rpf_2x0_par2
+>> Note: the following parameters were dropped to make the covariance matrix pos-def:
+     - CMS_AN23122_Background_rpf_2x0_par3
+ Fit B-only, status = 0, numBadNLL = 0, covariance quality = -1
+Running Minos for POI r
+>> Found 17 floating parameters
+>> The following parameters are protected in the event of negative eigenvalues: r
+>> Parameter CMS_AN23122_Background_rpf_2x0_par2 does not have a valid stencil and will be dropped
+>> Verifying eigenvalues are all positive (iteration 0)
+Eigenvalue 14 : -0.000198038
+ - -0.721181	CMS_AN23122_Background_rpf_2x0_par3
+ - 0.652162	CMS_AN23122_Background_rpf_2x0_par0
+ - 0.168319	r
+ - -0.143834	CMS_AN23122_Background_fail_HIGH_bin_3-1
+ - 0.0491222	CMS_AN23122_Background_rpf_2x0_par1
+Eigenvalue 15 : -0.00254162
+ - -0.682952	r
+ - 0.576813	CMS_AN23122_Background_fail_HIGH_bin_3-1
+ - 0.322684	CMS_AN23122_Background_rpf_2x0_par1
+ - -0.200498	CMS_AN23122_Background_rpf_2x0_par3
+ - 0.163134	CMS_AN23122_Background_fail_HIGH_bin_2-1
+>> Attempt 0 failed, remove the variable with largest eigenvector component...
+>> Dropping CMS_AN23122_Background_fail_HIGH_bin_3-1 from the hessian
+>> Verifying eigenvalues are all positive (iteration 1)
+Eigenvalue 14 : -0.000337663
+ - 0.749136	CMS_AN23122_Background_rpf_2x0_par3
+ - -0.649511	CMS_AN23122_Background_rpf_2x0_par0
+ - -0.129985	CMS_AN23122_Background_rpf_2x0_par1
+ - 0.00553252	r
+ - -0.00133619	CMS_AN23122_Background_fail_HIGH_bin_2-1
+>> Attempt 1 failed, remove the variable with largest eigenvector component...
+>> Dropping CMS_AN23122_Background_rpf_2x0_par3 from the hessian
+>> Verifying eigenvalues are all positive (iteration 2)
+>> All eigenvalues are positive
+>> Inverting Hessian...
+>> Matrix inverted
+>> Note: the following parameters were dropped as their ranges are either too narrow or the parameter has no effect on the NLL:
+     - CMS_AN23122_Background_rpf_2x0_par2
+>> Note: the following parameters were dropped to make the covariance matrix pos-def:
+     - CMS_AN23122_Background_fail_HIGH_bin_3-1
+     - CMS_AN23122_Background_rpf_2x0_par3
+Fit S+B, status = 0, numBadNLL = 0, covariance quality = -1
+
+ --- FitDiagnostics ---
+Best fit r: 0.000169873  -0.000169873/+49.9998  (68% CL)
+Done in 0.00 min (cpu), 0.00 min (real)
+30 log messages saved to combine_logger.out

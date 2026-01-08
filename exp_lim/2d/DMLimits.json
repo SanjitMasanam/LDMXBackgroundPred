@@ -1,0 +1,802 @@
+[
+    {
+        "m2": 3000,
+        "m1": 1e-08,
+        "expectedUpperLimitMinus2Sig": 28.070068359375,
+        "expectedUpperLimitMinus1Sig": 38.70425224304199,
+        "expectedUpperLimit": 57.03125,
+        "expectedUpperLimitPlus1Sig": 86.35669350624084,
+        "expectedUpperLimitPlus2Sig": 127.67951488494873,
+        "upperLimit": 72.01437375404784
+    },
+    {
+        "m2": 3000,
+        "m1": 2e-08,
+        "expectedUpperLimitMinus2Sig": 28.070068359375,
+        "expectedUpperLimitMinus1Sig": 38.70425224304199,
+        "expectedUpperLimit": 57.03125,
+        "expectedUpperLimitPlus1Sig": 86.35669350624084,
+        "expectedUpperLimitPlus2Sig": 127.67951488494873,
+        "upperLimit": 72.01437375404784
+    },
+    {
+        "m2": 3000,
+        "m1": 3e-08,
+        "expectedUpperLimitMinus2Sig": 28.070068359375,
+        "expectedUpperLimitMinus1Sig": 38.70425224304199,
+        "expectedUpperLimit": 57.03125,
+        "expectedUpperLimitPlus1Sig": 86.35669350624084,
+        "expectedUpperLimitPlus2Sig": 127.67951488494873,
+        "upperLimit": 72.01437375404784
+    },
+    {
+        "m2": 3000,
+        "m1": 4e-08,
+        "expectedUpperLimitMinus2Sig": 28.070068359375,
+        "expectedUpperLimitMinus1Sig": 38.70425224304199,
+        "expectedUpperLimit": 57.03125,
+        "expectedUpperLimitPlus1Sig": 86.35669350624084,
+        "expectedUpperLimitPlus2Sig": 127.67951488494873,
+        "upperLimit": 72.01437375404784
+    },
+    {
+        "m2": 3000,
+        "m1": 5e-08,
+        "expectedUpperLimitMinus2Sig": 28.070068359375,
+        "expectedUpperLimitMinus1Sig": 38.70425224304199,
+        "expectedUpperLimit": 57.03125,
+        "expectedUpperLimitPlus1Sig": 86.35669350624084,
+        "expectedUpperLimitPlus2Sig": 127.67951488494873,
+        "upperLimit": 72.01437375404784
+    },
+    {
+        "m2": 3000,
+        "m1": 6e-08,
+        "expectedUpperLimitMinus2Sig": 28.070068359375,
+        "expectedUpperLimitMinus1Sig": 38.70425224304199,
+        "expectedUpperLimit": 57.03125,
+        "expectedUpperLimitPlus1Sig": 86.35669350624084,
+        "expectedUpperLimitPlus2Sig": 127.67951488494873,
+        "upperLimit": 72.01437375404784
+    },
+    {
+        "m2": 3000,
+        "m1": 7e-08,
+        "expectedUpperLimitMinus2Sig": 28.070068359375,
+        "expectedUpperLimitMinus1Sig": 38.70425224304199,
+        "expectedUpperLimit": 57.03125,
+        "expectedUpperLimitPlus1Sig": 86.35669350624084,
+        "expectedUpperLimitPlus2Sig": 127.67951488494873,
+        "upperLimit": 72.01437375404784
+    },
+    {
+        "m2": 3000,
+        "m1": 8e-08,
+        "expectedUpperLimitMinus2Sig": 28.070068359375,
+        "expectedUpperLimitMinus1Sig": 38.70425224304199,
+        "expectedUpperLimit": 57.03125,
+        "expectedUpperLimitPlus1Sig": 86.35669350624084,
+        "expectedUpperLimitPlus2Sig": 127.67951488494873,
+        "upperLimit": 72.01437375404784
+    },
+    {
+        "m2": 3000,
+        "m1": 9e-08,
+        "expectedUpperLimitMinus2Sig": 28.070068359375,
+        "expectedUpperLimitMinus1Sig": 38.70425224304199,
+        "expectedUpperLimit": 57.03125,
+        "expectedUpperLimitPlus1Sig": 86.35669350624084,
+        "expectedUpperLimitPlus2Sig": 127.67951488494873,
+        "upperLimit": 72.01437375404784
+    },
+    {
+        "m2": 3000,
+        "m1": 1e-07,
+        "expectedUpperLimitMinus2Sig": 28.070068359375,
+        "expectedUpperLimitMinus1Sig": 38.70425224304199,
+        "expectedUpperLimit": 57.03125,
+        "expectedUpperLimitPlus1Sig": 86.35669350624084,
+        "expectedUpperLimitPlus2Sig": 127.67951488494873,
+        "upperLimit": 72.01437375404784
+    },
+    {
+        "m2": 4000,
+        "m1": 1e-08,
+        "expectedUpperLimitMinus2Sig": 22.15576171875,
+        "expectedUpperLimitMinus1Sig": 31.375789642333984,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 74.01882410049438,
+        "expectedUpperLimitPlus2Sig": 112.8217101097107,
+        "upperLimit": 48.12623793895538
+    },
+    {
+        "m2": 4000,
+        "m1": 2e-08,
+        "expectedUpperLimitMinus2Sig": 22.15576171875,
+        "expectedUpperLimitMinus1Sig": 31.375789642333984,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 74.01882410049438,
+        "expectedUpperLimitPlus2Sig": 112.8217101097107,
+        "upperLimit": 48.12623793895538
+    },
+    {
+        "m2": 4000,
+        "m1": 3e-08,
+        "expectedUpperLimitMinus2Sig": 22.15576171875,
+        "expectedUpperLimitMinus1Sig": 31.375789642333984,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 74.01882410049438,
+        "expectedUpperLimitPlus2Sig": 112.8217101097107,
+        "upperLimit": 48.12623793895538
+    },
+    {
+        "m2": 4000,
+        "m1": 4e-08,
+        "expectedUpperLimitMinus2Sig": 22.15576171875,
+        "expectedUpperLimitMinus1Sig": 31.375789642333984,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 74.01882410049438,
+        "expectedUpperLimitPlus2Sig": 112.8217101097107,
+        "upperLimit": 48.12623793895538
+    },
+    {
+        "m2": 4000,
+        "m1": 5e-08,
+        "expectedUpperLimitMinus2Sig": 22.15576171875,
+        "expectedUpperLimitMinus1Sig": 31.375789642333984,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 74.01882410049438,
+        "expectedUpperLimitPlus2Sig": 112.8217101097107,
+        "upperLimit": 48.12623793895538
+    },
+    {
+        "m2": 4000,
+        "m1": 6e-08,
+        "expectedUpperLimitMinus2Sig": 22.15576171875,
+        "expectedUpperLimitMinus1Sig": 31.375789642333984,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 74.01882410049438,
+        "expectedUpperLimitPlus2Sig": 112.8217101097107,
+        "upperLimit": 48.12623793895538
+    },
+    {
+        "m2": 4000,
+        "m1": 7e-08,
+        "expectedUpperLimitMinus2Sig": 22.15576171875,
+        "expectedUpperLimitMinus1Sig": 31.375789642333984,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 74.01882410049438,
+        "expectedUpperLimitPlus2Sig": 112.8217101097107,
+        "upperLimit": 48.12623793895538
+    },
+    {
+        "m2": 4000,
+        "m1": 8e-08,
+        "expectedUpperLimitMinus2Sig": 22.15576171875,
+        "expectedUpperLimitMinus1Sig": 31.375789642333984,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 74.01882410049438,
+        "expectedUpperLimitPlus2Sig": 112.8217101097107,
+        "upperLimit": 48.12623793895538
+    },
+    {
+        "m2": 4000,
+        "m1": 9e-08,
+        "expectedUpperLimitMinus2Sig": 22.15576171875,
+        "expectedUpperLimitMinus1Sig": 31.375789642333984,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 74.01882410049438,
+        "expectedUpperLimitPlus2Sig": 112.8217101097107,
+        "upperLimit": 48.12623793895538
+    },
+    {
+        "m2": 4000,
+        "m1": 1e-07,
+        "expectedUpperLimitMinus2Sig": 22.15576171875,
+        "expectedUpperLimitMinus1Sig": 31.375789642333984,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 74.01882410049438,
+        "expectedUpperLimitPlus2Sig": 112.8217101097107,
+        "upperLimit": 48.12623793895538
+    },
+    {
+        "m2": 5000,
+        "m1": 1e-08,
+        "expectedUpperLimitMinus2Sig": 25.49591064453125,
+        "expectedUpperLimitMinus1Sig": 35.46167612075806,
+        "expectedUpperLimit": 52.63671875,
+        "expectedUpperLimitPlus1Sig": 80.7515561580658,
+        "expectedUpperLimitPlus2Sig": 120.87076902389526,
+        "upperLimit": 47.622919448414436
+    },
+    {
+        "m2": 5000,
+        "m1": 2e-08,
+        "expectedUpperLimitMinus2Sig": 25.49591064453125,
+        "expectedUpperLimitMinus1Sig": 35.46167612075806,
+        "expectedUpperLimit": 52.63671875,
+        "expectedUpperLimitPlus1Sig": 80.7515561580658,
+        "expectedUpperLimitPlus2Sig": 120.87076902389526,
+        "upperLimit": 47.622919448414436
+    },
+    {
+        "m2": 5000,
+        "m1": 3e-08,
+        "expectedUpperLimitMinus2Sig": 25.49591064453125,
+        "expectedUpperLimitMinus1Sig": 35.46167612075806,
+        "expectedUpperLimit": 52.63671875,
+        "expectedUpperLimitPlus1Sig": 80.7515561580658,
+        "expectedUpperLimitPlus2Sig": 120.87076902389526,
+        "upperLimit": 47.622919448414436
+    },
+    {
+        "m2": 5000,
+        "m1": 4e-08,
+        "expectedUpperLimitMinus2Sig": 25.49591064453125,
+        "expectedUpperLimitMinus1Sig": 35.46167612075806,
+        "expectedUpperLimit": 52.63671875,
+        "expectedUpperLimitPlus1Sig": 80.7515561580658,
+        "expectedUpperLimitPlus2Sig": 120.87076902389526,
+        "upperLimit": 47.622919448414436
+    },
+    {
+        "m2": 5000,
+        "m1": 5e-08,
+        "expectedUpperLimitMinus2Sig": 25.49591064453125,
+        "expectedUpperLimitMinus1Sig": 35.46167612075806,
+        "expectedUpperLimit": 52.63671875,
+        "expectedUpperLimitPlus1Sig": 80.7515561580658,
+        "expectedUpperLimitPlus2Sig": 120.87076902389526,
+        "upperLimit": 47.622919448414436
+    },
+    {
+        "m2": 5000,
+        "m1": 6e-08,
+        "expectedUpperLimitMinus2Sig": 25.49591064453125,
+        "expectedUpperLimitMinus1Sig": 35.46167612075806,
+        "expectedUpperLimit": 52.63671875,
+        "expectedUpperLimitPlus1Sig": 80.7515561580658,
+        "expectedUpperLimitPlus2Sig": 120.87076902389526,
+        "upperLimit": 47.622919448414436
+    },
+    {
+        "m2": 5000,
+        "m1": 7e-08,
+        "expectedUpperLimitMinus2Sig": 25.49591064453125,
+        "expectedUpperLimitMinus1Sig": 35.46167612075806,
+        "expectedUpperLimit": 52.63671875,
+        "expectedUpperLimitPlus1Sig": 80.7515561580658,
+        "expectedUpperLimitPlus2Sig": 120.87076902389526,
+        "upperLimit": 47.622919448414436
+    },
+    {
+        "m2": 5000,
+        "m1": 8e-08,
+        "expectedUpperLimitMinus2Sig": 25.49591064453125,
+        "expectedUpperLimitMinus1Sig": 35.46167612075806,
+        "expectedUpperLimit": 52.63671875,
+        "expectedUpperLimitPlus1Sig": 80.7515561580658,
+        "expectedUpperLimitPlus2Sig": 120.87076902389526,
+        "upperLimit": 47.622919448414436
+    },
+    {
+        "m2": 5000,
+        "m1": 9e-08,
+        "expectedUpperLimitMinus2Sig": 25.49591064453125,
+        "expectedUpperLimitMinus1Sig": 35.46167612075806,
+        "expectedUpperLimit": 52.63671875,
+        "expectedUpperLimitPlus1Sig": 80.7515561580658,
+        "expectedUpperLimitPlus2Sig": 120.87076902389526,
+        "upperLimit": 47.622919448414436
+    },
+    {
+        "m2": 5000,
+        "m1": 1e-07,
+        "expectedUpperLimitMinus2Sig": 25.49591064453125,
+        "expectedUpperLimitMinus1Sig": 35.46167612075806,
+        "expectedUpperLimit": 52.63671875,
+        "expectedUpperLimitPlus1Sig": 80.7515561580658,
+        "expectedUpperLimitPlus2Sig": 120.87076902389526,
+        "upperLimit": 47.622919448414436
+    },
+    {
+        "m2": 6000,
+        "m1": 1e-08,
+        "expectedUpperLimitMinus2Sig": 21.880340576171875,
+        "expectedUpperLimitMinus1Sig": 30.932986736297607,
+        "expectedUpperLimit": 47.0703125,
+        "expectedUpperLimitPlus1Sig": 74.65108036994934,
+        "expectedUpperLimitPlus2Sig": 115.84780216217041,
+        "upperLimit": 45.76005838440329
+    },
+    {
+        "m2": 6000,
+        "m1": 2e-08,
+        "expectedUpperLimitMinus2Sig": 21.880340576171875,
+        "expectedUpperLimitMinus1Sig": 30.932986736297607,
+        "expectedUpperLimit": 47.0703125,
+        "expectedUpperLimitPlus1Sig": 74.65108036994934,
+        "expectedUpperLimitPlus2Sig": 115.84780216217041,
+        "upperLimit": 45.76005838440329
+    },
+    {
+        "m2": 6000,
+        "m1": 3e-08,
+        "expectedUpperLimitMinus2Sig": 21.880340576171875,
+        "expectedUpperLimitMinus1Sig": 30.932986736297607,
+        "expectedUpperLimit": 47.0703125,
+        "expectedUpperLimitPlus1Sig": 74.65108036994934,
+        "expectedUpperLimitPlus2Sig": 115.84780216217041,
+        "upperLimit": 45.76005838440329
+    },
+    {
+        "m2": 6000,
+        "m1": 4e-08,
+        "expectedUpperLimitMinus2Sig": 21.880340576171875,
+        "expectedUpperLimitMinus1Sig": 30.932986736297607,
+        "expectedUpperLimit": 47.0703125,
+        "expectedUpperLimitPlus1Sig": 74.65108036994934,
+        "expectedUpperLimitPlus2Sig": 115.84780216217041,
+        "upperLimit": 45.76005838440329
+    },
+    {
+        "m2": 6000,
+        "m1": 5e-08,
+        "expectedUpperLimitMinus2Sig": 21.880340576171875,
+        "expectedUpperLimitMinus1Sig": 30.932986736297607,
+        "expectedUpperLimit": 47.0703125,
+        "expectedUpperLimitPlus1Sig": 74.65108036994934,
+        "expectedUpperLimitPlus2Sig": 115.84780216217041,
+        "upperLimit": 45.76005838440329
+    },
+    {
+        "m2": 6000,
+        "m1": 6e-08,
+        "expectedUpperLimitMinus2Sig": 21.880340576171875,
+        "expectedUpperLimitMinus1Sig": 30.932986736297607,
+        "expectedUpperLimit": 47.0703125,
+        "expectedUpperLimitPlus1Sig": 74.65108036994934,
+        "expectedUpperLimitPlus2Sig": 115.84780216217041,
+        "upperLimit": 45.76005838440329
+    },
+    {
+        "m2": 6000,
+        "m1": 7e-08,
+        "expectedUpperLimitMinus2Sig": 21.880340576171875,
+        "expectedUpperLimitMinus1Sig": 30.932986736297607,
+        "expectedUpperLimit": 47.0703125,
+        "expectedUpperLimitPlus1Sig": 74.65108036994934,
+        "expectedUpperLimitPlus2Sig": 115.84780216217041,
+        "upperLimit": 45.76005838440329
+    },
+    {
+        "m2": 6000,
+        "m1": 8e-08,
+        "expectedUpperLimitMinus2Sig": 21.880340576171875,
+        "expectedUpperLimitMinus1Sig": 30.932986736297607,
+        "expectedUpperLimit": 47.0703125,
+        "expectedUpperLimitPlus1Sig": 74.65108036994934,
+        "expectedUpperLimitPlus2Sig": 115.84780216217041,
+        "upperLimit": 45.76005838440329
+    },
+    {
+        "m2": 6000,
+        "m1": 9e-08,
+        "expectedUpperLimitMinus2Sig": 21.880340576171875,
+        "expectedUpperLimitMinus1Sig": 30.932986736297607,
+        "expectedUpperLimit": 47.0703125,
+        "expectedUpperLimitPlus1Sig": 74.65108036994934,
+        "expectedUpperLimitPlus2Sig": 115.84780216217041,
+        "upperLimit": 45.76005838440329
+    },
+    {
+        "m2": 6000,
+        "m1": 1e-07,
+        "expectedUpperLimitMinus2Sig": 21.880340576171875,
+        "expectedUpperLimitMinus1Sig": 30.932986736297607,
+        "expectedUpperLimit": 47.0703125,
+        "expectedUpperLimitPlus1Sig": 74.65108036994934,
+        "expectedUpperLimitPlus2Sig": 115.84780216217041,
+        "upperLimit": 45.76005838440329
+    },
+    {
+        "m2": 7000,
+        "m1": 1e-08,
+        "expectedUpperLimitMinus2Sig": 22.5250244140625,
+        "expectedUpperLimitMinus1Sig": 31.41617774963379,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 74.48983192443848,
+        "expectedUpperLimitPlus2Sig": 115.46468734741211,
+        "upperLimit": 54.67662199791723
+    },
+    {
+        "m2": 7000,
+        "m1": 2e-08,
+        "expectedUpperLimitMinus2Sig": 22.5250244140625,
+        "expectedUpperLimitMinus1Sig": 31.41617774963379,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 74.48983192443848,
+        "expectedUpperLimitPlus2Sig": 115.46468734741211,
+        "upperLimit": 54.67662199791723
+    },
+    {
+        "m2": 7000,
+        "m1": 3e-08,
+        "expectedUpperLimitMinus2Sig": 22.5250244140625,
+        "expectedUpperLimitMinus1Sig": 31.41617774963379,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 74.48983192443848,
+        "expectedUpperLimitPlus2Sig": 115.46468734741211,
+        "upperLimit": 54.67662199791723
+    },
+    {
+        "m2": 7000,
+        "m1": 4e-08,
+        "expectedUpperLimitMinus2Sig": 22.5250244140625,
+        "expectedUpperLimitMinus1Sig": 31.41617774963379,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 74.48983192443848,
+        "expectedUpperLimitPlus2Sig": 115.46468734741211,
+        "upperLimit": 54.67662199791723
+    },
+    {
+        "m2": 7000,
+        "m1": 5e-08,
+        "expectedUpperLimitMinus2Sig": 22.5250244140625,
+        "expectedUpperLimitMinus1Sig": 31.41617774963379,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 74.48983192443848,
+        "expectedUpperLimitPlus2Sig": 115.46468734741211,
+        "upperLimit": 54.67662199791723
+    },
+    {
+        "m2": 7000,
+        "m1": 6e-08,
+        "expectedUpperLimitMinus2Sig": 22.5250244140625,
+        "expectedUpperLimitMinus1Sig": 31.41617774963379,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 74.48983192443848,
+        "expectedUpperLimitPlus2Sig": 115.46468734741211,
+        "upperLimit": 54.67662199791723
+    },
+    {
+        "m2": 7000,
+        "m1": 7e-08,
+        "expectedUpperLimitMinus2Sig": 22.5250244140625,
+        "expectedUpperLimitMinus1Sig": 31.41617774963379,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 74.48983192443848,
+        "expectedUpperLimitPlus2Sig": 115.46468734741211,
+        "upperLimit": 54.67662199791723
+    },
+    {
+        "m2": 7000,
+        "m1": 8e-08,
+        "expectedUpperLimitMinus2Sig": 22.5250244140625,
+        "expectedUpperLimitMinus1Sig": 31.41617774963379,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 74.48983192443848,
+        "expectedUpperLimitPlus2Sig": 115.46468734741211,
+        "upperLimit": 54.67662199791723
+    },
+    {
+        "m2": 7000,
+        "m1": 9e-08,
+        "expectedUpperLimitMinus2Sig": 22.5250244140625,
+        "expectedUpperLimitMinus1Sig": 31.41617774963379,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 74.48983192443848,
+        "expectedUpperLimitPlus2Sig": 115.46468734741211,
+        "upperLimit": 54.67662199791723
+    },
+    {
+        "m2": 7000,
+        "m1": 1e-07,
+        "expectedUpperLimitMinus2Sig": 22.5250244140625,
+        "expectedUpperLimitMinus1Sig": 31.41617774963379,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 74.48983192443848,
+        "expectedUpperLimitPlus2Sig": 115.46468734741211,
+        "upperLimit": 54.67662199791723
+    },
+    {
+        "m2": 8000,
+        "m1": 1e-08,
+        "expectedUpperLimitMinus2Sig": 22.15576171875,
+        "expectedUpperLimitMinus1Sig": 30.983448028564453,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 75.71445107460022,
+        "expectedUpperLimitPlus2Sig": 119.01986598968506,
+        "upperLimit": 56.8157529068873
+    },
+    {
+        "m2": 8000,
+        "m1": 2e-08,
+        "expectedUpperLimitMinus2Sig": 22.15576171875,
+        "expectedUpperLimitMinus1Sig": 30.983448028564453,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 75.71445107460022,
+        "expectedUpperLimitPlus2Sig": 119.01986598968506,
+        "upperLimit": 56.8157529068873
+    },
+    {
+        "m2": 8000,
+        "m1": 3e-08,
+        "expectedUpperLimitMinus2Sig": 22.15576171875,
+        "expectedUpperLimitMinus1Sig": 30.983448028564453,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 75.71445107460022,
+        "expectedUpperLimitPlus2Sig": 119.01986598968506,
+        "upperLimit": 56.8157529068873
+    },
+    {
+        "m2": 8000,
+        "m1": 4e-08,
+        "expectedUpperLimitMinus2Sig": 22.15576171875,
+        "expectedUpperLimitMinus1Sig": 30.983448028564453,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 75.71445107460022,
+        "expectedUpperLimitPlus2Sig": 119.01986598968506,
+        "upperLimit": 56.8157529068873
+    },
+    {
+        "m2": 8000,
+        "m1": 5e-08,
+        "expectedUpperLimitMinus2Sig": 22.15576171875,
+        "expectedUpperLimitMinus1Sig": 30.983448028564453,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 75.71445107460022,
+        "expectedUpperLimitPlus2Sig": 119.01986598968506,
+        "upperLimit": 56.8157529068873
+    },
+    {
+        "m2": 8000,
+        "m1": 6e-08,
+        "expectedUpperLimitMinus2Sig": 22.15576171875,
+        "expectedUpperLimitMinus1Sig": 30.983448028564453,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 75.71445107460022,
+        "expectedUpperLimitPlus2Sig": 119.01986598968506,
+        "upperLimit": 56.8157529068873
+    },
+    {
+        "m2": 8000,
+        "m1": 7e-08,
+        "expectedUpperLimitMinus2Sig": 22.15576171875,
+        "expectedUpperLimitMinus1Sig": 30.983448028564453,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 75.71445107460022,
+        "expectedUpperLimitPlus2Sig": 119.01986598968506,
+        "upperLimit": 56.8157529068873
+    },
+    {
+        "m2": 8000,
+        "m1": 8e-08,
+        "expectedUpperLimitMinus2Sig": 22.15576171875,
+        "expectedUpperLimitMinus1Sig": 30.983448028564453,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 75.71445107460022,
+        "expectedUpperLimitPlus2Sig": 119.01986598968506,
+        "upperLimit": 56.8157529068873
+    },
+    {
+        "m2": 8000,
+        "m1": 9e-08,
+        "expectedUpperLimitMinus2Sig": 22.15576171875,
+        "expectedUpperLimitMinus1Sig": 30.983448028564453,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 75.71445107460022,
+        "expectedUpperLimitPlus2Sig": 119.01986598968506,
+        "upperLimit": 56.8157529068873
+    },
+    {
+        "m2": 8000,
+        "m1": 1e-07,
+        "expectedUpperLimitMinus2Sig": 22.15576171875,
+        "expectedUpperLimitMinus1Sig": 30.983448028564453,
+        "expectedUpperLimit": 47.265625,
+        "expectedUpperLimitPlus1Sig": 75.71445107460022,
+        "expectedUpperLimitPlus2Sig": 119.01986598968506,
+        "upperLimit": 56.8157529068873
+    },
+    {
+        "m2": 9000,
+        "m1": 1e-08,
+        "expectedUpperLimitMinus2Sig": 22.613525390625,
+        "expectedUpperLimitMinus1Sig": 31.62360191345215,
+        "expectedUpperLimit": 48.2421875,
+        "expectedUpperLimitPlus1Sig": 77.85568237304688,
+        "expectedUpperLimitPlus2Sig": 123.70537519454956,
+        "upperLimit": 56.25959627966477
+    },
+    {
+        "m2": 9000,
+        "m1": 2e-08,
+        "expectedUpperLimitMinus2Sig": 22.613525390625,
+        "expectedUpperLimitMinus1Sig": 31.62360191345215,
+        "expectedUpperLimit": 48.2421875,
+        "expectedUpperLimitPlus1Sig": 77.85568237304688,
+        "expectedUpperLimitPlus2Sig": 123.70537519454956,
+        "upperLimit": 56.25959627966477
+    },
+    {
+        "m2": 9000,
+        "m1": 3e-08,
+        "expectedUpperLimitMinus2Sig": 22.613525390625,
+        "expectedUpperLimitMinus1Sig": 31.62360191345215,
+        "expectedUpperLimit": 48.2421875,
+        "expectedUpperLimitPlus1Sig": 77.85568237304688,
+        "expectedUpperLimitPlus2Sig": 123.70537519454956,
+        "upperLimit": 56.25959627966477
+    },
+    {
+        "m2": 9000,
+        "m1": 4e-08,
+        "expectedUpperLimitMinus2Sig": 22.613525390625,
+        "expectedUpperLimitMinus1Sig": 31.62360191345215,
+        "expectedUpperLimit": 48.2421875,
+        "expectedUpperLimitPlus1Sig": 77.85568237304688,
+        "expectedUpperLimitPlus2Sig": 123.70537519454956,
+        "upperLimit": 56.25959627966477
+    },
+    {
+        "m2": 9000,
+        "m1": 5e-08,
+        "expectedUpperLimitMinus2Sig": 22.613525390625,
+        "expectedUpperLimitMinus1Sig": 31.62360191345215,
+        "expectedUpperLimit": 48.2421875,
+        "expectedUpperLimitPlus1Sig": 77.85568237304688,
+        "expectedUpperLimitPlus2Sig": 123.70537519454956,
+        "upperLimit": 56.25959627966477
+    },
+    {
+        "m2": 9000,
+        "m1": 6e-08,
+        "expectedUpperLimitMinus2Sig": 22.613525390625,
+        "expectedUpperLimitMinus1Sig": 31.62360191345215,
+        "expectedUpperLimit": 48.2421875,
+        "expectedUpperLimitPlus1Sig": 77.85568237304688,
+        "expectedUpperLimitPlus2Sig": 123.70537519454956,
+        "upperLimit": 56.25959627966477
+    },
+    {
+        "m2": 9000,
+        "m1": 7e-08,
+        "expectedUpperLimitMinus2Sig": 22.613525390625,
+        "expectedUpperLimitMinus1Sig": 31.62360191345215,
+        "expectedUpperLimit": 48.2421875,
+        "expectedUpperLimitPlus1Sig": 77.85568237304688,
+        "expectedUpperLimitPlus2Sig": 123.70537519454956,
+        "upperLimit": 56.25959627966477
+    },
+    {
+        "m2": 9000,
+        "m1": 8e-08,
+        "expectedUpperLimitMinus2Sig": 22.613525390625,
+        "expectedUpperLimitMinus1Sig": 31.62360191345215,
+        "expectedUpperLimit": 48.2421875,
+        "expectedUpperLimitPlus1Sig": 77.85568237304688,
+        "expectedUpperLimitPlus2Sig": 123.70537519454956,
+        "upperLimit": 56.25959627966477
+    },
+    {
+        "m2": 9000,
+        "m1": 9e-08,
+        "expectedUpperLimitMinus2Sig": 22.613525390625,
+        "expectedUpperLimitMinus1Sig": 31.62360191345215,
+        "expectedUpperLimit": 48.2421875,
+        "expectedUpperLimitPlus1Sig": 77.85568237304688,
+        "expectedUpperLimitPlus2Sig": 123.70537519454956,
+        "upperLimit": 56.25959627966477
+    },
+    {
+        "m2": 9000,
+        "m1": 1e-07,
+        "expectedUpperLimitMinus2Sig": 22.613525390625,
+        "expectedUpperLimitMinus1Sig": 31.62360191345215,
+        "expectedUpperLimit": 48.2421875,
+        "expectedUpperLimitPlus1Sig": 77.85568237304688,
+        "expectedUpperLimitPlus2Sig": 123.70537519454956,
+        "upperLimit": 56.25959627966477
+    },
+    {
+        "m2": 10000,
+        "m1": 1e-08,
+        "expectedUpperLimitMinus2Sig": 22.95684814453125,
+        "expectedUpperLimitMinus1Sig": 32.18579292297363,
+        "expectedUpperLimit": 49.8046875,
+        "expectedUpperLimitPlus1Sig": 81.56846761703491,
+        "expectedUpperLimitPlus2Sig": 131.24899864196777,
+        "upperLimit": 55.321828716268826
+    },
+    {
+        "m2": 10000,
+        "m1": 2e-08,
+        "expectedUpperLimitMinus2Sig": 22.95684814453125,
+        "expectedUpperLimitMinus1Sig": 32.18579292297363,
+        "expectedUpperLimit": 49.8046875,
+        "expectedUpperLimitPlus1Sig": 81.56846761703491,
+        "expectedUpperLimitPlus2Sig": 131.24899864196777,
+        "upperLimit": 55.321828716268826
+    },
+    {
+        "m2": 10000,
+        "m1": 3e-08,
+        "expectedUpperLimitMinus2Sig": 22.95684814453125,
+        "expectedUpperLimitMinus1Sig": 32.18579292297363,
+        "expectedUpperLimit": 49.8046875,
+        "expectedUpperLimitPlus1Sig": 81.56846761703491,
+        "expectedUpperLimitPlus2Sig": 131.24899864196777,
+        "upperLimit": 55.321828716268826
+    },
+    {
+        "m2": 10000,
+        "m1": 4e-08,
+        "expectedUpperLimitMinus2Sig": 22.95684814453125,
+        "expectedUpperLimitMinus1Sig": 32.18579292297363,
+        "expectedUpperLimit": 49.8046875,
+        "expectedUpperLimitPlus1Sig": 81.56846761703491,
+        "expectedUpperLimitPlus2Sig": 131.24899864196777,
+        "upperLimit": 55.321828716268826
+    },
+    {
+        "m2": 10000,
+        "m1": 5e-08,
+        "expectedUpperLimitMinus2Sig": 22.95684814453125,
+        "expectedUpperLimitMinus1Sig": 32.18579292297363,
+        "expectedUpperLimit": 49.8046875,
+        "expectedUpperLimitPlus1Sig": 81.56846761703491,
+        "expectedUpperLimitPlus2Sig": 131.24899864196777,
+        "upperLimit": 55.321828716268826
+    },
+    {
+        "m2": 10000,
+        "m1": 6e-08,
+        "expectedUpperLimitMinus2Sig": 22.95684814453125,
+        "expectedUpperLimitMinus1Sig": 32.18579292297363,
+        "expectedUpperLimit": 49.8046875,
+        "expectedUpperLimitPlus1Sig": 81.56846761703491,
+        "expectedUpperLimitPlus2Sig": 131.24899864196777,
+        "upperLimit": 55.321828716268826
+    },
+    {
+        "m2": 10000,
+        "m1": 7e-08,
+        "expectedUpperLimitMinus2Sig": 22.95684814453125,
+        "expectedUpperLimitMinus1Sig": 32.18579292297363,
+        "expectedUpperLimit": 49.8046875,
+        "expectedUpperLimitPlus1Sig": 81.56846761703491,
+        "expectedUpperLimitPlus2Sig": 131.24899864196777,
+        "upperLimit": 55.321828716268826
+    },
+    {
+        "m2": 10000,
+        "m1": 8e-08,
+        "expectedUpperLimitMinus2Sig": 22.95684814453125,
+        "expectedUpperLimitMinus1Sig": 32.18579292297363,
+        "expectedUpperLimit": 49.8046875,
+        "expectedUpperLimitPlus1Sig": 81.56846761703491,
+        "expectedUpperLimitPlus2Sig": 131.24899864196777,
+        "upperLimit": 55.321828716268826
+    },
+    {
+        "m2": 10000,
+        "m1": 9e-08,
+        "expectedUpperLimitMinus2Sig": 22.95684814453125,
+        "expectedUpperLimitMinus1Sig": 32.18579292297363,
+        "expectedUpperLimit": 49.8046875,
+        "expectedUpperLimitPlus1Sig": 81.56846761703491,
+        "expectedUpperLimitPlus2Sig": 131.24899864196777,
+        "upperLimit": 55.321828716268826
+    },
+    {
+        "m2": 10000,
+        "m1": 1e-07,
+        "expectedUpperLimitMinus2Sig": 22.95684814453125,
+        "expectedUpperLimitMinus1Sig": 32.18579292297363,
+        "expectedUpperLimit": 49.8046875,
+        "expectedUpperLimitPlus1Sig": 81.56846761703491,
+        "expectedUpperLimitPlus2Sig": 131.24899864196777,
+        "upperLimit": 55.321828716268826
+    }
+]

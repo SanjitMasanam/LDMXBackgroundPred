@@ -1,0 +1,100 @@
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset fail_HIGH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset fail_LOW
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset fail_SIG
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset pass_HIGH
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset pass_LOW
+[#1] INFO:ObjectHandling -- RooWorkspace::import(w) importing dataset pass_SIG
+[SetFlag] Changing value of flag "workspaces-use-clone" from 0 to 1
+>> Doing prefit: fail_HIGH,CMS_AN23122_Background
+>> Doing prefit: fail_HIGH,Signal_M2000GeV_SR
+>> Doing prefit: fail_HIGH,TotalBkg
+>> Doing prefit: fail_HIGH,TotalSig
+>> Doing prefit: fail_HIGH,TotalProcs
+>> Doing prefit: fail_LOW,CMS_AN23122_Background
+>> Doing prefit: fail_LOW,Signal_M2000GeV_SR
+>> Doing prefit: fail_LOW,TotalBkg
+>> Doing prefit: fail_LOW,TotalSig
+>> Doing prefit: fail_LOW,TotalProcs
+>> Doing prefit: fail_SIG,CMS_AN23122_Background
+>> Doing prefit: fail_SIG,Signal_M2000GeV_SR
+>> Doing prefit: fail_SIG,TotalBkg
+>> Doing prefit: fail_SIG,TotalSig
+>> Doing prefit: fail_SIG,TotalProcs
+>> Doing prefit: pass_HIGH,CMS_AN23122_Background_2x0
+>> Doing prefit: pass_HIGH,Signal_M2000GeV_SR
+>> Doing prefit: pass_HIGH,TotalBkg
+>> Doing prefit: pass_HIGH,TotalSig
+>> Doing prefit: pass_HIGH,TotalProcs
+>> Doing prefit: pass_LOW,CMS_AN23122_Background_2x0
+>> Doing prefit: pass_LOW,Signal_M2000GeV_SR
+>> Doing prefit: pass_LOW,TotalBkg
+>> Doing prefit: pass_LOW,TotalSig
+>> Doing prefit: pass_LOW,TotalProcs
+>> Doing prefit: pass_SIG,CMS_AN23122_Background_2x0
+>> Doing prefit: pass_SIG,Signal_M2000GeV_SR
+>> Doing prefit: pass_SIG,TotalBkg
+>> Doing prefit: pass_SIG,TotalSig
+>> Doing prefit: pass_SIG,TotalProcs
+Bin                       Total relative bkg uncert. (prefit)
+----------------------------------------------------------
+fail_HIGH                 0.00000   
+fail_LOW                  0.00000   
+fail_SIG                  0.00000   
+pass_HIGH                 0.50002   
+pass_LOW                  0.50401   
+pass_SIG                  0.50010   
+>> Doing postfit: fail_HIGH,CMS_AN23122_Background
+>> Doing postfit: fail_HIGH,Signal_M2000GeV_SR
+>> Doing postfit: fail_HIGH,TotalBkg
+>> Doing postfit: fail_HIGH,TotalSig
+>> Doing postfit: fail_HIGH,TotalProcs
+>> Doing postfit: fail_LOW,CMS_AN23122_Background
+>> Doing postfit: fail_LOW,Signal_M2000GeV_SR
+>> Doing postfit: fail_LOW,TotalBkg
+>> Doing postfit: fail_LOW,TotalSig
+>> Doing postfit: fail_LOW,TotalProcs
+>> Doing postfit: fail_SIG,CMS_AN23122_Background
+>> Doing postfit: fail_SIG,Signal_M2000GeV_SR
+>> Doing postfit: fail_SIG,TotalBkg
+>> Doing postfit: fail_SIG,TotalSig
+>> Doing postfit: fail_SIG,TotalProcs
+>> Doing postfit: pass_HIGH,CMS_AN23122_Background_2x0
+>> Doing postfit: pass_HIGH,Signal_M2000GeV_SR
+>> Doing postfit: pass_HIGH,TotalBkg
+>> Doing postfit: pass_HIGH,TotalSig
+>> Doing postfit: pass_HIGH,TotalProcs
+>> Doing postfit: pass_LOW,CMS_AN23122_Background_2x0
+>> Doing postfit: pass_LOW,Signal_M2000GeV_SR
+>> Doing postfit: pass_LOW,TotalBkg
+>> Doing postfit: pass_LOW,TotalSig
+>> Doing postfit: pass_LOW,TotalProcs
+>> Doing postfit: pass_SIG,CMS_AN23122_Background_2x0
+>> Doing postfit: pass_SIG,Signal_M2000GeV_SR
+>> Doing postfit: pass_SIG,TotalBkg
+>> Doing postfit: pass_SIG,TotalSig
+>> Doing postfit: pass_SIG,TotalProcs
+
+Bin                       Total relative bkg uncert. (postfit)
+----------------------------------------------------------
+fail_HIGH                 0.12807   
+fail_LOW                  0.00263   
+fail_SIG                  0.02736   
+pass_HIGH                 4.97975   
+pass_LOW                  0.85910   
+pass_SIG                  3.44995   
+
+Bin                       Process              Scale factor
+----------------------------------------------------------
+fail_HIGH                 CMS_AN23122_Background 1.00000   
+fail_HIGH                 Signal_M2000GeV_SR   0.00000   
+fail_LOW                  CMS_AN23122_Background 1.00000   
+fail_LOW                  Signal_M2000GeV_SR   0.00000   
+fail_SIG                  CMS_AN23122_Background 1.00000   
+fail_SIG                  Signal_M2000GeV_SR   0.00000   
+pass_HIGH                 CMS_AN23122_Background_2x0 0.00668   
+pass_HIGH                 Signal_M2000GeV_SR   0.00000   
+pass_LOW                  CMS_AN23122_Background_2x0 0.03535   
+pass_LOW                  Signal_M2000GeV_SR   0.00000   
+pass_SIG                  CMS_AN23122_Background_2x0 0.00935   
+pass_SIG                  Signal_M2000GeV_SR   0.00000   

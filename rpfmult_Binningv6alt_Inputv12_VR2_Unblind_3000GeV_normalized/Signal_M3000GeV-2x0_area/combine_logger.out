@@ -1,0 +1,38 @@
+CascadeMinimizer.cc[188] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[215] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[219] : (in function: improveOnce) - Minimization success! status=0
+CascadeMinimizer.cc[188] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[215] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[219] : (in function: improveOnce) - Minimization success! status=0
+CascadeMinimizer.cc[188] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[215] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[219] : (in function: improveOnce) - Minimization success! status=0
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter CMS_AN23122_Background_fail_LOW_bin_1-1 at boundary (within ~1sigma): 1e+06+/-0.111565
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter CMS_AN23122_Background_fail_LOW_bin_2-1 at boundary (within ~1sigma): 1e+06+/-0.129389
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter CMS_AN23122_Background_fail_LOW_bin_3-1 at boundary (within ~1sigma): 1e+06+/-0.212714
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter CMS_AN23122_Background_fail_LOW_bin_4-1 at boundary (within ~1sigma): 1e+06+/-0.460167
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter CMS_AN23122_Background_fail_LOW_bin_5-1 at boundary (within ~1sigma): 1e+06+/-2.06673
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter CMS_AN23122_Background_rpf_2x0_par0 at boundary (within ~1sigma): 100+/-2.30888
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter CMS_AN23122_Background_rpf_2x0_par1 at boundary (within ~1sigma): 50+/-0.0058279
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter CMS_AN23122_Background_rpf_2x0_par2 at boundary (within ~1sigma): -50+/-0.0103803
+CascadeMinimizer.cc[483] : (in function: minimize) - [WARNING] After fit, some parameters are found at the boundary (within ~1sigma)
+CascadeMinimizer.cc[188] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[215] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[219] : (in function: improveOnce) - Minimization success! status=0
+FitDiagnostics.cc[318] : (in function: runSpecific) -  Fit B-only, status = 0, numBadNLL = 0, covariance quality = -1
+CascadeMinimizer.cc[188] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[215] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[219] : (in function: improveOnce) - Minimization success! status=0
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter CMS_AN23122_Background_fail_LOW_bin_1-1 at boundary (within ~1sigma): 1e+06+/-0.299254
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter CMS_AN23122_Background_fail_LOW_bin_2-1 at boundary (within ~1sigma): 1e+06+/-0.475956
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter CMS_AN23122_Background_fail_LOW_bin_3-1 at boundary (within ~1sigma): 1e+06+/-1.41481
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter CMS_AN23122_Background_rpf_2x0_par1 at boundary (within ~1sigma): 50+/-0.00545109
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter CMS_AN23122_Background_rpf_2x0_par2 at boundary (within ~1sigma): -50+/-0.00975965
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter CMS_AN23122_Background_rpf_2x0_par3 at boundary (within ~1sigma): 1.21714e-12+/-2.34853e-07
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter CMS_AN23122_Background_fail_SIG_bin_1-1 at boundary (within ~1sigma): 3.6768e-06+/-0.911045
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter CMS_AN23122_Background_fail_HIGH_bin_1-1 at boundary (within ~1sigma): 1.02103e-06+/-0.659696
+CascadeMinimizer.cc[483] : (in function: minimize) - [WARNING] After fit, some parameters are found at the boundary (within ~1sigma)
+CascadeMinimizer.cc[188] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[215] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[219] : (in function: improveOnce) - Minimization success! status=0
+FitterAlgoBase.cc[344] : (in function: doFit) - Running Minos for POI r
