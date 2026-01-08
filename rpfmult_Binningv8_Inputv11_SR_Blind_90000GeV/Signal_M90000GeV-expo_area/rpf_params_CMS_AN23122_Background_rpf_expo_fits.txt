@@ -1,2 +1,0 @@
-CMS_AN23122_Background_rpf_expo_par0: 24.204366783797006 +/- 0.0
-CMS_AN23122_Background_rpf_expo_par1: -7.276057812161217 +/- 0.16272108599772472

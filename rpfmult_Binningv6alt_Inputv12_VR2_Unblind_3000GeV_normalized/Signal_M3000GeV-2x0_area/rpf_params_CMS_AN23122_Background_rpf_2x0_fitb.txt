@@ -1,4 +1,0 @@
-CMS_AN23122_Background_rpf_2x0_par0: 100.0 +/- 17.900336181390262
-CMS_AN23122_Background_rpf_2x0_par1: 50.000000000000014 +/- 0.0
-CMS_AN23122_Background_rpf_2x0_par2: -50.0 +/- 0.0
-CMS_AN23122_Background_rpf_2x0_par3: 9.647530974815945e-06 +/- 1.6330794413455758e-06
