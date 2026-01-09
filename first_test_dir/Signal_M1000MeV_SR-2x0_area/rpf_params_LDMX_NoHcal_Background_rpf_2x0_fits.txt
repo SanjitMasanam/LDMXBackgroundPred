@@ -1,0 +1,1 @@
+LDMX_NoHcal_Background_rpf_2x0_par3: 2.9626170938148664e-10 +/- 0.0

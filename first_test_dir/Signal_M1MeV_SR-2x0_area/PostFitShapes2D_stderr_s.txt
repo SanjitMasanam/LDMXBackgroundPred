@@ -41,9 +41,9 @@ Bin                       Total relative bkg uncert. (prefit)
 fail_HIGH                 0.00000   
 fail_LOW                  0.00000   
 fail_SIG                  0.00000   
-pass_HIGH                 0.50003   
-pass_LOW                  0.50504   
-pass_SIG                  0.50021   
+pass_HIGH                 0.50012   
+pass_LOW                  0.54091   
+pass_SIG                  0.50308   
 >> Doing postfit: fail_HIGH,LDMX_NoHcal_Background
 >> Doing postfit: fail_HIGH,Signal_M1MeV_SR
 >> Doing postfit: fail_HIGH,TotalBkg
@@ -77,24 +77,24 @@ pass_SIG                  0.50021
 
 Bin                       Total relative bkg uncert. (postfit)
 ----------------------------------------------------------
-fail_HIGH                 0.08352   
-fail_LOW                  0.02603   
-fail_SIG                  0.09012   
-pass_HIGH                 0.08097   
-pass_LOW                  0.02296   
-pass_SIG                  0.08596   
+fail_HIGH                 0.04679   
+fail_LOW                  0.03335   
+fail_SIG                  0.04550   
+pass_HIGH                 0.04880   
+pass_LOW                  0.03401   
+pass_SIG                  0.04345   
 
 Bin                       Process              Scale factor
 ----------------------------------------------------------
-fail_HIGH                 LDMX_NoHcal_Background 0.99969   
-fail_HIGH                 Signal_M1MeV_SR      0.01316   
-fail_LOW                  LDMX_NoHcal_Background 0.99948   
-fail_LOW                  Signal_M1MeV_SR      0.01316   
+fail_HIGH                 LDMX_NoHcal_Background 0.99959   
+fail_HIGH                 Signal_M1MeV_SR      0.01250   
+fail_LOW                  LDMX_NoHcal_Background 0.99958   
+fail_LOW                  Signal_M1MeV_SR      0.01250   
 fail_SIG                  LDMX_NoHcal_Background 0.99934   
-fail_SIG                  Signal_M1MeV_SR      0.01316   
+fail_SIG                  Signal_M1MeV_SR      0.01250   
 pass_HIGH                 LDMX_NoHcal_Background_2x0 0.00000   
-pass_HIGH                 Signal_M1MeV_SR      0.01316   
+pass_HIGH                 Signal_M1MeV_SR      0.01250   
 pass_LOW                  LDMX_NoHcal_Background_2x0 0.00000   
-pass_LOW                  Signal_M1MeV_SR      0.01316   
+pass_LOW                  Signal_M1MeV_SR      0.01250   
 pass_SIG                  LDMX_NoHcal_Background_2x0 0.00000   
-pass_SIG                  Signal_M1MeV_SR      0.01316   
+pass_SIG                  Signal_M1MeV_SR      0.01250   

@@ -68,8 +68,8 @@
                 "NAME": "pT",
                 "TITLE": "p_{T}",
 		"BINS": [200,320,610,1010,1520,2300,3240,4340,5600,8000],
-		"SIGSTART": 1010,
-                "SIGEND": 1520,
+		"SIGSTART":320,
+                "SIGEND": 610,
 		"NBINSna": 50,
                 "MINna": 500,
                 "MAXna": 5500

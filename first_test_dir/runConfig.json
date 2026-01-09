@@ -18,8 +18,8 @@
         "MINna": 500,
         "NAME": "pT",
         "NBINSna": 50,
-        "SIGEND": 1520,
-        "SIGSTART": 1010,
+        "SIGEND": 610,
+        "SIGSTART": 320,
         "TITLE": "p_{T}"
       },
       "Y": {
