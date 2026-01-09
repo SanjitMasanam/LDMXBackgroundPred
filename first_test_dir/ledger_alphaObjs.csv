@@ -1,0 +1,12 @@
+,process,region,obj,norm,process_type,color,combine_idx,title
+0,LDMX_NoHcal_Background,fail,,,BKG,yellow,,LDMX_NoHcal_Background
+1,LDMX_NoHcal_Background_0x0,pass,,,BKG,yellow,,LDMX_NoHcal_Background
+2,LDMX_NoHcal_Background_1x0,pass,,,BKG,yellow,,LDMX_NoHcal_Background
+3,LDMX_NoHcal_Background_1x0Prime,pass,,,BKG,yellow,,LDMX_NoHcal_Background
+4,LDMX_NoHcal_Background_0x1,pass,,,BKG,yellow,,LDMX_NoHcal_Background
+5,LDMX_NoHcal_Background_1x1,pass,,,BKG,yellow,,LDMX_NoHcal_Background
+6,LDMX_NoHcal_Background_2x0,pass,,,BKG,yellow,,LDMX_NoHcal_Background
+7,LDMX_NoHcal_Background_2x1,pass,,,BKG,yellow,,LDMX_NoHcal_Background
+8,LDMX_NoHcal_Background_2x2,pass,,,BKG,yellow,,LDMX_NoHcal_Background
+9,LDMX_NoHcal_Background_expo,pass,,,BKG,yellow,,LDMX_NoHcal_Background
+10,LDMX_NoHcal_Background_sigmoid,pass,,,BKG,yellow,,LDMX_NoHcal_Background

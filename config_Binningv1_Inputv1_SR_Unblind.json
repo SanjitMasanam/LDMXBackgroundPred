@@ -29,8 +29,8 @@
             "LOC": "path/FILE:HIST"
         },
         "SIGNAME": {
-            "SYSTEMATICSvolt": ["lumi","pileup", "systOnF", "systOnG", "systOnTrigger", "systOnPt", "systOnMuReco", "systOnMuID", "systOnMuTrigger"],
-            "SYSTEMATICSNA":"lumi","RNN","pT","t0"],
+            "SYSTEMATICS": [],
+            "SYSTEMATICSNA":["lumi","RNN","pT","t0"],
             "COLOR": "red",
             "SCALE": 1.0,
             "TYPE": "SIGNAL",
@@ -78,8 +78,8 @@
                 "NAME": "N",
                 "TITLE": "N",
                 "NBINS": 1,
-                "MIN": 1,
-                "MAX": 1.1
+                "MIN": 0,
+                "MAX": 2
             }
         }
     },

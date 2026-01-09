@@ -1,0 +1,125 @@
+{
+  "BINNING": {
+    "default": {
+      "X": {
+        "BINS": [
+          200,
+          320,
+          610,
+          1010,
+          1520,
+          2300,
+          3240,
+          4340,
+          5600,
+          8000
+        ],
+        "MAXna": 5500,
+        "MINna": 500,
+        "NAME": "pT",
+        "NBINSna": 50,
+        "SIGEND": 1520,
+        "SIGSTART": 1010,
+        "TITLE": "p_{T}"
+      },
+      "Y": {
+        "MAX": 2,
+        "MIN": 0,
+        "NAME": "N",
+        "NBINS": 1,
+        "TITLE": "N"
+      }
+    }
+  },
+  "GLOBAL": {
+    "FILE": "NoHcalLDMX_$process.root",
+    "HIST": "h$region",
+    "HIST_DOWN": "h$region_$syst_down",
+    "HIST_UP": "h$region_$syst_up",
+    "SIGNAME": [
+      "Signal_M1MeV_SR",
+      "Signal_M10MeV_SR",
+      "Signal_M100MeV_SR",
+      "Signal_M1000MeV_SR"
+    ],
+    "path": "./histograms_for_2DAlphabet_v1"
+  },
+  "NAME": "NoHcalLDMX",
+  "OPTIONS": {
+    "blindedFit": [
+      "pass"
+    ],
+    "blindedPlotsNA": [
+      "pass"
+    ],
+    "plotEvtsPerUnitVolt": true,
+    "plotTemplateComparisonsNA": true
+  },
+  "PROCESSES": {
+    "SIGNAME": {
+      "COLOR": "red",
+      "LOC": "./histograms_for_2DAlphabet_v1/NoHcalLDMX_$process.root:h$region",
+      "NAME": "SIGNAME",
+      "SCALE": 1.0,
+      "SYSTEMATICS": [],
+      "SYSTEMATICSNA": [
+        "lumi",
+        "RNN",
+        "pT",
+        "t0"
+      ],
+      "TITLE": "DM Signal",
+      "TYPE": "SIGNAL",
+      "VARIATION": "nominal"
+    },
+    "data_obs": {
+      "ALIAS": "PNbkg_SR",
+      "COLOR": "black",
+      "LOC": "./histograms_for_2DAlphabet_v1/NoHcalLDMX_$process.root:h$region",
+      "NAME": "data_obs",
+      "SCALE": 1,
+      "SYSTEMATICS": [],
+      "TITLE": "PNbkg_SR",
+      "TYPE": "DATA",
+      "VARIATION": "nominal"
+    }
+  },
+  "REGIONS": {
+    "fail": {
+      "BINNING": "default",
+      "PROCESSES": [
+        "SIGNAME"
+      ]
+    },
+    "pass": {
+      "BINNING": "default",
+      "PROCESSES": [
+        "SIGNAME"
+      ]
+    }
+  },
+  "SYSTEMATICS": {
+    "RNN": {
+      "ALIAS": "RNNsyst",
+      "DOWN": "./histograms_for_2DAlphabet_v1/NoHcalLDMX_$process.root:h$region_$syst_down",
+      "SIGMA": 1.0,
+      "UP": "./histograms_for_2DAlphabet_v1/NoHcalLDMX_$process.root:h$region_$syst_up"
+    },
+    "lumi": {
+      "CODE": 0,
+      "VAL": 1.05
+    },
+    "pT": {
+      "ALIAS": "pTsyst",
+      "DOWN": "./histograms_for_2DAlphabet_v1/NoHcalLDMX_$process.root:h$region_$syst_down",
+      "SIGMA": 1.0,
+      "UP": "./histograms_for_2DAlphabet_v1/NoHcalLDMX_$process.root:h$region_$syst_up"
+    },
+    "t0": {
+      "ALIAS": "t0syst",
+      "DOWN": "./histograms_for_2DAlphabet_v1/NoHcalLDMX_$process.root:h$region_$syst_down",
+      "SIGMA": 1.0,
+      "UP": "./histograms_for_2DAlphabet_v1/NoHcalLDMX_$process.root:h$region_$syst_up"
+    }
+  }
+}

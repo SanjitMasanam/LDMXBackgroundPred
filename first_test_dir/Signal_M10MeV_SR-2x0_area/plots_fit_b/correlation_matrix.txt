@@ -1,0 +1,1 @@
+LDMX_NoHcal_Background_rpf_2x0_par3:LDMX_NoHcal_Background_rpf_2x0_par0 = -0.8503502636615724
