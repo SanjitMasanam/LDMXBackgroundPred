@@ -119,8 +119,8 @@ Parameters:
 109) RooRealVar::            LDMX_NoHcal_Background_fail_SIG_bin_1-8 = 1.48339e+07
 110) RooRealVar::            LDMX_NoHcal_Background_fail_SIG_bin_1-9 = 1.48235e+07
 111) RooRealVar::                LDMX_NoHcal_Background_rpf_2x0_par0 = 0.1 +/- 0.1
-112) RooRealVar::                LDMX_NoHcal_Background_rpf_2x0_par1 = 50 +/- 0.1
-113) RooRealVar::                LDMX_NoHcal_Background_rpf_2x0_par2 = 0 +/- 0.1
+112) RooRealVar::                LDMX_NoHcal_Background_rpf_2x0_par1 = 0.1 +/- 0.1
+113) RooRealVar::                LDMX_NoHcal_Background_rpf_2x0_par2 = 0.1 +/- 0.1
 114) RooRealVar::                LDMX_NoHcal_Background_rpf_2x0_par3 = 0.1 +/- 0.1
 115) RooRealVar::                                     mask_fail_HIGH = 0
 116) RooRealVar::                                      mask_fail_LOW = 0
@@ -145,84 +145,116 @@ Obs:
 >> Found 114 floating parameters
 >> The following parameters are protected in the event of negative eigenvalues:
 >> Verifying eigenvalues are all positive (iteration 0)
-Eigenvalue 112 : -0.000671744
- - 0.870581	LDMX_NoHcal_Background_rpf_2x0_par0
- - 0.381164	LDMX_NoHcal_Background_rpf_2x0_par2
- - -0.296668	LDMX_NoHcal_Background_rpf_2x0_par1
- - -0.0937571	LDMX_NoHcal_Background_rpf_2x0_par3
- - -0.000242038	LDMX_NoHcal_Background_fail_LOW_bin_1-4
-Eigenvalue 113 : -0.00428113
- - 0.67785	LDMX_NoHcal_Background_rpf_2x0_par1
- - -0.585395	LDMX_NoHcal_Background_rpf_2x0_par3
- - -0.320588	LDMX_NoHcal_Background_rpf_2x0_par2
- - 0.308309	LDMX_NoHcal_Background_rpf_2x0_par0
- - -0.000231657	LDMX_NoHcal_Background_fail_LOW_bin_1-4
+Eigenvalue 112 : -0.000344937
+ - 0.717655	LDMX_NoHcal_Background_rpf_2x0_par0
+ - -0.696103	LDMX_NoHcal_Background_rpf_2x0_par1
+ - -0.0202352	LDMX_NoHcal_Background_rpf_2x0_par2
+ - 0.00125167	LDMX_NoHcal_Background_rpf_2x0_par3
+ - 1.92889e-08	LDMX_NoHcal_Background_fail_LOW_bin_2-7
+Eigenvalue 113 : -0.000400617
+ - 0.82669	LDMX_NoHcal_Background_rpf_2x0_par2
+ - -0.41477	LDMX_NoHcal_Background_rpf_2x0_par1
+ - -0.378951	LDMX_NoHcal_Background_rpf_2x0_par0
+ - -0.0307419	LDMX_NoHcal_Background_rpf_2x0_par3
+ - -5.51663e-07	LDMX_NoHcal_Background_fail_LOW_bin_2-7
 >> Attempt 0 failed, remove the variable with largest eigenvector component...
->> Dropping LDMX_NoHcal_Background_rpf_2x0_par1 from the hessian
+>> Dropping LDMX_NoHcal_Background_rpf_2x0_par2 from the hessian
 >> Verifying eigenvalues are all positive (iteration 1)
-Eigenvalue 112 : -0.00126588
- - -0.937326	LDMX_NoHcal_Background_rpf_2x0_par0
- - 0.301941	LDMX_NoHcal_Background_rpf_2x0_par3
- - -0.173929	LDMX_NoHcal_Background_rpf_2x0_par2
- - 0.00033368	LDMX_NoHcal_Background_fail_LOW_bin_1-4
- - 0.000322764	LDMX_NoHcal_Background_fail_LOW_bin_1-7
+Eigenvalue 112 : -0.000344971
+ - 0.707802	LDMX_NoHcal_Background_rpf_2x0_par0
+ - -0.70641	LDMX_NoHcal_Background_rpf_2x0_par1
+ - 0.0012256	LDMX_NoHcal_Background_rpf_2x0_par3
+ - 1.88891e-08	LDMX_NoHcal_Background_fail_LOW_bin_2-7
+ - 1.8694e-08	LDMX_NoHcal_Background_fail_LOW_bin_2-4
 >> Attempt 1 failed, remove the variable with largest eigenvector component...
 >> Dropping LDMX_NoHcal_Background_rpf_2x0_par0 from the hessian
 >> Verifying eigenvalues are all positive (iteration 2)
->> All eigenvalues are positive
->> Inverting Hessian...
->> Matrix inverted
->> Note: the following parameters were dropped to make the covariance matrix pos-def:
-     - LDMX_NoHcal_Background_rpf_2x0_par1
-     - LDMX_NoHcal_Background_rpf_2x0_par0
- Fit B-only, status = 0, numBadNLL = 0, covariance quality = -1
-Running Minos for POI r
->> Found 115 floating parameters
->> The following parameters are protected in the event of negative eigenvalues: r
->> Verifying eigenvalues are all positive (iteration 0)
-Eigenvalue 113 : -0.000729335
- - 0.825778	LDMX_NoHcal_Background_rpf_2x0_par0
- - 0.333786	LDMX_NoHcal_Background_rpf_2x0_par2
- - -0.314104	LDMX_NoHcal_Background_rpf_2x0_par1
- - 0.311811	r
- - -0.103209	LDMX_NoHcal_Background_rpf_2x0_par3
-Eigenvalue 114 : -0.00412547
- - 0.68965	LDMX_NoHcal_Background_rpf_2x0_par1
- - -0.567993	LDMX_NoHcal_Background_rpf_2x0_par3
- - 0.326013	LDMX_NoHcal_Background_rpf_2x0_par0
- - -0.307805	LDMX_NoHcal_Background_rpf_2x0_par2
- - -0.0271387	r
->> Attempt 0 failed, remove the variable with largest eigenvector component...
->> Dropping LDMX_NoHcal_Background_rpf_2x0_par1 from the hessian
->> Verifying eigenvalues are all positive (iteration 1)
-Eigenvalue 113 : -0.00132925
- - -0.915068	LDMX_NoHcal_Background_rpf_2x0_par0
- - 0.311687	LDMX_NoHcal_Background_rpf_2x0_par3
- - -0.210551	r
- - -0.145281	LDMX_NoHcal_Background_rpf_2x0_par2
- - 0.00234434	LDMX_NoHcal_Background_fail_SIG_bin_1-8
->> Attempt 1 failed, remove the variable with largest eigenvector component...
->> Dropping LDMX_NoHcal_Background_rpf_2x0_par0 from the hessian
->> Verifying eigenvalues are all positive (iteration 2)
-Eigenvalue 112 : -3.84017e-05
- - 0.989533	r
- - -0.106754	LDMX_NoHcal_Background_rpf_2x0_par3
- - -0.0895998	LDMX_NoHcal_Background_rpf_2x0_par2
- - -0.0110921	LDMX_NoHcal_Background_fail_SIG_bin_1-8
- - -0.0110577	LDMX_NoHcal_Background_fail_SIG_bin_1-7
+Eigenvalue 111 : -1.84406e-06
+ - 0.708162	LDMX_NoHcal_Background_rpf_2x0_par1
+ - -0.70605	LDMX_NoHcal_Background_rpf_2x0_par3
+ - 1.66993e-07	LDMX_NoHcal_Background_fail_LOW_bin_2-7
+ - 1.65264e-07	LDMX_NoHcal_Background_fail_LOW_bin_2-4
+ - 1.6501e-07	LDMX_NoHcal_Background_fail_LOW_bin_2-5
 >> Attempt 2 failed, remove the variable with largest eigenvector component...
->> Dropping LDMX_NoHcal_Background_rpf_2x0_par3 from the hessian
+>> Dropping LDMX_NoHcal_Background_rpf_2x0_par1 from the hessian
 >> Verifying eigenvalues are all positive (iteration 3)
 >> All eigenvalues are positive
 >> Inverting Hessian...
 >> Matrix inverted
 >> Note: the following parameters were dropped to make the covariance matrix pos-def:
-     - LDMX_NoHcal_Background_rpf_2x0_par1
+     - LDMX_NoHcal_Background_rpf_2x0_par2
      - LDMX_NoHcal_Background_rpf_2x0_par0
+     - LDMX_NoHcal_Background_rpf_2x0_par1
+ Fit B-only, status = 0, numBadNLL = 0, covariance quality = -1
+Running Minos for POI r
+>> Found 115 floating parameters
+>> The following parameters are protected in the event of negative eigenvalues: r
+>> Verifying eigenvalues are all positive (iteration 0)
+Eigenvalue 112 : -8.47295e-06
+ - -0.975409	r
+ - 0.211493	LDMX_NoHcal_Background_rpf_2x0_par3
+ - -0.0404262	LDMX_NoHcal_Background_rpf_2x0_par0
+ - -0.0266214	LDMX_NoHcal_Background_rpf_2x0_par1
+ - -0.0256466	LDMX_NoHcal_Background_rpf_2x0_par2
+Eigenvalue 113 : -0.000279197
+ - 0.784693	LDMX_NoHcal_Background_rpf_2x0_par0
+ - -0.513456	LDMX_NoHcal_Background_rpf_2x0_par2
+ - -0.340915	LDMX_NoHcal_Background_rpf_2x0_par1
+ - 0.0661522	LDMX_NoHcal_Background_rpf_2x0_par3
+ - 0.00462225	r
+Eigenvalue 114 : -0.000358382
+ - -0.752472	LDMX_NoHcal_Background_rpf_2x0_par1
+ - 0.651143	LDMX_NoHcal_Background_rpf_2x0_par2
+ - 0.0979423	LDMX_NoHcal_Background_rpf_2x0_par0
+ - 0.0141832	LDMX_NoHcal_Background_rpf_2x0_par3
+ - 0.0024301	r
+>> Attempt 0 failed, remove the variable with largest eigenvector component...
+>> Dropping LDMX_NoHcal_Background_rpf_2x0_par1 from the hessian
+>> Verifying eigenvalues are all positive (iteration 1)
+Eigenvalue 112 : -8.97915e-06
+ - -0.96315	r
+ - 0.24964	LDMX_NoHcal_Background_rpf_2x0_par3
+ - -0.0802324	LDMX_NoHcal_Background_rpf_2x0_par0
+ - -0.0525167	LDMX_NoHcal_Background_rpf_2x0_par2
+ - 0.00852363	LDMX_NoHcal_Background_fail_SIG_bin_1-8
+Eigenvalue 113 : -0.000292907
+ - -0.74539	LDMX_NoHcal_Background_rpf_2x0_par2
+ - 0.662374	LDMX_NoHcal_Background_rpf_2x0_par0
+ - 0.0750276	LDMX_NoHcal_Background_rpf_2x0_par3
+ - 0.00490807	r
+ - -4.33708e-05	LDMX_NoHcal_Background_fail_SIG_bin_1-8
+>> Attempt 1 failed, remove the variable with largest eigenvector component...
+>> Dropping LDMX_NoHcal_Background_rpf_2x0_par2 from the hessian
+>> Verifying eigenvalues are all positive (iteration 2)
+Eigenvalue 112 : -1.65806e-05
+ - 0.609628	r
+ - -0.596365	LDMX_NoHcal_Background_rpf_2x0_par3
+ - 0.521892	LDMX_NoHcal_Background_rpf_2x0_par0
+ - -0.00539484	LDMX_NoHcal_Background_fail_SIG_bin_1-8
+ - -0.0053791	LDMX_NoHcal_Background_fail_SIG_bin_1-7
+>> Attempt 2 failed, remove the variable with largest eigenvector component...
+>> Dropping LDMX_NoHcal_Background_rpf_2x0_par3 from the hessian
+>> Verifying eigenvalues are all positive (iteration 3)
+Eigenvalue 111 : -4.54102e-06
+ - 0.992236	r
+ - -0.120789	LDMX_NoHcal_Background_rpf_2x0_par0
+ - -0.00878124	LDMX_NoHcal_Background_fail_SIG_bin_1-8
+ - -0.00875562	LDMX_NoHcal_Background_fail_SIG_bin_1-7
+ - -0.00873267	LDMX_NoHcal_Background_fail_SIG_bin_1-3
+>> Attempt 3 failed, remove the variable with largest eigenvector component...
+>> Dropping LDMX_NoHcal_Background_rpf_2x0_par0 from the hessian
+>> Verifying eigenvalues are all positive (iteration 4)
+>> All eigenvalues are positive
+>> Inverting Hessian...
+>> Matrix inverted
+>> Note: the following parameters were dropped to make the covariance matrix pos-def:
+     - LDMX_NoHcal_Background_rpf_2x0_par1
+     - LDMX_NoHcal_Background_rpf_2x0_par2
      - LDMX_NoHcal_Background_rpf_2x0_par3
+     - LDMX_NoHcal_Background_rpf_2x0_par0
 Fit S+B, status = 0, numBadNLL = 0, covariance quality = -1
 
  --- FitDiagnostics ---
-Best fit r: 2.76889e-07  -2.76889e-07/+50  (68% CL)
+Best fit r: 9.02299e-05  -9.02299e-05/+49.9999  (68% CL)
 Done in 0.02 min (cpu), 0.02 min (real)
-23 log messages saved to combine_logger.out
+15 log messages saved to combine_logger.out
