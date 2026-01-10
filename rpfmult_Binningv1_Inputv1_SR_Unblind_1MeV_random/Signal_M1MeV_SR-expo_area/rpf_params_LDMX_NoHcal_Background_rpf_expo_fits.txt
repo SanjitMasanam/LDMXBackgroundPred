@@ -1,0 +1,2 @@
+LDMX_NoHcal_Background_rpf_expo_par0: -613.155856523975 +/- 315.43120277220794
+LDMX_NoHcal_Background_rpf_expo_par1: -21.213957416699966 +/- 0.0

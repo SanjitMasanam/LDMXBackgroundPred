@@ -1,0 +1,3 @@
+,process,region,obj,norm,process_type,color,combine_idx,title
+0,LDMX_NoHcal_Background,fail,,,BKG,yellow,,LDMX_NoHcal_Background
+9,LDMX_NoHcal_Background_expo,pass,,,BKG,yellow,,LDMX_NoHcal_Background
