@@ -16,59 +16,58 @@ Parameters:
   6) RooRealVar::           LDMX_NoHcal_Background_fail_HIGH_bin_6-1 = 290
   7) RooRealVar::           LDMX_NoHcal_Background_fail_HIGH_bin_7-1 = 198
   8) RooRealVar::           LDMX_NoHcal_Background_fail_HIGH_bin_8-1 = 155
-  9) RooRealVar::           LDMX_NoHcal_Background_fail_HIGH_bin_9-1 = 217
- 10) RooRealVar::            LDMX_NoHcal_Background_fail_LOW_bin_1-1 = 1737
- 11) RooRealVar::            LDMX_NoHcal_Background_fail_LOW_bin_2-1 = 19197
- 12) RooRealVar::            LDMX_NoHcal_Background_fail_SIG_bin_1-1 = 8.69364e+06
- 13) RooRealVar::                LDMX_NoHcal_Background_rpf_2x0_par0 = 0.1 +/- 0.1
- 14) RooRealVar::                LDMX_NoHcal_Background_rpf_2x0_par1 = 50 +/- 0.1
- 15) RooRealVar::                LDMX_NoHcal_Background_rpf_2x0_par2 = 0 +/- 0.1
- 16) RooRealVar::                LDMX_NoHcal_Background_rpf_2x0_par3 = 0.1 +/- 0.1
- 17) RooRealVar::                                     mask_fail_HIGH = 0
- 18) RooRealVar::                                      mask_fail_LOW = 0
- 19) RooRealVar::                                      mask_fail_SIG = 0
- 20) RooRealVar::                                     mask_pass_HIGH = 1
- 21) RooRealVar::                                      mask_pass_LOW = 0
- 22) RooRealVar::                                      mask_pass_SIG = 1
- 23) RooRealVar::     n_exp_binfail_HIGH_proc_LDMX_NoHcal_Background = 1
- 24) RooRealVar::      n_exp_binfail_LOW_proc_LDMX_NoHcal_Background = 1
- 25) RooRealVar::      n_exp_binfail_SIG_proc_LDMX_NoHcal_Background = 1
- 26) RooRealVar:: n_exp_binpass_HIGH_proc_LDMX_NoHcal_Background_2x0 = 1
- 27) RooRealVar::  n_exp_binpass_LOW_proc_LDMX_NoHcal_Background_2x0 = 1
- 28) RooRealVar::  n_exp_binpass_SIG_proc_LDMX_NoHcal_Background_2x0 = 1
- 29) RooRealVar::                                                  r = 0
+  9) RooRealVar::            LDMX_NoHcal_Background_fail_LOW_bin_1-1 = 1737
+ 10) RooRealVar::            LDMX_NoHcal_Background_fail_LOW_bin_2-1 = 19197
+ 11) RooRealVar::            LDMX_NoHcal_Background_fail_SIG_bin_1-1 = 8.69364e+06
+ 12) RooRealVar::                LDMX_NoHcal_Background_rpf_2x0_par0 = 0.1 +/- 0.1
+ 13) RooRealVar::                LDMX_NoHcal_Background_rpf_2x0_par1 = 50 +/- 0.1
+ 14) RooRealVar::                LDMX_NoHcal_Background_rpf_2x0_par2 = 0 +/- 0.1
+ 15) RooRealVar::                LDMX_NoHcal_Background_rpf_2x0_par3 = 0.1 +/- 0.1
+ 16) RooRealVar::                                     mask_fail_HIGH = 0
+ 17) RooRealVar::                                      mask_fail_LOW = 0
+ 18) RooRealVar::                                      mask_fail_SIG = 0
+ 19) RooRealVar::                                     mask_pass_HIGH = 1
+ 20) RooRealVar::                                      mask_pass_LOW = 0
+ 21) RooRealVar::                                      mask_pass_SIG = 1
+ 22) RooRealVar::     n_exp_binfail_HIGH_proc_LDMX_NoHcal_Background = 1
+ 23) RooRealVar::      n_exp_binfail_LOW_proc_LDMX_NoHcal_Background = 1
+ 24) RooRealVar::      n_exp_binfail_SIG_proc_LDMX_NoHcal_Background = 1
+ 25) RooRealVar:: n_exp_binpass_HIGH_proc_LDMX_NoHcal_Background_2x0 = 1
+ 26) RooRealVar::  n_exp_binpass_LOW_proc_LDMX_NoHcal_Background_2x0 = 1
+ 27) RooRealVar::  n_exp_binpass_SIG_proc_LDMX_NoHcal_Background_2x0 = 1
+ 28) RooRealVar::                                                  r = 0
 Obs: 
   1) RooRealVar::  pT_LOW_default = 38
   2) RooRealVar::       N_default = 1
   3) RooRealVar::  pT_SIG_default = 56.5
-  4) RooRealVar:: pT_HIGH_default = 1402.5
+  4) RooRealVar:: pT_HIGH_default = 703
   5) RooCategory::     CMS_channel = pass_SIG(idx = 1)
 
->> Found 16 floating parameters
+>> Found 15 floating parameters
 >> The following parameters are protected in the event of negative eigenvalues:
 >> Parameter LDMX_NoHcal_Background_rpf_2x0_par2 does not have a valid stencil and will be dropped
 >> Verifying eigenvalues are all positive (iteration 0)
-Eigenvalue 13 : -0.00879416
- - 0.874056	LDMX_NoHcal_Background_rpf_2x0_par0
- - -0.483762	LDMX_NoHcal_Background_rpf_2x0_par1
- - -0.044621	LDMX_NoHcal_Background_rpf_2x0_par3
- - -0.00295866	LDMX_NoHcal_Background_fail_LOW_bin_1-1
- - 0.000838683	LDMX_NoHcal_Background_fail_LOW_bin_2-1
-Eigenvalue 14 : -0.012574
- - 0.754011	LDMX_NoHcal_Background_rpf_2x0_par3
- - -0.590262	LDMX_NoHcal_Background_rpf_2x0_par1
- - -0.288196	LDMX_NoHcal_Background_rpf_2x0_par0
- - 0.00105621	LDMX_NoHcal_Background_fail_LOW_bin_1-1
- - 0.000910004	LDMX_NoHcal_Background_fail_LOW_bin_2-1
+Eigenvalue 12 : -0.00880148
+ - 0.879008	LDMX_NoHcal_Background_rpf_2x0_par0
+ - -0.473546	LDMX_NoHcal_Background_rpf_2x0_par1
+ - -0.0555807	LDMX_NoHcal_Background_rpf_2x0_par3
+ - -0.00297211	LDMX_NoHcal_Background_fail_LOW_bin_1-1
+ - 0.000829982	LDMX_NoHcal_Background_fail_LOW_bin_2-1
+Eigenvalue 13 : -0.0125705
+ - -0.756025	LDMX_NoHcal_Background_rpf_2x0_par3
+ - 0.59501	LDMX_NoHcal_Background_rpf_2x0_par1
+ - 0.272741	LDMX_NoHcal_Background_rpf_2x0_par0
+ - -0.00100421	LDMX_NoHcal_Background_fail_LOW_bin_1-1
+ - -0.000932774	LDMX_NoHcal_Background_fail_LOW_bin_2-1
 >> Attempt 0 failed, remove the variable with largest eigenvector component...
 >> Dropping LDMX_NoHcal_Background_rpf_2x0_par3 from the hessian
 >> Verifying eigenvalues are all positive (iteration 1)
-Eigenvalue 13 : -0.00880743
- - -0.855236	LDMX_NoHcal_Background_rpf_2x0_par0
- - 0.51823	LDMX_NoHcal_Background_rpf_2x0_par1
- - 0.0028874	LDMX_NoHcal_Background_fail_LOW_bin_1-1
- - -0.000908645	LDMX_NoHcal_Background_fail_LOW_bin_2-1
- - -4.78581e-14	LDMX_NoHcal_Background_fail_HIGH_bin_3-1
+Eigenvalue 12 : -0.00882186
+ - -0.856318	LDMX_NoHcal_Background_rpf_2x0_par0
+ - 0.51644	LDMX_NoHcal_Background_rpf_2x0_par1
+ - 0.00288595	LDMX_NoHcal_Background_fail_LOW_bin_1-1
+ - -0.000917855	LDMX_NoHcal_Background_fail_LOW_bin_2-1
+ - 5.18913e-16	LDMX_NoHcal_Background_fail_HIGH_bin_4-1
 >> Attempt 1 failed, remove the variable with largest eigenvector component...
 >> Dropping LDMX_NoHcal_Background_rpf_2x0_par0 from the hessian
 >> Verifying eigenvalues are all positive (iteration 2)
@@ -82,40 +81,52 @@ Eigenvalue 13 : -0.00880743
      - LDMX_NoHcal_Background_rpf_2x0_par0
  Fit B-only, status = 0, numBadNLL = 0, covariance quality = -1
 Running Minos for POI r
->> Found 17 floating parameters
+>> Found 16 floating parameters
 >> The following parameters are protected in the event of negative eigenvalues: r
 >> Parameter LDMX_NoHcal_Background_rpf_2x0_par2 does not have a valid stencil and will be dropped
 >> Verifying eigenvalues are all positive (iteration 0)
-Eigenvalue 14 : -0.00471391
- - 0.879643	r
- - -0.369018	LDMX_NoHcal_Background_rpf_2x0_par1
- - -0.299065	LDMX_NoHcal_Background_rpf_2x0_par0
- - 0.0174772	LDMX_NoHcal_Background_rpf_2x0_par3
- - -0.0137211	LDMX_NoHcal_Background_fail_SIG_bin_1-1
-Eigenvalue 15 : -0.0105918
- - -0.795774	LDMX_NoHcal_Background_rpf_2x0_par0
- - 0.547133	LDMX_NoHcal_Background_rpf_2x0_par3
- - -0.242117	r
- - 0.0934834	LDMX_NoHcal_Background_rpf_2x0_par1
- - 0.00366678	LDMX_NoHcal_Background_fail_SIG_bin_1-1
+Eigenvalue 12 : -0.00283166
+ - -0.788397	r
+ - 0.484839	LDMX_NoHcal_Background_rpf_2x0_par0
+ - 0.342408	LDMX_NoHcal_Background_rpf_2x0_par3
+ - -0.160806	LDMX_NoHcal_Background_rpf_2x0_par1
+ - 0.0124389	LDMX_NoHcal_Background_fail_SIG_bin_1-1
+Eigenvalue 13 : -0.0102113
+ - -0.796443	LDMX_NoHcal_Background_rpf_2x0_par0
+ - 0.467004	LDMX_NoHcal_Background_rpf_2x0_par3
+ - -0.327711	r
+ - 0.200365	LDMX_NoHcal_Background_rpf_2x0_par1
+ - 0.00498118	LDMX_NoHcal_Background_fail_SIG_bin_1-1
+Eigenvalue 14 : -0.0133792
+ - -0.754084	LDMX_NoHcal_Background_rpf_2x0_par1
+ - 0.540382	LDMX_NoHcal_Background_rpf_2x0_par3
+ - 0.372311	r
+ - -0.0260972	LDMX_NoHcal_Background_rpf_2x0_par0
+ - -0.00557155	LDMX_NoHcal_Background_fail_SIG_bin_1-1
 >> Attempt 0 failed, remove the variable with largest eigenvector component...
->> Dropping LDMX_NoHcal_Background_rpf_2x0_par0 from the hessian
->> Verifying eigenvalues are all positive (iteration 1)
-Eigenvalue 14 : -0.00554892
- - -0.916965	r
- - 0.287268	LDMX_NoHcal_Background_rpf_2x0_par1
- - 0.276265	LDMX_NoHcal_Background_rpf_2x0_par3
- - 0.0142427	LDMX_NoHcal_Background_fail_SIG_bin_1-1
- - 0.0105424	LDMX_NoHcal_Background_fail_HIGH_bin_1-1
->> Attempt 1 failed, remove the variable with largest eigenvector component...
 >> Dropping LDMX_NoHcal_Background_rpf_2x0_par1 from the hessian
+>> Verifying eigenvalues are all positive (iteration 1)
+Eigenvalue 12 : -0.00325358
+ - -0.868069	r
+ - 0.419646	LDMX_NoHcal_Background_rpf_2x0_par0
+ - 0.264658	LDMX_NoHcal_Background_rpf_2x0_par3
+ - 0.0136662	LDMX_NoHcal_Background_fail_SIG_bin_1-1
+ - 0.0101158	LDMX_NoHcal_Background_fail_HIGH_bin_1-1
+Eigenvalue 13 : -0.0104244
+ - 0.785438	LDMX_NoHcal_Background_rpf_2x0_par0
+ - -0.585314	LDMX_NoHcal_Background_rpf_2x0_par3
+ - 0.201177	r
+ - -0.00305465	LDMX_NoHcal_Background_fail_SIG_bin_1-1
+ - -0.00254168	LDMX_NoHcal_Background_fail_LOW_bin_1-1
+>> Attempt 1 failed, remove the variable with largest eigenvector component...
+>> Dropping LDMX_NoHcal_Background_rpf_2x0_par0 from the hessian
 >> Verifying eigenvalues are all positive (iteration 2)
-Eigenvalue 13 : -0.00471377
- - -0.85213	r
- - 0.523054	LDMX_NoHcal_Background_rpf_2x0_par3
- - 0.013292	LDMX_NoHcal_Background_fail_SIG_bin_1-1
- - 0.00983867	LDMX_NoHcal_Background_fail_HIGH_bin_1-1
- - 0.00339679	LDMX_NoHcal_Background_fail_LOW_bin_2-1
+Eigenvalue 12 : -0.00485245
+ - -0.858011	r
+ - 0.513347	LDMX_NoHcal_Background_rpf_2x0_par3
+ - 0.0133978	LDMX_NoHcal_Background_fail_SIG_bin_1-1
+ - 0.00991716	LDMX_NoHcal_Background_fail_HIGH_bin_1-1
+ - 0.00341201	LDMX_NoHcal_Background_fail_LOW_bin_2-1
 >> Attempt 2 failed, remove the variable with largest eigenvector component...
 >> Dropping LDMX_NoHcal_Background_rpf_2x0_par3 from the hessian
 >> Verifying eigenvalues are all positive (iteration 3)
@@ -125,12 +136,12 @@ Eigenvalue 13 : -0.00471377
 >> Note: the following parameters were dropped as their ranges are either too narrow or the parameter has no effect on the NLL:
      - LDMX_NoHcal_Background_rpf_2x0_par2
 >> Note: the following parameters were dropped to make the covariance matrix pos-def:
-     - LDMX_NoHcal_Background_rpf_2x0_par0
      - LDMX_NoHcal_Background_rpf_2x0_par1
+     - LDMX_NoHcal_Background_rpf_2x0_par0
      - LDMX_NoHcal_Background_rpf_2x0_par3
 Fit S+B, status = 0, numBadNLL = 0, covariance quality = -1
 
  --- FitDiagnostics ---
-Best fit r: 1.50182e-08  -1.50182e-08/+50  (68% CL)
+Best fit r: 2.14739e-09  -2.14739e-09/+50  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
-24 log messages saved to combine_logger.out
+23 log messages saved to combine_logger.out

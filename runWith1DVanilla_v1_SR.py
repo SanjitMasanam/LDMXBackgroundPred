@@ -385,7 +385,7 @@ if __name__ == "__main__":
           rMax = rMax / 2.
       plot_fit(signal,tf_type)
       print("\n\n\nFit is succesful, running limits now for " + str(signal))
-      run_limits(signal,tf_type)
+      #run_limits(signal,tf_type)
       #GOF(signal,tf_type,condor=False)#,extra='--text2workspace --channel-masks --setParameters mask_pass_SIG=1,mask_pass_HIGH=1')
       #plot_GOF(signal,tf_type,condor=False)
       #for r in [0,0.1,0.5,1,2,3]:

@@ -1,21 +1,23 @@
 CascadeMinimizer.cc[188] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
 CascadeMinimizer.cc[215] : (in function: improveOnce) - Minimization finished with status=0
 CascadeMinimizer.cc[219] : (in function: improveOnce) - Minimization success! status=0
-ToyMCSamplerOpt.cc[146] : (in function: generateAsimov) - Using internal logic for binned/unbinned Asimov dataset generation
-ToyMCSamplerOpt.cc[214] : (in function: generateWithHisto) - Generating asimov with histogram for pdf pdf_binpass_LOW: in 2 x-bins
-ToyMCSamplerOpt.cc[215] : (in function: generateWithHisto) -  , in 1 y-bins
-ToyMCSamplerOpt.cc[146] : (in function: generateAsimov) - Using internal logic for binned/unbinned Asimov dataset generation
-ToyMCSamplerOpt.cc[214] : (in function: generateWithHisto) - Generating asimov with histogram for pdf pdf_binpass_SIG: in 1 x-bins
-ToyMCSamplerOpt.cc[215] : (in function: generateWithHisto) -  , in 1 y-bins
-ToyMCSamplerOpt.cc[146] : (in function: generateAsimov) - Using internal logic for binned/unbinned Asimov dataset generation
-ToyMCSamplerOpt.cc[214] : (in function: generateWithHisto) - Generating asimov with histogram for pdf pdf_binpass_HIGH: in 9 x-bins
-ToyMCSamplerOpt.cc[215] : (in function: generateWithHisto) -  , in 1 y-bins
-ToyMCSamplerOpt.cc[146] : (in function: generateAsimov) - Using internal logic for binned/unbinned Asimov dataset generation
-ToyMCSamplerOpt.cc[214] : (in function: generateWithHisto) - Generating asimov with histogram for pdf pdf_binfail_LOW: in 2 x-bins
-ToyMCSamplerOpt.cc[215] : (in function: generateWithHisto) -  , in 1 y-bins
-ToyMCSamplerOpt.cc[146] : (in function: generateAsimov) - Using internal logic for binned/unbinned Asimov dataset generation
-ToyMCSamplerOpt.cc[214] : (in function: generateWithHisto) - Generating asimov with histogram for pdf pdf_binfail_SIG: in 1 x-bins
-ToyMCSamplerOpt.cc[215] : (in function: generateWithHisto) -  , in 1 y-bins
-ToyMCSamplerOpt.cc[146] : (in function: generateAsimov) - Using internal logic for binned/unbinned Asimov dataset generation
-ToyMCSamplerOpt.cc[214] : (in function: generateWithHisto) - Generating asimov with histogram for pdf pdf_binfail_HIGH: in 9 x-bins
-ToyMCSamplerOpt.cc[215] : (in function: generateWithHisto) -  , in 1 y-bins
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter LDMX_NoHcal_Background_rpf_2x0_par0 at boundary (within ~1sigma): 1.16052e-05+/-0.555515
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter LDMX_NoHcal_Background_rpf_2x0_par1 at boundary (within ~1sigma): 50.3578+/-0.64416
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter LDMX_NoHcal_Background_rpf_2x0_par2 at boundary (within ~1sigma): -9.77466+/-40.8458
+CascadeMinimizer.cc[483] : (in function: minimize) - [WARNING] After fit, some parameters are found at the boundary (within ~1sigma)
+CascadeMinimizer.cc[188] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[215] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[219] : (in function: improveOnce) - Minimization success! status=0
+FitDiagnostics.cc[318] : (in function: runSpecific) -  Fit B-only, status = 0, numBadNLL = 0, covariance quality = -1
+CascadeMinimizer.cc[188] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[215] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[219] : (in function: improveOnce) - Minimization success! status=0
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter LDMX_NoHcal_Background_rpf_2x0_par0 at boundary (within ~1sigma): 0.000980914+/-0.00531032
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter LDMX_NoHcal_Background_rpf_2x0_par1 at boundary (within ~1sigma): 50.0001+/-0.221935
+utils.cc[1040] : (in function: anyParameterAtBoundaries) - [WARNING] Found parameter LDMX_NoHcal_Background_rpf_2x0_par2 at boundary (within ~1sigma): -49.6808+/-33.2661
+CascadeMinimizer.cc[483] : (in function: minimize) - [WARNING] After fit, some parameters are found at the boundary (within ~1sigma)
+CascadeMinimizer.cc[188] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[215] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[219] : (in function: improveOnce) - Minimization success! status=0
+FitterAlgoBase.cc[344] : (in function: doFit) - Running Minos for POI r
+FitDiagnostics.cc[443] : (in function: runSpecific) - Fit S+B, status = 0, numBadNLL = 0, covariance quality = -1
