@@ -241,7 +241,7 @@ def run_limits(signal, tf):
     twoD.Limit(
 	subtag='{}-{}_area'.format(signal, tf),
 	blindData=True,	# BE SURE TO CHANGE THIS IF YOU NEED TO BLIND YOUR DATA 
-	verbosity=1,
+	verbosity=10,
 	condor=False
     )
 

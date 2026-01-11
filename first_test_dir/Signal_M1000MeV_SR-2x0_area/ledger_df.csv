@@ -1,5 +1,0 @@
-,process,region,binning,color,process_type,scale,variation,source_filename,source_histname,alias,title,combine_idx,lnN,shapes,syst_type,direction,variation_alias
-0,data_obs,pass,default,black,DATA,1.0,nominal,./histograms_for_2DAlphabet_v1/NoHcalLDMX_PNbkg_SR.root,hpass,PNbkg_SR,PNbkg_SR,,,,,,
-4,Signal_M1000MeV_SR,pass,default,red,SIGNAL,1.0,nominal,./histograms_for_2DAlphabet_v1/NoHcalLDMX_Signal_M1000MeV_SR.root,hpass,Signal_M1000MeV_SR,DM Signal,,,,,,
-5,data_obs,fail,default,black,DATA,1.0,nominal,./histograms_for_2DAlphabet_v1/NoHcalLDMX_PNbkg_SR.root,hfail,PNbkg_SR,PNbkg_SR,,,,,,
-9,Signal_M1000MeV_SR,fail,default,red,SIGNAL,1.0,nominal,./histograms_for_2DAlphabet_v1/NoHcalLDMX_Signal_M1000MeV_SR.root,hfail,Signal_M1000MeV_SR,DM Signal,,,,,,
