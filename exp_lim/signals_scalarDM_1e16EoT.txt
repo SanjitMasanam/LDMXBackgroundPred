@@ -1,0 +1,4 @@
+../rpf2x0_Binningv1_Inputv1_SR_Unblind/Signal_M1MeV_SR-2x0_area, ../rpf2x0_Binningv1_Inputv1_SR_Unblind/Signal_M10MeV_SR-2x0_area, ../rpf2x0_Binningv1_Inputv1_SR_Unblind/Signal_M100MeV_SR-2x0_area, ../rpf2x0_Binningv1_Inputv1_SR_Unblind/Signal_M1000MeV_SR-2x0_area,
+1, 10, 100, 1000
+10000, 10000, 10000, 10000
+164, 1216, 807, 1
