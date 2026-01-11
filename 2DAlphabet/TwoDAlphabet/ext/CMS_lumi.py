@@ -6,7 +6,7 @@ import ROOT as rt
 #   Updated by:   Dinko Ferencek (Rutgers)
 #
 
-cmsText     = "LDMX";
+cmsText     = "LDMX"
 cmsTextFont   = 61  
 
 writeExtraText = True
@@ -144,7 +144,7 @@ def CMS_lumi(pad,  iPeriod=4,  iPosX=11, sim=False ):
             yl_0 = posY_ - 0.15
             xl_1 = posX_ + 0.15*H/W
             yl_1 = posY_
-            CMS_logo = rt.TASImage("CMS-BW-label.png")
+            #CMS_logo = rt.TASImage("CMS-BW-label.png")
             pad_logo =  rt.TPad("logo","logo", xl_0, yl_0, xl_1, yl_1 )
             pad_logo.Draw()
             pad_logo.cd()

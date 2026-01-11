@@ -36,9 +36,9 @@ def convert_hist_to_tev(h_gev):
 
 if __name__ == "__main__":
     
-    binning = "V5"
-    inVersion = "V21" #"V21"
-    tf = "1x0" # "Expo"
+    binning = "V1"
+    inVersion = "V1" #"V21"
+    tf = "2x0" # "Expo"
     
     # for MBH_val in range(3000, 12000, 1000):
     for MBH_val in [10000]:
@@ -50,11 +50,11 @@ if __name__ == "__main__":
         # ===========================
         # rootdir = f'/home/users/dazhang/works/phaseSpace/BlackHoleSearch/CMSSW_14_1_0_pre4/src/rpf{tf}_Binning{binning}_Blind_In{inVersion}_Multi4_FullScan_MD2TeV'
         # rootdir = f'/home/users/dazhang/works/phaseSpace/BlackHoleSearch/CMSSW_14_1_0_pre4/src/rpf{tf}_Binning{binning}_Blind_In{inVersion}_Multi4'
-        rootdir = f'/home/users/smasanam/EarthAsDMProject/CMSSW_14_1_0_pre4/src/rpfmult_Binningv6alt_Inputv13_VR2_Unblind_3000GeV_normalized'
+        rootdir = f'/home/users/smasanam/EarthAsDMProject/CMSSW_14_1_0_pre5/src/rpfmult_Binningv1_Inputv1_SR_Unblind_10MeV_random'
         # rootdir = f'/home/users/dazhang/works/phaseSpace/BlackHoleSearch/CMSSW_14_1_0_pre4/src/rpf{tf}_Binning{binning}_Unblind_In{inVersion}_Multi4'
         # rootdir = f'/home/users/dazhang/works/phaseSpace/BlackHoleSearch/CMSSW_14_1_0_pre4/src/rpf{tf}_Binning{binning}_Unblind_In{inVersion}_Multi4_FullScan_MD2TeV'
         # rootdir = f'/home/users/dazhang/works/phaseSpace/BlackHoleSearch/CMSSW_14_1_0_pre4/src/rpf{tf}_Binning{binning}_Blind_In{inVersion}_Multi4_Extrapol'
-        f = ROOT.TFile.Open(f"/home/users/smasanam/EarthAsDMProject/CMSSW_14_1_0_pre4/src/rpfmult_Binningv6alt_Inputv13_VR2_Unblind_3000GeV_normalized/Signal_M3000GeV-1x0_area/plots_fit_b/all_plots.root")
+        f = ROOT.TFile.Open(f"/home/users/smasanam/EarthAsDMProject/CMSSW_14_1_0_pre5/src/rpfmult_Binningv1_Inputv1_SR_Unblind_10MeV_random/Signal_M10MeV_SR-2x0_area/plots_fit_b/all_plots.root")
         # get the histogram
         h_fail = f.Get("TotalBkg_fail_postfit_projx2")
         h_pass = f.Get("TotalBkg_pass_postfit_projx2")
@@ -76,7 +76,7 @@ if __name__ == "__main__":
         # ===========================
         # Get fit results from fitDiagnosticsTest.root
         # ===========================
-        f_fit = ROOT.TFile.Open(f"{rootdir}/Signal_M3000GeV-{tf.lower()}_area/fitDiagnosticsTest.root")
+        f_fit = ROOT.TFile.Open(f"{rootdir}/Signal_M10MeV_SR-{tf.lower()}_area/fitDiagnosticsTest.root")
         fit_result = f_fit.Get("fit_b")
         final_parameters = fit_result.floatParsFinal()
         # get the parameter of interest
@@ -192,7 +192,7 @@ if __name__ == "__main__":
         # h_ratio.GetYaxis().SetRangeUser(0, 0.2)
         h_ratio.GetXaxis().SetTitle("p_{T} [GeV]")
         h_ratio.GetYaxis().SetTitle("Transfer Factor")
-        h_ratio.GetYaxis().SetRangeUser(0, 0.0003)
+        h_ratio.GetYaxis().SetRangeUser(0, 0.003)
         h_ratio.GetXaxis().SetTitleSize(0.05)
         h_ratio.GetYaxis().SetTitleSize(0.05)
         #tdrstyle.drawCMSLabel(label="Preliminary")

@@ -1,0 +1,1 @@
+combine -M AsymptoticLimits -d card.txt --saveWorkspace --cminDefaultMinimizerStrategy 0  --run=blind -v 1 --rRelAcc 0.5 --rAbsAcc 0.5

@@ -1,5 +1,5 @@
 ,process,region,obj,norm,process_type,color,combine_idx,title
-0,LDMX_NoHcal_Background,fail,,,BKG,yellow,,LDMX_NoHcal_Background
+0,PN Background,fail,,,BKG,yellow,,PN Background
 1,LDMX_NoHcal_Background_0x0,pass,,,BKG,yellow,,LDMX_NoHcal_Background
 2,LDMX_NoHcal_Background_1x0,pass,,,BKG,yellow,,LDMX_NoHcal_Background
 3,LDMX_NoHcal_Background_1x0Prime,pass,,,BKG,yellow,,LDMX_NoHcal_Background

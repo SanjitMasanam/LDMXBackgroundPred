@@ -91,9 +91,9 @@ def _select_signal(row, args):
         else:
             return False
     elif 'Background' in row.process:
-        if row.process == 'LDMX_NoHcal_Background_'+poly_order:
+        if row.process == 'Background_'+poly_order:
             return True
-        elif row.process == 'LDMX_NoHcal_Background':
+        elif row.process == 'Background':
             return True
         else:
             return False
@@ -119,11 +119,11 @@ def make_workspace():
     # get the binning for the fail region
     binning_f, _ = twoD.GetBinningFor(f)
     # you can change the name as you see fit 
-    fail_name = 'LDMX_NoHcal_Background_'+f
+    fail_name = 'Background'+f
     # this is the actual binned distribution of the fail
     bkg_f = BinnedDistribution(fail_name, bkg_hists[f], binning_f, constant=False)
     # now we add it to the 2DAlphabet ledger
-    twoD.AddAlphaObj('LDMX_NoHcal_Background',f, bkg_f)
+    twoD.AddAlphaObj('Background',f, bkg_f)
 
     # now construct all of the possible transfer functions, to be chosen and used later
     for opt_name, opt in _rpf_options.items():
@@ -138,7 +138,7 @@ def make_workspace():
            bkg_p = bkg_f.Multiply(fail_name.replace('fail','pass')+'_'+opt_name, bkg_rpf)
 
            # then add this to the 2DAlphabet ledger
-           twoD.AddAlphaObj('LDMX_NoHcal_Background_'+opt_name,p,bkg_p,title='LDMX_NoHcal_Background')
+           twoD.AddAlphaObj('Background_'+opt_name,p,bkg_p,title='Background')
 
     # and save it out
     twoD.Save()
@@ -240,7 +240,7 @@ def run_limits(signal, tf):
     twoD = TwoDAlphabet(working_area, '{}/runConfig.json'.format(working_area), loadPrevious=True)
     twoD.Limit(
 	subtag='{}-{}_area'.format(signal, tf),
-	blindData=False,	# BE SURE TO CHANGE THIS IF YOU NEED TO BLIND YOUR DATA 
+	blindData=True,	# BE SURE TO CHANGE THIS IF YOU NEED TO BLIND YOUR DATA 
 	verbosity=1,
 	condor=False
     )
@@ -361,8 +361,8 @@ def test_FTest(poly1, poly2, signal=''):
 if __name__ == "__main__":
     make_workspace()
     
-    signal_areas = ["Signal_M1MeV_SR","Signal_M1MeV_SR","Signal_M1MeV_SR","Signal_M1MeV_SR"] 
-    tf_types = ['2x0', '1x0', '0x0', 'expo']
+    signal_areas = ["Signal_M1MeV_SR","Signal_M10MeV_SR","Signal_M100MeV_SR","Signal_M1000MeV_SR"] 
+    tf_types = ['2x0'] * 4
 
     for signal, tf_type in zip(signal_areas,tf_types) :
       # IGNORE: When there are 100 signals, let's make sure we only run on the ones we didnt do before
@@ -380,7 +380,7 @@ if __name__ == "__main__":
           rMax = rMax / 2.
       plot_fit(signal,tf_type)
       print("\n\n\nFit is succesful, running limits now for " + str(signal))
-      #run_limits(signal,tf_type)
+      run_limits(signal,tf_type)
       #GOF(signal,tf_type,condor=False)#,extra='--text2workspace --channel-masks --setParameters mask_pass_SIG=1,mask_pass_HIGH=1')
       #plot_GOF(signal,tf_type,condor=False)
       #for r in [0,0.1,0.5,1,2,3]:
