@@ -599,8 +599,11 @@ def make_ax_1D(outname, binning, data, bkgs=[], signals=[], title='', subtitle='
     ax.autoscale(axis='x', tight=True)
     ax.margins(x=0) # remove white space at left and right margins of plot 
 
-    # hep.cms.label(loc=0, ax=ax, data = not dataOff, label=extraText, rlabel='') # CMS + label, where label is typically “Preliminary” “Supplementary”, “Private Work” or “Work in Progress”
-    # hep.cms.lumitext(lumiText, ax=ax)                       # Typically luminosity + sqrt(s)
+    # CMS style text for LDMX
+    # Replace CMS with LDMX - position above frame
+    fig.text(0.10, 0.93, 'LDMX', fontsize=22, fontweight='bold', va='top')
+    fig.text(0.20, 0.93, extraText, fontsize=18, style='italic', va='top')
+    hep.cms.lumitext(lumiText, ax=ax)                       # Typically luminosity + sqrt(s)
     # Can't use the hep.cms.text() wrapper without "CMS" being added, so add the slice text manually
     if slicetitle:
         slicetitle = r'${}$'.format(slicetitle.replace('#','\\'))

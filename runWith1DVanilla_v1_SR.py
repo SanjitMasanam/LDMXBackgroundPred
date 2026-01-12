@@ -165,7 +165,7 @@ def perform_fit(signal, tf, rMaxExt = 30, extra=''):
 
     # perform fit
     print("perform fit")
-    twoD.MLfit('{}-{}_area'.format(signal, tf), rMin=0, rMax=rMaxExt, verbosity=1, extra=extra)
+    twoD.MLfit('{}-{}_area'.format(signal, tf), rMin=0.00000001, rMax=rMaxExt, verbosity=1, extra=extra)
 
 def plot_fit(signal, tf):
     working_area = workingArea
@@ -363,7 +363,7 @@ if __name__ == "__main__":
     
     # signal_areas = ["Signal_M1000MeV_SR","Signal_M10MeV_SR","Signal_M100MeV_SR","Signal_M10MeV_SR"] 
     signal_areas = ["Signal_M1000MeV_SR"]
-    tf_types = ['0x0']# * 4
+    tf_types = ['expo']# * 4
 
     for signal, tf_type in zip(signal_areas,tf_types) :
       # IGNORE: When there are 100 signals, let's make sure we only run on the ones we didnt do before
