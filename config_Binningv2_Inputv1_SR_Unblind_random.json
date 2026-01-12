@@ -1,0 +1,74 @@
+{
+    "NAME": "NoHcalLDMX",
+    "GLOBAL": {
+        "FILE": "NoHcalLDMX_$process.root",
+        "HIST": "h$region",
+        "HIST_UP": "h$region_$syst_up",
+        "HIST_DOWN": "h$region_$syst_down",
+        "path": "./histograms_for_2DAlphabet_v1",
+        "SIGNAME": ["Signal_M1MeV_SR_random","Signal_M10MeV_SR_random","Signal_M100MeV_SR_random","Signal_M1000MeV_SR_random"]
+    },
+    "REGIONS": {
+        "pass": {
+            "PROCESSES": ["SIGNAME"],
+            "BINNING": "default"
+        },
+        "fail": {
+            "PROCESSES": ["SIGNAME"],
+            "BINNING": "default"
+        }
+    },
+    "PROCESSES": {
+        "data_obs": {
+            "SYSTEMATICS":[],
+            "COLOR": "black",
+            "SCALE": 1,
+            "TYPE": "DATA",
+            "TITLE": "PNbkg_SR_random",
+            "ALIAS": "PNbkg_SR_random",
+            "LOC": "path/FILE:HIST"
+        },
+        "SIGNAME": {
+            "SYSTEMATICS": ["lumi"],
+            "SYSTEMATICSNA":["lumi","RNN","pT","t0"],
+            "COLOR": "red",
+            "SCALE": 1.0,
+            "TYPE": "SIGNAL",
+            "TITLE": "DM Signal",
+            "LOC": "path/FILE:HIST"
+        }
+    },
+    "SYSTEMATICS": {
+        "lumi": {
+                "CODE": 0,
+                "VAL": 1.05
+        }
+    },
+    "BINNING": {
+        "default": {
+            "X": {
+                "NAME": "pT",
+                "TITLE": "p_{T}",
+                "BINS": [40,60,80,100,150,200,250,300,350,400,500,1000],
+                "SIGSTART":100,
+                "SIGEND": 500,
+                "NBINSna": 356,
+                "MINna": 500,
+                "MAXna": 5500
+            },
+            "Y": {
+                "NAME": "N",
+                "TITLE": "N",
+                "NBINS": 10,
+                "MIN": 0,
+                "MAX": 10
+            }
+        }
+    },
+    "OPTIONS": {
+        "blindedPlotsNA": ["pass"],
+        "plotTemplateComparisonsNA": true,
+        "plotEvtsPerUnitVolt" : true
+    }
+}
+
