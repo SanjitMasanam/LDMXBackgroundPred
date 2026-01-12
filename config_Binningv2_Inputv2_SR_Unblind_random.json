@@ -5,7 +5,7 @@
         "HIST": "h$region",
         "HIST_UP": "h$region_$syst_up",
         "HIST_DOWN": "h$region_$syst_down",
-        "path": "./histograms_for_2DAlphabet_v1",
+        "path": "./histograms_for_2DAlphabet_v2",
         "SIGNAME": ["Signal_M1MeV_SR_random","Signal_M10MeV_SR_random","Signal_M100MeV_SR_random","Signal_M1000MeV_SR_random"]
     },
     "REGIONS": {
