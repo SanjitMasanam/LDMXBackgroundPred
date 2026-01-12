@@ -8,86 +8,86 @@ Set Default Value of Parameter r To : 1
 >>> 2 out of 6 channels masked
 
 Parameters: 
-  1) RooRealVar::            Backgroundfail_HIGH_bin_1-1 = 767.505
-  2) RooRealVar::           Backgroundfail_HIGH_bin_1-10 = 801.617
-  3) RooRealVar::            Backgroundfail_HIGH_bin_1-2 = 750.45
-  4) RooRealVar::            Backgroundfail_HIGH_bin_1-3 = 903.951
-  5) RooRealVar::            Backgroundfail_HIGH_bin_1-4 = 1006.28
-  6) RooRealVar::            Backgroundfail_HIGH_bin_1-5 = 784.561
-  7) RooRealVar::            Backgroundfail_HIGH_bin_1-6 = 801.617
-  8) RooRealVar::            Backgroundfail_HIGH_bin_1-7 = 716.338
-  9) RooRealVar::            Backgroundfail_HIGH_bin_1-8 = 750.45
- 10) RooRealVar::            Backgroundfail_HIGH_bin_1-9 = 1057.45
- 11) RooRealVar::             Backgroundfail_LOW_bin_1-1 = 2933.58
- 12) RooRealVar::            Backgroundfail_LOW_bin_1-10 = 2592.46
- 13) RooRealVar::             Backgroundfail_LOW_bin_1-2 = 3172.36
- 14) RooRealVar::             Backgroundfail_LOW_bin_1-3 = 2643.63
- 15) RooRealVar::             Backgroundfail_LOW_bin_1-4 = 2626.57
- 16) RooRealVar::             Backgroundfail_LOW_bin_1-5 = 3121.19
- 17) RooRealVar::             Backgroundfail_LOW_bin_1-6 = 3172.36
+  1) RooRealVar::            Backgroundfail_HIGH_bin_1-1 = 801.617
+  2) RooRealVar::           Backgroundfail_HIGH_bin_1-10 = 784.561
+  3) RooRealVar::            Backgroundfail_HIGH_bin_1-2 = 886.895
+  4) RooRealVar::            Backgroundfail_HIGH_bin_1-3 = 699.283
+  5) RooRealVar::            Backgroundfail_HIGH_bin_1-4 = 835.728
+  6) RooRealVar::            Backgroundfail_HIGH_bin_1-5 = 852.784
+  7) RooRealVar::            Backgroundfail_HIGH_bin_1-6 = 818.672
+  8) RooRealVar::            Backgroundfail_HIGH_bin_1-7 = 835.728
+  9) RooRealVar::            Backgroundfail_HIGH_bin_1-8 = 955.118
+ 10) RooRealVar::            Backgroundfail_HIGH_bin_1-9 = 869.839
+ 11) RooRealVar::             Backgroundfail_LOW_bin_1-1 = 3172.36
+ 12) RooRealVar::            Backgroundfail_LOW_bin_1-10 = 2438.96
+ 13) RooRealVar::             Backgroundfail_LOW_bin_1-2 = 3325.86
+ 14) RooRealVar::             Backgroundfail_LOW_bin_1-3 = 3155.3
+ 15) RooRealVar::             Backgroundfail_LOW_bin_1-4 = 3189.41
+ 16) RooRealVar::             Backgroundfail_LOW_bin_1-5 = 3189.41
+ 17) RooRealVar::             Backgroundfail_LOW_bin_1-6 = 2575.41
  18) RooRealVar::             Backgroundfail_LOW_bin_1-7 = 2780.08
- 19) RooRealVar::             Backgroundfail_LOW_bin_1-8 = 3359.97
- 20) RooRealVar::             Backgroundfail_LOW_bin_1-9 = 3223.52
- 21) RooRealVar::             Backgroundfail_LOW_bin_2-1 = 32422.8
- 22) RooRealVar::            Backgroundfail_LOW_bin_2-10 = 32712.8
- 23) RooRealVar::             Backgroundfail_LOW_bin_2-2 = 33565.6
- 24) RooRealVar::             Backgroundfail_LOW_bin_2-3 = 32371.7
- 25) RooRealVar::             Backgroundfail_LOW_bin_2-4 = 33565.6
- 26) RooRealVar::             Backgroundfail_LOW_bin_2-5 = 31877.1
- 27) RooRealVar::             Backgroundfail_LOW_bin_2-6 = 33207.4
- 28) RooRealVar::             Backgroundfail_LOW_bin_2-7 = 32525.2
- 29) RooRealVar::             Backgroundfail_LOW_bin_2-8 = 32883.3
- 30) RooRealVar::             Backgroundfail_LOW_bin_2-9 = 32286.4
- 31) RooRealVar::             Backgroundfail_LOW_bin_3-1 = 1.48087e+07
- 32) RooRealVar::            Backgroundfail_LOW_bin_3-10 = 1.47979e+07
- 33) RooRealVar::             Backgroundfail_LOW_bin_3-2 = 1.48158e+07
- 34) RooRealVar::             Backgroundfail_LOW_bin_3-3 = 1.48431e+07
- 35) RooRealVar::             Backgroundfail_LOW_bin_3-4 = 1.48297e+07
- 36) RooRealVar::             Backgroundfail_LOW_bin_3-5 = 1.48197e+07
- 37) RooRealVar::             Backgroundfail_LOW_bin_3-6 = 1.48642e+07
- 38) RooRealVar::             Backgroundfail_LOW_bin_3-7 = 1.48416e+07
- 39) RooRealVar::             Backgroundfail_LOW_bin_3-8 = 1.48201e+07
- 40) RooRealVar::             Backgroundfail_LOW_bin_3-9 = 1.48352e+07
- 41) RooRealVar::             Backgroundfail_LOW_bin_4-1 = 901478
- 42) RooRealVar::            Backgroundfail_LOW_bin_4-10 = 898646
- 43) RooRealVar::             Backgroundfail_LOW_bin_4-2 = 902774
- 44) RooRealVar::             Backgroundfail_LOW_bin_4-3 = 904292
- 45) RooRealVar::             Backgroundfail_LOW_bin_4-4 = 908078
- 46) RooRealVar::             Backgroundfail_LOW_bin_4-5 = 900983
- 47) RooRealVar::             Backgroundfail_LOW_bin_4-6 = 903746
- 48) RooRealVar::             Backgroundfail_LOW_bin_4-7 = 900693
- 49) RooRealVar::             Backgroundfail_LOW_bin_4-8 = 905025
- 50) RooRealVar::             Backgroundfail_LOW_bin_4-9 = 901478
- 51) RooRealVar::             Backgroundfail_LOW_bin_5-1 = 11018
- 52) RooRealVar::            Backgroundfail_LOW_bin_5-10 = 10847.4
- 53) RooRealVar::             Backgroundfail_LOW_bin_5-2 = 11205.6
- 54) RooRealVar::             Backgroundfail_LOW_bin_5-3 = 11035
- 55) RooRealVar::             Backgroundfail_LOW_bin_5-4 = 10847.4
- 56) RooRealVar::             Backgroundfail_LOW_bin_5-5 = 9875.24
- 57) RooRealVar::             Backgroundfail_LOW_bin_5-6 = 10489.2
- 58) RooRealVar::             Backgroundfail_LOW_bin_5-7 = 11120.3
- 59) RooRealVar::             Backgroundfail_LOW_bin_5-8 = 11120.3
- 60) RooRealVar::             Backgroundfail_LOW_bin_5-9 = 11205.6
- 61) RooRealVar::             Backgroundfail_SIG_bin_1-1 = 2643.63
- 62) RooRealVar::            Backgroundfail_SIG_bin_1-10 = 2728.91
- 63) RooRealVar::             Backgroundfail_SIG_bin_1-2 = 2336.63
- 64) RooRealVar::             Backgroundfail_SIG_bin_1-3 = 2745.96
- 65) RooRealVar::             Backgroundfail_SIG_bin_1-4 = 2694.8
- 66) RooRealVar::             Backgroundfail_SIG_bin_1-5 = 2916.52
- 67) RooRealVar::             Backgroundfail_SIG_bin_1-6 = 2848.3
- 68) RooRealVar::             Backgroundfail_SIG_bin_1-7 = 2950.63
- 69) RooRealVar::             Backgroundfail_SIG_bin_1-8 = 2831.24
- 70) RooRealVar::             Backgroundfail_SIG_bin_1-9 = 2882.41
- 71) RooRealVar::             Backgroundfail_SIG_bin_2-1 = 1398.57
- 72) RooRealVar::            Backgroundfail_SIG_bin_2-10 = 1313.29
- 73) RooRealVar::             Backgroundfail_SIG_bin_2-2 = 1466.79
+ 19) RooRealVar::             Backgroundfail_LOW_bin_1-8 = 3070.02
+ 20) RooRealVar::             Backgroundfail_LOW_bin_1-9 = 2728.91
+ 21) RooRealVar::             Backgroundfail_LOW_bin_2-1 = 31774.7
+ 22) RooRealVar::            Backgroundfail_LOW_bin_2-10 = 34060.2
+ 23) RooRealVar::             Backgroundfail_LOW_bin_2-2 = 32849.2
+ 24) RooRealVar::             Backgroundfail_LOW_bin_2-3 = 32661.6
+ 25) RooRealVar::             Backgroundfail_LOW_bin_2-4 = 32832.2
+ 26) RooRealVar::             Backgroundfail_LOW_bin_2-5 = 32883.3
+ 27) RooRealVar::             Backgroundfail_LOW_bin_2-6 = 32764
+ 28) RooRealVar::             Backgroundfail_LOW_bin_2-7 = 33071
+ 29) RooRealVar::             Backgroundfail_LOW_bin_2-8 = 32576.3
+ 30) RooRealVar::             Backgroundfail_LOW_bin_2-9 = 31945.3
+ 31) RooRealVar::             Backgroundfail_LOW_bin_3-1 = 1.48088e+07
+ 32) RooRealVar::            Backgroundfail_LOW_bin_3-10 = 1.48096e+07
+ 33) RooRealVar::             Backgroundfail_LOW_bin_3-2 = 1.48071e+07
+ 34) RooRealVar::             Backgroundfail_LOW_bin_3-3 = 1.4845e+07
+ 35) RooRealVar::             Backgroundfail_LOW_bin_3-4 = 1.4832e+07
+ 36) RooRealVar::             Backgroundfail_LOW_bin_3-5 = 1.48552e+07
+ 37) RooRealVar::             Backgroundfail_LOW_bin_3-6 = 1.48365e+07
+ 38) RooRealVar::             Backgroundfail_LOW_bin_3-7 = 1.48463e+07
+ 39) RooRealVar::             Backgroundfail_LOW_bin_3-8 = 1.48232e+07
+ 40) RooRealVar::             Backgroundfail_LOW_bin_3-9 = 1.48122e+07
+ 41) RooRealVar::             Backgroundfail_LOW_bin_4-1 = 904343
+ 42) RooRealVar::            Backgroundfail_LOW_bin_4-10 = 904394
+ 43) RooRealVar::             Backgroundfail_LOW_bin_4-2 = 901563
+ 44) RooRealVar::             Backgroundfail_LOW_bin_4-3 = 896958
+ 45) RooRealVar::             Backgroundfail_LOW_bin_4-4 = 905793
+ 46) RooRealVar::             Backgroundfail_LOW_bin_4-5 = 900062
+ 47) RooRealVar::             Backgroundfail_LOW_bin_4-6 = 902484
+ 48) RooRealVar::             Backgroundfail_LOW_bin_4-7 = 904633
+ 49) RooRealVar::             Backgroundfail_LOW_bin_4-8 = 899516
+ 50) RooRealVar::             Backgroundfail_LOW_bin_4-9 = 907447
+ 51) RooRealVar::             Backgroundfail_LOW_bin_5-1 = 10898.6
+ 52) RooRealVar::            Backgroundfail_LOW_bin_5-10 = 10659.8
+ 53) RooRealVar::             Backgroundfail_LOW_bin_5-2 = 10796.2
+ 54) RooRealVar::             Backgroundfail_LOW_bin_5-3 = 11495.5
+ 55) RooRealVar::             Backgroundfail_LOW_bin_5-4 = 10932.7
+ 56) RooRealVar::             Backgroundfail_LOW_bin_5-5 = 11273.8
+ 57) RooRealVar::             Backgroundfail_LOW_bin_5-6 = 10369.9
+ 58) RooRealVar::             Backgroundfail_LOW_bin_5-7 = 10728
+ 59) RooRealVar::             Backgroundfail_LOW_bin_5-8 = 10881.5
+ 60) RooRealVar::             Backgroundfail_LOW_bin_5-9 = 10728
+ 61) RooRealVar::             Backgroundfail_SIG_bin_1-1 = 2711.85
+ 62) RooRealVar::            Backgroundfail_SIG_bin_1-10 = 2575.41
+ 63) RooRealVar::             Backgroundfail_SIG_bin_1-2 = 2643.63
+ 64) RooRealVar::             Backgroundfail_SIG_bin_1-3 = 3104.13
+ 65) RooRealVar::             Backgroundfail_SIG_bin_1-4 = 3155.3
+ 66) RooRealVar::             Backgroundfail_SIG_bin_1-5 = 2694.8
+ 67) RooRealVar::             Backgroundfail_SIG_bin_1-6 = 2421.91
+ 68) RooRealVar::             Backgroundfail_SIG_bin_1-7 = 2626.57
+ 69) RooRealVar::             Backgroundfail_SIG_bin_1-8 = 3018.85
+ 70) RooRealVar::             Backgroundfail_SIG_bin_1-9 = 2626.57
+ 71) RooRealVar::             Backgroundfail_SIG_bin_2-1 = 1364.45
+ 72) RooRealVar::            Backgroundfail_SIG_bin_2-10 = 1347.4
+ 73) RooRealVar::             Backgroundfail_SIG_bin_2-2 = 1228.01
  74) RooRealVar::             Backgroundfail_SIG_bin_2-3 = 1330.34
- 75) RooRealVar::             Backgroundfail_SIG_bin_2-4 = 1279.18
- 76) RooRealVar::             Backgroundfail_SIG_bin_2-5 = 1432.68
- 77) RooRealVar::             Backgroundfail_SIG_bin_2-6 = 1159.79
- 78) RooRealVar::             Backgroundfail_SIG_bin_2-7 = 1176.84
- 79) RooRealVar::             Backgroundfail_SIG_bin_2-8 = 1398.57
- 80) RooRealVar::             Backgroundfail_SIG_bin_2-9 = 1347.4
+ 75) RooRealVar::             Backgroundfail_SIG_bin_2-4 = 1500.9
+ 76) RooRealVar::             Backgroundfail_SIG_bin_2-5 = 1381.51
+ 77) RooRealVar::             Backgroundfail_SIG_bin_2-6 = 1125.67
+ 78) RooRealVar::             Backgroundfail_SIG_bin_2-7 = 1296.23
+ 79) RooRealVar::             Backgroundfail_SIG_bin_2-8 = 1415.62
+ 80) RooRealVar::             Backgroundfail_SIG_bin_2-9 = 1313.29
  81) RooRealVar::                 Backgroundrpf_2x0_par0 = 0.1 +/- 0.1
  82) RooRealVar::                 Backgroundrpf_2x0_par1 = 0.1 +/- 0.1
  83) RooRealVar::                 Backgroundrpf_2x0_par2 = 0.1 +/- 0.1
@@ -115,12 +115,12 @@ Obs:
 >> Found 84 floating parameters
 >> The following parameters are protected in the event of negative eigenvalues:
 >> Verifying eigenvalues are all positive (iteration 0)
-Eigenvalue 83 : -2.72139e-06
- - 0.783997	Backgroundrpf_2x0_par1
- - -0.515686	Backgroundrpf_2x0_par0
- - -0.340354	Backgroundrpf_2x0_par2
- - 0.0598062	Backgroundrpf_2x0_par3
- - 1.94758e-07	Backgroundfail_LOW_bin_5-9
+Eigenvalue 83 : -2.69868e-06
+ - -0.787075	Backgroundrpf_2x0_par1
+ - 0.518986	Backgroundrpf_2x0_par0
+ - 0.328181	Backgroundrpf_2x0_par2
+ - -0.0588571	Backgroundrpf_2x0_par3
+ - -2.05398e-07	Backgroundfail_LOW_bin_5-3
 >> Attempt 0 failed, remove the variable with largest eigenvector component...
 >> Dropping Backgroundrpf_2x0_par1 from the hessian
 >> Verifying eigenvalues are all positive (iteration 1)
@@ -134,36 +134,36 @@ Running Minos for POI r
 >> Found 85 floating parameters
 >> The following parameters are protected in the event of negative eigenvalues: r
 >> Verifying eigenvalues are all positive (iteration 0)
-Eigenvalue 83 : -919.499
- - 0.878846	Backgroundrpf_2x0_par0
- - 0.378212	Backgroundrpf_2x0_par3
- - -0.289566	Backgroundrpf_2x0_par2
- - -0.0252085	r
- - -0.0100341	Backgroundrpf_2x0_par1
-Eigenvalue 84 : -803823
+Eigenvalue 83 : -919.934
+ - 0.878816	Backgroundrpf_2x0_par0
+ - 0.378258	Backgroundrpf_2x0_par3
+ - -0.28964	Backgroundrpf_2x0_par2
+ - -0.0247234	r
+ - -0.0100393	Backgroundrpf_2x0_par1
+Eigenvalue 84 : -803789
  - -0.705741	Backgroundrpf_2x0_par1
- - -0.675614	Backgroundrpf_2x0_par2
- - -0.185069	Backgroundrpf_2x0_par0
- - -0.105946	Backgroundrpf_2x0_par3
- - -4.33459e-05	r
+ - -0.675597	Backgroundrpf_2x0_par2
+ - -0.185103	Backgroundrpf_2x0_par0
+ - -0.105997	Backgroundrpf_2x0_par3
+ - -4.25236e-05	r
 >> Attempt 0 failed, remove the variable with largest eigenvector component...
 >> Dropping Backgroundrpf_2x0_par1 from the hessian
 >> Verifying eigenvalues are all positive (iteration 1)
-Eigenvalue 83 : -20772.9
- - -0.705837	Backgroundrpf_2x0_par3
- - -0.65355	Backgroundrpf_2x0_par2
- - -0.273243	Backgroundrpf_2x0_par0
- - 0.00203029	r
- - 1.08999e-05	Backgroundfail_LOW_bin_3-1
+Eigenvalue 83 : -20782.3
+ - 0.705872	Backgroundrpf_2x0_par3
+ - 0.653507	Backgroundrpf_2x0_par2
+ - 0.273257	Backgroundrpf_2x0_par0
+ - -0.00199108	r
+ - -1.14349e-05	Backgroundfail_LOW_bin_3-3
 >> Attempt 1 failed, remove the variable with largest eigenvector component...
 >> Dropping Backgroundrpf_2x0_par3 from the hessian
 >> Verifying eigenvalues are all positive (iteration 2)
-Eigenvalue 82 : -205.55
- - 0.707118	Backgroundrpf_2x0_par2
- - 0.707095	Backgroundrpf_2x0_par0
- - 3.04233e-07	Backgroundfail_LOW_bin_1-8
- - 2.98009e-07	Backgroundfail_LOW_bin_1-9
- - 2.9565e-07	Backgroundfail_LOW_bin_1-6
+Eigenvalue 82 : -205.527
+ - 0.707111	Backgroundrpf_2x0_par2
+ - 0.707103	Backgroundrpf_2x0_par0
+ - 3.03105e-07	Backgroundfail_LOW_bin_1-2
+ - 2.97271e-07	Backgroundfail_LOW_bin_1-4
+ - 2.97219e-07	Backgroundfail_LOW_bin_1-1
 >> Attempt 2 failed, remove the variable with largest eigenvector component...
 >> Dropping Backgroundrpf_2x0_par2 from the hessian
 >> Verifying eigenvalues are all positive (iteration 3)
@@ -177,6 +177,6 @@ Eigenvalue 82 : -205.55
 Fit S+B, status = 0, numBadNLL = 0, covariance quality = -1
 
  --- FitDiagnostics ---
-Best fit r: 11.3702  -11.3702/+1.12981  (68% CL)
+Best fit r: 11.3702  -11.3702/+1.12978  (68% CL)
 Done in 0.01 min (cpu), 0.02 min (real)
 15 log messages saved to combine_logger.out

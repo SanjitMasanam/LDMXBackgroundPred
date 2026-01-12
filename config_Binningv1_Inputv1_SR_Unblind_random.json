@@ -67,10 +67,10 @@
             "X": {
                 "NAME": "pT",
                 "TITLE": "p_{T}",
-		"BINS": [20, 30, 46, 67, 94, 131, 180, 246, 333],
-		"SIGSTART":131,
-                "SIGEND": 246,
-		"NBINSna": 50,
+		"BINS": [20,40,152,356,653,1041,1522,2095, 10000],
+		"SIGSTART":152,
+                "SIGEND": 356,
+		"NBINSna": 356,
                 "MINna": 500,
                 "MAXna": 5500
             },
@@ -85,7 +85,7 @@
     },
     "OPTIONS": {
         "blindedFit": ["pass"],
-        "blindedPlots": ["pass"],
+        "blindedPlotsNA": ["pass"],
         "plotTemplateComparisonsNA": true,
         "plotEvtsPerUnitVolt" : true
     }

@@ -1,0 +1,1 @@
+r:Backgroundrpf_0x0_par0 = -0.6612916526230512
