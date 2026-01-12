@@ -599,8 +599,8 @@ def make_ax_1D(outname, binning, data, bkgs=[], signals=[], title='', subtitle='
     ax.autoscale(axis='x', tight=True)
     ax.margins(x=0) # remove white space at left and right margins of plot 
 
-    hep.cms.label(loc=0, ax=ax, data = not dataOff, label=extraText, rlabel='') # CMS + label, where label is typically “Preliminary” “Supplementary”, “Private Work” or “Work in Progress”
-    hep.cms.lumitext(lumiText, ax=ax)                       # Typically luminosity + sqrt(s)
+    # hep.cms.label(loc=0, ax=ax, data = not dataOff, label=extraText, rlabel='') # CMS + label, where label is typically “Preliminary” “Supplementary”, “Private Work” or “Work in Progress”
+    # hep.cms.lumitext(lumiText, ax=ax)                       # Typically luminosity + sqrt(s)
     # Can't use the hep.cms.text() wrapper without "CMS" being added, so add the slice text manually
     if slicetitle:
         slicetitle = r'${}$'.format(slicetitle.replace('#','\\'))
@@ -615,8 +615,8 @@ def make_ax_1D(outname, binning, data, bkgs=[], signals=[], title='', subtitle='
 
     # pull
     # TAV: After unblinding one needs to come back to this
-    #dataMinusBkg = data_arr - totalBkg_arr
-    dataMinusBkg = np.where(data_arr == 0, 0, data_arr - totalBkg_arr)
+    dataMinusBkg = data_arr - totalBkg_arr
+    # dataMinusBkg = np.where(data_arr == 0, 0, data_arr - totalBkg_arr)
     data_error = np.where(dataMinusBkg<0, upper_errors - data_arr, data_arr - lower_errors)
     sigmas = np.sqrt(data_error**2 + totalBkg_err**2) 
     #sigmas = np.sqrt(np.sqrt(data_arr)*np.sqrt(data_arr) + totalBkg_err*totalBkg_err)

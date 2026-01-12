@@ -1,4 +1,4 @@
-Metadata-Version: 2.4
+Metadata-Version: 2.1
 Name: TwoDAlphabet
 Version: 2.0
 Summary: Framework for performing 2D binned-likelihood fits with one background derived from a transfer function.
@@ -11,8 +11,3 @@ Requires-Dist: tabulate
 Requires-Dist: doxypypy
 Requires-Dist: pytest
 Requires-Dist: pytest-cov
-Dynamic: author
-Dynamic: author-email
-Dynamic: home-page
-Dynamic: requires-dist
-Dynamic: summary

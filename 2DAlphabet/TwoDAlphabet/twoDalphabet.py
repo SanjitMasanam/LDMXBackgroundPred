@@ -327,7 +327,7 @@ class TwoDAlphabet:
             # systematic_analyzer_cmd = 'python $CMSSW_BASE/src/HiggsAnalysis/CombinedLimit/test/systematicsAnalyzer.py card.txt --all -f html > systematics_table.html'
             # execute_cmd(systematic_analyzer_cmd)    
 
-    def StdPlots(self, subtag, ledger=None, plotSplusB=True, vtol=0.3, stol=0.1, vtol2=2.0, stol2=0.5, regex='^(?!.*(_bin_|_par))', corrthresh=0.0, corrtext=False, lumiText=r'138 $fb^{-1}$ (13 TeV)', extraText='Work in Progress', pf_slice_str={}, subtitles={}, units='GeV', regionsToGroup=[]):
+    def StdPlots(self, subtag, ledger=None, plotSplusB=True, vtol=0.3, stol=0.1, vtol2=2.0, stol2=0.5, regex='^(?!.*(_bin_|_par))', corrthresh=0.0, corrtext=False, lumiText=r'138 $fb^{-1}$ (13 TeV)', extraText='Work in Progress', pf_slice_str={}, subtitles={}, units='MeV', regionsToGroup=[]):
         '''
         Args:
             subtag (str): 'b' or 's' to denote background-only or signal-plus-background fit result.
