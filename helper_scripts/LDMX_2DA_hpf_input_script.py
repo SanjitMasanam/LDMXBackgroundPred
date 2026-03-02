@@ -1,24 +1,29 @@
 import uproot, ROOT, os, inspect, numpy as np, copy, datetime, matplotlib.pyplot as plt, math, scipy.stats, pandas as pd
 
+# Input TH2F files
 files = ["ecal_pn_v15_8gev_histos.root",
         "signal_mass_1MeV_v15_8GeV_histos.root",
         "signal_mass_10MeV_v15_8GeV_histos.root",
         "signal_mass_100MeV_v15_8GeV_histos.root",
         "signal_mass_1000MeV_v15_8GeV_histos.root"]
 
-var_interest = "RecoilTrackPT_BDTSplit"
-labels = ['EcalPNBkg_SR', 'Signal_M1MeV_SR', 'Signal_M10MeV_SR', 'Signal_M100MeV_SR', 'Signal_M1000MeV_SR']
+# Leaf to get
+var_interest = "RecoilTrackPT_BDTSplit" # RecoilTrackPT_BDTLooseSplit
+labels = ['PNBkg_SR', 'Signal_M1MeV_SR', 'Signal_M10MeV_SR', 'Signal_M100MeV_SR', 'Signal_M1000MeV_SR']
+
 
 label_counter = 0
 for file in files:
-    # Define hpf prep file path
+    # Get TH2F file & targetPN file
     f = ROOT.TFile.Open(f'/Users/sanjitmasanam/Documents/CodingProjects/LDMX/Experiments/LDMX_2DA/files/{file}')
     targetPN_f = ROOT.TFile.Open('/Users/sanjitmasanam/Documents/CodingProjects/LDMX/Experiments/LDMX_2DA/files/NoHcalLDMX_PNbkg_SR_random.root')
     tree = f.Get("CutBasedDM")
 
+    # Do ProjY to get 1D histogram along recoil track pT axis
     hpass_tmp = tree.Get(var_interest).ProjectionY("hpass_tmp", 2, 2)
     hfail_tmp = tree.Get(var_interest).ProjectionY("hfail_tmp", 1, 1)
 
+    # If make bkg hpf, also grab targetPN 1D histograms of recoil track pT
     if label_counter == 0:
         hpass_targetPN = targetPN_f.Get("hpass;1")
         hfail_targetPN = targetPN_f.Get("hfail;1")
@@ -28,48 +33,66 @@ for file in files:
 
         hpass_targetPN_tmp = hpass_targetPN.ProjectionY("hpass_targetPN_tmp", 1, -1)
         hfail_targetPN_tmp = hfail_targetPN.ProjectionY("hfail_targetPN_tmp", 1, -1)
+    
+    # Normalize ecalPN/targetPN 1D histograms to 5e13 normalization
+    if label_counter == 0:
+        targetPN_norm_const = 51717*0.006 / (hpass_targetPN_tmp.Integral()+hfail_targetPN_tmp.Integral())
+        hpass_targetPN_tmp.Scale(normtargetPN_norm_const_const)
+        hfail_targetPN_tmp.Scale(targetPN_norm_const)
+        print(hpass_targetPN_tmp.Integral(),hfail_targetPN_tmp.Integral()) # Check normalization worked
 
-        norm_const = 51717*0.006 / (hpass_targetPN_tmp.Integral()+hfail_targetPN_tmp.Integral())
-        hpass_targetPN_tmp.Scale(norm_const)
-        hfail_targetPN_tmp.Scale(norm_const)
-        print(hpass_targetPN_tmp.Integral(),hfail_targetPN_tmp.Integral())
+        ecalPN_norm_const = 16148103 / (hpass_tmp.Integral()+hfail_tmp.Integral())
+        hfail_tmp.Scale(ecalPN_norm_const)
+        hpass_tmp.Scale(ecalPN_norm_const)
+        print(hpass_tmp.Integral(), hfail_tmp.Integral()) # Check normalization worked
+
+    # Normalize sig to 20 events
+    if label_counter != 0:
+        sig_norm_const = 20 / (hpass_tmp.Integral()+hfail_tmp.Integral())
+        hfail_tmp.Scale(sig_norm_const)
+        hpass_tmp.Scale(sig_norm_const)
+
+    # Check if file exists and the 1D ecalPN histogram was properly projected
+    if hpass_tmp is None or hfail_tmp is None:
+        raise RuntimeError("ProjectionY returned None! Check f exists.")
+
+    # Define final histograms to save to ROOT file
+    hpass = ROOT.TH2D("hpass", "hpass; p_{T} (MeV);# of Hits", 1000, 0, 1000, 10, 0, 10)
+    hfail = ROOT.TH2D("hfail", "hfail; p_{T} (MeV);# of Hits", 1000, 0, 1000, 10, 0, 10)
+
+    # Fill final histograms
+    for i in range(1, hpass_tmp.GetNbinsX()+1): # Loop over hpass_tmp bins
+        x_value = hpass_tmp.GetBinCenter(i)
+        y_value = np.random.rand()*10
+        hpass.Fill(x_value, y_value, hpass_tmp.GetBinContent(i)) # Fill x, y bin of hpass with contents of hpass_tmp
+
+    for i in range(1, hfail_tmp.GetNbinsX()+1): # Loop over hfail_tmp bins
+        x_value = hfail_tmp.GetBinCenter(i)
+        y_value = np.random.rand()*10
+        hfail.Fill(x_value, y_value, hfail_tmp.GetBinContent(i))
 
     if label_counter == 0:
-        norm_const = 16148103 / (hpass_tmp.Integral()+hfail_tmp.Integral())
-        hfail_tmp.Scale(norm_const)
-        hpass_tmp.Scale(norm_const)
-        print(hpass_tmp.Integral(), hfail_tmp.Integral())
+        # Fill final histograms
+        for i in range(1, hpass_targetPN_tmp.GetNbinsX()+1): # Loop over hpass_targetPN_tmp bins
+            x_value = hpass_targetPN_tmp.GetBinCenter(i)
+            y_value = np.random.rand()*10
+            hpass.Fill(x_value, y_value, hpass_targetPN_tmp.GetBinContent(i))
 
-    if label_counter != 0:
-        norm_const = 20 / (hpass_tmp.Integral()+hfail_tmp.Integral())
-        hfail_tmp.Scale(norm_const)
-        hpass_tmp.Scale(norm_const)
+        for i in range(1, hfail_targetPN_tmp.GetNbinsX()+1): # Loop over hfail_targetPN_tmp bins
+            x_value = hfail_targetPN_tmp.GetBinCenter(i)
+            y_value = np.random.rand()*10
+            hfail.Fill(x_value, y_value, hfail_targetPN_tmp.GetBinContent(i))
 
-    if hpass_tmp is None or hfail_tmp is None:
-        raise RuntimeError("ProjectionX returned None! Check your source histogram.")
-
-    hpass = ROOT.TH2D("hpass", "hpass; p_{T} (MeV);# of Hits", 10000, 0, 10000, 10, 0, 10)
-    hfail = ROOT.TH2D("hfail", "hfail; p_{T} (MeV);# of Hits", 10000, 0, 10000, 10, 0, 10)
-
-    for i in range(1, hpass.GetNbinsX()+1):  # ROOT bins start at 1
-        x_value = hpass_tmp.GetBinCenter(i)    # bin center of the projection
-        y_value = np.random.rand()*10        # corresponding Y value
-        if label_counter == 0: hpass.Fill(x_value, y_value, hpass_tmp.GetBinContent(i)+hpass_targetPN_tmp.GetBinContent(i))
-        else: hpass.Fill(x_value, y_value, hpass_tmp.GetBinContent(i))
-
-    for i in range(1, hfail.GetNbinsX()+1):  # ROOT bins start at 1
-        x_value = hfail_tmp.GetBinCenter(i)      # bin center of the projection
-        y_value = np.random.rand()*10         # corresponding Y value
-        if label_counter == 0: hfail.Fill(x_value, y_value, hfail_tmp.GetBinContent(i)+hfail_targetPN_tmp.GetBinContent(i))
-        else: hfail.Fill(x_value, y_value, hfail_tmp.GetBinContent(i))
-
+    # Set histograms to desired names
     hpass.SetName("hpass")
     hfail.SetName("hfail")
 
+    # Check # of events are reasonable for each histogram
     print(hpass.Integral())
     print(hfail.Integral())
 
-    root_file = ROOT.TFile(f"2DA_files_v3/NoHcalLDMX_{labels[label_counter]}.root", "RECREATE")
+    # Save PASS/FAIL histograms to ROOT file
+    root_file = ROOT.TFile(f"2DA_files_v4/NoHcalLDMX_{labels[label_counter]}.root", "RECREATE")
     hpass.Write()
     hfail.Write()
     root_file.Close()
