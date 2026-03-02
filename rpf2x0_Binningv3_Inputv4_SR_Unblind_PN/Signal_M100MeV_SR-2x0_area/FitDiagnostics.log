@@ -8,42 +8,42 @@ Set Default Value of Parameter r To : 1
 >> Found 10 floating parameters
 >> The following parameters are protected in the event of negative eigenvalues:
 >> Verifying eigenvalues are all positive (iteration 0)
-Eigenvalue 9 : -0.000280791
- - 0.767514	Backgroundrpf_2x0_par3
- - -0.482451	Backgroundrpf_2x0_par1
- - -0.36061	Backgroundrpf_2x0_par0
- - 0.219341	Backgroundrpf_2x0_par2
- - 0.00214006	Backgroundfail_SIG_bin_1-1
+Eigenvalue 9 : -0.00323393
+ - 0.770435	Backgroundrpf_2x0_par1
+ - -0.475557	Backgroundrpf_2x0_par3
+ - -0.378533	Backgroundrpf_2x0_par2
+ - -0.192252	Backgroundrpf_2x0_par0
+ - -0.00313825	Backgroundfail_SIG_bin_1-1
 >> Attempt 0 failed, remove the variable with largest eigenvector component...
->> Dropping Backgroundrpf_2x0_par3 from the hessian
+>> Dropping Backgroundrpf_2x0_par1 from the hessian
 >> Verifying eigenvalues are all positive (iteration 1)
 >> All eigenvalues are positive
 >> Inverting Hessian...
 >> Matrix inverted
 >> Note: the following parameters were dropped to make the covariance matrix pos-def:
-     - Backgroundrpf_2x0_par3
+     - Backgroundrpf_2x0_par1
  Fit B-only, status = 0, numBadNLL = 0, covariance quality = -1
 Running Minos for POI r
 >> Found 11 floating parameters
 >> The following parameters are protected in the event of negative eigenvalues: r
 >> Verifying eigenvalues are all positive (iteration 0)
-Eigenvalue 10 : -4.37117e-06
- - -0.749159	Backgroundrpf_2x0_par3
- - 0.646617	Backgroundrpf_2x0_par0
- - 0.136347	Backgroundrpf_2x0_par1
- - -0.0453378	Backgroundrpf_2x0_par2
- - -0.000368072	r
+Eigenvalue 10 : -0.00417588
+ - -0.795316	Backgroundrpf_2x0_par1
+ - 0.384047	Backgroundrpf_2x0_par2
+ - 0.328288	Backgroundrpf_2x0_par0
+ - 0.322348	Backgroundrpf_2x0_par3
+ - 0.0910789	r
 >> Attempt 0 failed, remove the variable with largest eigenvector component...
->> Dropping Backgroundrpf_2x0_par3 from the hessian
+>> Dropping Backgroundrpf_2x0_par1 from the hessian
 >> Verifying eigenvalues are all positive (iteration 1)
 >> All eigenvalues are positive
 >> Inverting Hessian...
 >> Matrix inverted
 >> Note: the following parameters were dropped to make the covariance matrix pos-def:
-     - Backgroundrpf_2x0_par3
+     - Backgroundrpf_2x0_par1
 Fit S+B, status = 0, numBadNLL = 0, covariance quality = -1
 
  --- FitDiagnostics ---
-Best fit r: 50  -50/+1.71113e-05  (68% CL)
+Best fit r: 28.5029  -28.5029/+21.4971  (68% CL)
 Done in 0.00 min (cpu), 0.00 min (real)
 21 log messages saved to combine_logger.out

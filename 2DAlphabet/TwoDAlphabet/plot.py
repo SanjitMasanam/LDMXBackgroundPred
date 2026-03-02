@@ -574,7 +574,7 @@ def make_ax_1D(outname, binning, data, bkgs=[], signals=[], title='', subtitle='
     lower_errors, upper_errors = poisson_conf_interval(data_arr)
     yerr = [data_arr - lower_errors, upper_errors - data_arr]
     
-    ax.errorbar(x=bin_centers, y=data_arr, yerr=yerr, xerr=xerrs, label='Data', **errorbar_style)
+    ax.errorbar(x=bin_centers, y=data_arr, yerr=yerr, xerr=xerrs, label='Pseudo-Data', **errorbar_style)
     #ax.errorbar(x=bin_centers, y=data_arr, yerr=np.sqrt(data_arr), xerr=xerrs, label='Data', **errorbar_style)
 
     # Plot signals
@@ -590,7 +590,7 @@ def make_ax_1D(outname, binning, data, bkgs=[], signals=[], title='', subtitle='
 
     # Make sure data and signal(s) come first 
     handles, labels = ax.get_legend_handles_labels()
-    data_idx = labels.index('Data') # should always be last entry in legend
+    data_idx = labels.index('Pseudo-Data') # should always be last entry in legend
     unc_idx  = labels.index('Bkg. Unc.')
     sig_idxs = [i for i in range(unc_idx+1, data_idx)] # indices of all signals in legend
     # Resulting legend ordering will be Data, signal(s), bkgs, then bkg unc. The bkg ordering is already sent to this function properly.

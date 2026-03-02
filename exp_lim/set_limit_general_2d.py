@@ -21,7 +21,7 @@ parser = OptionParser()
 #                 dest      =   'tag',
 #                 help      =   'Tag ran over')
 parser.add_option('-L', '--lumiLabel',metavar='F', type='string', action='store',
-                default   =   '2023D Cosmics',
+                default   =   '5e13 EoT',
                 dest      =   'lumiLabel',
                 help      =   'Top right label of limit plot')
 parser.add_option('-s', '--signals', metavar='FILE', type='string', action='store',
@@ -53,7 +53,7 @@ parser.add_option('-p', '--particle', type='string', action='store',
                 dest          =       'particle',
                 help          =       'Name of Dark Photon. e.g. A^{#prime}')
 parser.add_option('-x', '--process', type='string', action='store',
-                default       =       "A'#rightarrow#mu#mu",
+                default       =       "e^{-}N#rightarrowA'#rightarrow#chi#chi",
                 dest          =       'process',
                 help          =       'Name of HSCP. e.g. pp#rightarrow#tilde{g}#tilde{g}')
 parser.add_option('-o', '--xsorder', type='string', action='store',
@@ -64,10 +64,6 @@ parser.add_option('-d', '--debug', type='int',
                 default       =       0,
                 dest          =       'debug',
                 help          =       'Debug level')
-parser.add_option('-n', '--numRates', type='int',
-                default       =       1,
-                dest          =       'num_rate',
-                help          =       'Number of sets of rates')
 parser.add_option('--outdir', type='string', action='store',
                 default       =       './limit_test_dir',
                 dest          =       'outdir',
@@ -76,10 +72,101 @@ parser.add_option('--outdir', type='string', action='store',
 (options, args) = parser.parse_args()
 
 debug = options.debug
-
-num_rate = options.num_rate
 total_theory_xsec_list = []
-labels = [1, 2, 5, 10, 20, 50, 100, 200]
+labels = [
+    0.00001,
+    0.000011,
+    0.000012,
+    0.000013,
+    0.000014,
+    0.000015,
+    0.000016,
+    0.000017,
+    0.000018,
+    0.000019,
+    0.00002,
+    0.00003,
+    0.00004,
+    0.00005,
+    0.00006,
+    0.00007,
+    0.00008,
+    0.00009,
+    0.0001,
+    0.00011,
+    0.00012,
+    0.00013,
+    0.00014,
+    0.00015,
+    0.00016,
+    0.00017,
+    0.00018,
+    0.00019,
+    0.0002,
+    0.0003,
+    0.0004,
+    0.0005,
+    0.0006,
+    0.0007,
+    0.0008,
+    0.0009,
+    0.001,
+    0.0011,
+    0.0012,
+    0.0013,
+    0.0014,
+    0.0015,
+    0.0016,
+    0.0017,
+    0.0018,
+    0.0019,
+    0.002,
+    0.003,
+    0.004,
+    0.005,
+    0.006,
+    0.007,
+    0.008,
+    0.009,
+    0.01,
+    0.011,
+    0.012,
+    0.013,
+    0.014,
+    0.015,
+    0.016,
+    0.017,
+    0.018,
+    0.019,
+    0.02,
+    0.03,
+    0.04,
+    0.05,
+    0.06,
+    0.07,
+    0.08,
+    0.09,
+    0.1,
+    0.11,
+    0.12,
+    0.13,
+    0.14,
+    0.15,
+    0.16,
+    0.17,
+    0.18,
+    0.19,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1
+]
+num_rate = len(labels)
 exp_lim = []
 exp_lim_upper = []
 exp_lim_lower = []
@@ -374,8 +461,8 @@ for theory_xsecs in total_theory_xsec_list:
         g_limit.GetXaxis().SetTitleOffset(1.25)
 
     else:
-        g_mclimit.GetXaxis().SetTitle("m("+options.particle+") [TeV]")  # NOT GENERIC
-        g_mclimit.GetYaxis().SetTitle("Monthly DM-induced muon rate") # NOT GENERIC
+        g_mclimit.GetXaxis().SetTitle("m("+options.particle+") [MeV]")  # NOT GENERIC
+        g_mclimit.GetYaxis().SetTitle("N_{sig}") # NOT GENERIC
         g_mclimit.GetXaxis().SetTitleSize(0.055)
         g_mclimit.GetYaxis().SetTitleSize(0.05)
         g_mclimit.Draw("al")
@@ -509,7 +596,7 @@ for theory_xsecs in total_theory_xsec_list:
     climits.RedrawAxis()
 
     #CMS_lumi.extraText = 'Preliminary'
-    CMS_lumi.extraText = 'Internal'
+    CMS_lumi.extraText = 'Simulation'
     CMS_lumi.lumiTextSize = 0.5
 
     CMS_lumi.cmsTextSize = 0.8

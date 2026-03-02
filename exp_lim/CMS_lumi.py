@@ -6,7 +6,7 @@ import ROOT as rt
 #   Updated by:   Dinko Ferencek (Rutgers)
 #
 
-cmsText     = "CMS";
+cmsText     = "LDMX";
 cmsTextFont   = 61  
 
 writeExtraText = True
@@ -171,7 +171,7 @@ def CMS_lumi(pad, lumi_sqrtS, iPeriod=4,  iPosX=11, sim=False):
         if( iPosX==0):
             posX_ =   l +  relPosX*(1-l-r)
             posY_ =   1-t+cmsTextOffset*t
-        posX_ = 0.375
+        posX_ = 0.44
         posY_ = 0.96 
         latex.SetTextFont(extraTextFont)
         latex.SetTextSize(extraTextSize*t)

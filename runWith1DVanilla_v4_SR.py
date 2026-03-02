@@ -177,8 +177,8 @@ def plot_fit(signal, tf):
     print("Doing twoD.ledger.select")
     subset = twoD.ledger.select(_select_signal, '{}'.format(signal), tf) 
     print("Doing twoD.StdPlots")
-    twoD.StdPlots('{}-{}_area'.format(signal, tf), subset, lumiText=r'4e14 EoT', pf_slice_str={"fail":"SegMip Score < 0.99","pass":"SegMip Score > 0.99"})
-    twoD.StdPlots('{}-{}_area'.format(signal, tf), subset, True, lumiText=r'4e14 EOT', pf_slice_str={"fail":"SegMip Score < 0.99","pass":"SegMip Score > 0.99"})
+    twoD.StdPlots('{}-{}_area'.format(signal, tf), subset, lumiText=r'5e13 EoT', pf_slice_str={"fail":"SegMip Score < 0.99741","pass":"SegMip Score > 0.99741"})
+    twoD.StdPlots('{}-{}_area'.format(signal, tf), subset, True, lumiText=r'5e13 EOT', pf_slice_str={"fail":"SegMip Score < 0.99741","pass":"SegMip Score > 0.99741"})
 
 def GOF(signal,tf,condor=True, extra=''):
     # replace the blindedFit option in the config file with COMMENT to effectively "unblind" the GoF
@@ -364,7 +364,7 @@ def test_FTest(poly1, poly2, signal=''):
 if __name__ == "__main__":
     make_workspace()
     
-    signal_areas = ["Signal_M1000MeV_SR", "Signal_M100MeV_SR", "Signal_M10MeV_SR", "Signal_M1MeV_SR"] * 3
+    signal_areas = ["Signal_M1000MeV_SR", "Signal_M100MeV_SR", "Signal_M10MeV_SR", "Signal_M1MeV_SR"]
     tf_types = ['2x0'] * 4
 
     for signal, tf_type in zip(signal_areas,tf_types) :

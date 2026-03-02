@@ -16,7 +16,7 @@
         "NBINSna": 5,
         "SIGEND": 90,
         "SIGSTART": 40,
-        "TITLE": "p_{T}"
+        "TITLE": "Recoil Track p_{T}"
       },
       "Y": {
         "MAX": 10,
@@ -68,7 +68,7 @@
       "VARIATION": "nominal"
     },
     "data_obs": {
-      "ALIAS": "EcalPNBkg_SR",
+      "ALIAS": "PNBkg_SR",
       "COLOR": "black",
       "LOC": "./histograms_for_2DAlphabet_v4/NoHcalLDMX_$process.root:h$region",
       "NAME": "data_obs",

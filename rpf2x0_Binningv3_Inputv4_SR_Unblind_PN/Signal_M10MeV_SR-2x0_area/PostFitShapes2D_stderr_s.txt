@@ -41,7 +41,7 @@ Bin                       Total relative bkg uncert. (prefit)
 fail_HIGH                 0.00000   
 fail_LOW                  0.00000   
 fail_SIG                  0.00000   
-pass_HIGH                 1.25080   
+pass_HIGH                 1.25087   
 pass_LOW                  1.40711   
 pass_SIG                  1.37055   
 >> Doing postfit: fail_HIGH,Background
@@ -77,24 +77,24 @@ pass_SIG                  1.37055
 
 Bin                       Total relative bkg uncert. (postfit)
 ----------------------------------------------------------
-fail_HIGH                 0.01356   
-fail_LOW                  0.00022   
-fail_SIG                  0.00874   
-pass_HIGH                 0.31419   
-pass_LOW                  0.00539   
-pass_SIG                  0.04898   
+fail_HIGH                 0.01371   
+fail_LOW                  0.00023   
+fail_SIG                  0.00868   
+pass_HIGH                 0.18429   
+pass_LOW                  0.08942   
+pass_SIG                  0.16612   
 
 Bin                       Process              Scale factor
 ----------------------------------------------------------
-fail_HIGH                 Background           1.00010   
-fail_HIGH                 Signal_M10MeV_SR     51.00796  
+fail_HIGH                 Background           0.99992   
+fail_HIGH                 Signal_M10MeV_SR     0.00151   
 fail_LOW                  Background           1.00000   
-fail_LOW                  Signal_M10MeV_SR     51.00796  
-fail_SIG                  Background           0.99978   
-fail_SIG                  Signal_M10MeV_SR     51.00796  
-pass_HIGH                 Background_2x0       6.60216   
-pass_HIGH                 Signal_M10MeV_SR     51.00796  
-pass_LOW                  Background_2x0       4.52212   
-pass_LOW                  Signal_M10MeV_SR     51.00796  
-pass_SIG                  Background_2x0       9.49948   
-pass_SIG                  Signal_M10MeV_SR     51.00796  
+fail_LOW                  Signal_M10MeV_SR     0.00151   
+fail_SIG                  Background           1.00065   
+fail_SIG                  Signal_M10MeV_SR     0.00151   
+pass_HIGH                 Background_2x0       4.04143   
+pass_HIGH                 Signal_M10MeV_SR     0.00151   
+pass_LOW                  Background_2x0       1.63172   
+pass_LOW                  Signal_M10MeV_SR     0.00151   
+pass_SIG                  Background_2x0       4.17330   
+pass_SIG                  Signal_M10MeV_SR     0.00151   

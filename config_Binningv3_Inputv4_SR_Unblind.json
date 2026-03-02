@@ -25,7 +25,7 @@
             "SCALE": 1,
             "TYPE": "DATA",
             "TITLE": "Pseudo-Data",
-            "ALIAS": "EcalPNBkg_SR",
+            "ALIAS": "PNBkg_SR",
             "LOC": "path/FILE:HIST"
         },
         "SIGNAME": {
@@ -48,7 +48,7 @@
         "default": {
             "X": {
                 "NAME": "pT",
-                "TITLE": "p_{T}",
+                "TITLE": "Recoil Track p_{T}",
                 "BINS": [0,20,40,90,180,1000],
                 "SIGSTART":40,
                 "SIGEND": 90,

@@ -41,7 +41,7 @@ Bin                       Total relative bkg uncert. (prefit)
 fail_HIGH                 0.00000   
 fail_LOW                  0.00000   
 fail_SIG                  0.00000   
-pass_HIGH                 1.25080   
+pass_HIGH                 1.25087   
 pass_LOW                  1.40711   
 pass_SIG                  1.37055   
 >> Doing postfit: fail_HIGH,Background
@@ -77,24 +77,24 @@ pass_SIG                  1.37055
 
 Bin                       Total relative bkg uncert. (postfit)
 ----------------------------------------------------------
-fail_HIGH                 0.01373   
+fail_HIGH                 0.01368   
 fail_LOW                  0.00025   
 fail_SIG                  0.00812   
-pass_HIGH                 0.07775   
-pass_LOW                  0.00363   
-pass_SIG                  0.06415   
+pass_HIGH                 0.09178   
+pass_LOW                  0.02544   
+pass_SIG                  0.06715   
 
 Bin                       Process              Scale factor
 ----------------------------------------------------------
-fail_HIGH                 Background           0.99793   
+fail_HIGH                 Background           0.99992   
 fail_HIGH                 Signal_M10MeV_SR     1.00000   
 fail_LOW                  Background           1.00000   
 fail_LOW                  Signal_M10MeV_SR     1.00000   
-fail_SIG                  Background           0.99964   
+fail_SIG                  Background           1.00065   
 fail_SIG                  Signal_M10MeV_SR     1.00000   
-pass_HIGH                 Background_2x0       9.49123   
+pass_HIGH                 Background_2x0       4.04237   
 pass_HIGH                 Signal_M10MeV_SR     1.00000   
-pass_LOW                  Background_2x0       4.57902   
+pass_LOW                  Background_2x0       1.63175   
 pass_LOW                  Signal_M10MeV_SR     1.00000   
-pass_SIG                  Background_2x0       9.94374   
+pass_SIG                  Background_2x0       4.17431   
 pass_SIG                  Signal_M10MeV_SR     1.00000   
