@@ -72,7 +72,7 @@ for file in files:
         hfail.Fill(x_value, y_value, hfail_tmp.GetBinContent(i))
 
     if label_counter == 0:
-        # Fill final histograms
+        # Fill final histograms w/ targetPN data
         for i in range(1, hpass_targetPN_tmp.GetNbinsX()+1): # Loop over hpass_targetPN_tmp bins
             x_value = hpass_targetPN_tmp.GetBinCenter(i)
             y_value = np.random.rand()*10
