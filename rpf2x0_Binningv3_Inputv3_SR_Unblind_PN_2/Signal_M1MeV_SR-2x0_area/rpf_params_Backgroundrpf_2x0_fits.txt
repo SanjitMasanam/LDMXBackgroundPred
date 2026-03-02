@@ -1,0 +1,4 @@
+Backgroundrpf_2x0_par0: 0.09785780281072753 +/- 0.0
+Backgroundrpf_2x0_par1: 5.300241156006943 +/- 0.0
+Backgroundrpf_2x0_par2: -8.786190055006543 +/- 0.2860494289747163
+Backgroundrpf_2x0_par3: 0.10942125277259146 +/- 0.0

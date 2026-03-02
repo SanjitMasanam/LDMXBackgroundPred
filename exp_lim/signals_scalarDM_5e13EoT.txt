@@ -1,0 +1,4 @@
+../rpf2x0_Binningv3_Inputv3_SR_Unblind_PN/Signal_M1MeV_SR-2x0_area, ../rpf2x0_Binningv3_Inputv3_SR_Unblind_PN/Signal_M10MeV_SR-2x0_area, ../rpf2x0_Binningv3_Inputv3_SR_Unblind_PN/Signal_M100MeV_SR-2x0_area, ../rpf2x0_Binningv3_Inputv3_SR_Unblind_PN/Signal_M1000MeV_SR-2x0_area
+1, 10, 100, 1000
+1.5, 7.5, 5.125, 0.125
+20, 20, 20, 20

@@ -1,0 +1,10 @@
+Backgroundrpf_2x0_par0:lumi = -0.031746216839533756
+Backgroundrpf_2x0_par2:Backgroundrpf_2x0_par0 = 0.10386323398395592
+Backgroundrpf_2x0_par2:lumi = -0.0028144262640833013
+Backgroundrpf_2x0_par3:Backgroundrpf_2x0_par0 = -0.991118591705125
+Backgroundrpf_2x0_par3:Backgroundrpf_2x0_par2 = -0.1016647496598662
+Backgroundrpf_2x0_par3:lumi = 0.034532894117465934
+r:Backgroundrpf_2x0_par0 = 0.8025269029597083
+r:Backgroundrpf_2x0_par2 = 0.07114714912959032
+r:Backgroundrpf_2x0_par3 = -0.8729725761201057
+r:lumi = -0.039559359266366625

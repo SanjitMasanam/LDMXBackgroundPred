@@ -1,0 +1,102 @@
+{
+  "BINNING": {
+    "default": {
+      "X": {
+        "BINS": [
+          0,
+          20,
+          40,
+          90,
+          180,
+          1000
+        ],
+        "MAXna": 1000,
+        "MINna": 0,
+        "NAME": "pT",
+        "NBINSna": 5,
+        "SIGEND": 90,
+        "SIGSTART": 40,
+        "TITLE": "p_{T}"
+      },
+      "Y": {
+        "MAX": 10,
+        "MIN": 0,
+        "NAME": "N",
+        "NBINS": 1,
+        "TITLE": "N"
+      }
+    }
+  },
+  "GLOBAL": {
+    "FILE": "NoHcalLDMX_$process.root",
+    "HIST": "h$region",
+    "HIST_DOWN": "h$region_$syst_down",
+    "HIST_UP": "h$region_$syst_up",
+    "SIGNAME": [
+      "Signal_M1MeV_SR",
+      "Signal_M10MeV_SR",
+      "Signal_M100MeV_SR",
+      "Signal_M1000MeV_SR"
+    ],
+    "path": "./histograms_for_2DAlphabet_v3"
+  },
+  "NAME": "NoHcalLDMX",
+  "OPTIONS": {
+    "blindedPlotsNA": [
+      "pass"
+    ],
+    "plotEvtsPerUnitVolt": true,
+    "plotTemplateComparisonsNA": true
+  },
+  "PROCESSES": {
+    "SIGNAME": {
+      "COLOR": "red",
+      "LOC": "./histograms_for_2DAlphabet_v3/NoHcalLDMX_$process.root:h$region",
+      "NAME": "SIGNAME",
+      "SCALE": 1.0,
+      "SYSTEMATICS": [
+        "lumi"
+      ],
+      "SYSTEMATICSNA": [
+        "lumi",
+        "RNN",
+        "pT",
+        "t0"
+      ],
+      "TITLE": "DM Signal",
+      "TYPE": "SIGNAL",
+      "VARIATION": "nominal"
+    },
+    "data_obs": {
+      "ALIAS": "EcalPNBkg_SR",
+      "COLOR": "black",
+      "LOC": "./histograms_for_2DAlphabet_v3/NoHcalLDMX_$process.root:h$region",
+      "NAME": "data_obs",
+      "SCALE": 1,
+      "SYSTEMATICS": [],
+      "TITLE": "EcalPNBkg_SR",
+      "TYPE": "DATA",
+      "VARIATION": "nominal"
+    }
+  },
+  "REGIONS": {
+    "fail": {
+      "BINNING": "default",
+      "PROCESSES": [
+        "SIGNAME"
+      ]
+    },
+    "pass": {
+      "BINNING": "default",
+      "PROCESSES": [
+        "SIGNAME"
+      ]
+    }
+  },
+  "SYSTEMATICS": {
+    "lumi": {
+      "CODE": 0,
+      "VAL": 1.05
+    }
+  }
+}

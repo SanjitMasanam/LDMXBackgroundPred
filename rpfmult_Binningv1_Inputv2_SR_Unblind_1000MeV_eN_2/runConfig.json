@@ -1,0 +1,104 @@
+{
+  "BINNING": {
+    "default": {
+      "X": {
+        "BINS": [
+          20,
+          40,
+          152,
+          356,
+          653,
+          1041,
+          1522,
+          2095
+        ],
+        "MAXna": 5500,
+        "MINna": 500,
+        "NAME": "pT",
+        "NBINSna": 356,
+        "SIGEND": 356,
+        "SIGSTART": 152,
+        "TITLE": "p_{T}"
+      },
+      "Y": {
+        "MAX": 2,
+        "MIN": 0,
+        "NAME": "N",
+        "NBINS": 1,
+        "TITLE": "N"
+      }
+    }
+  },
+  "GLOBAL": {
+    "FILE": "NoHcalLDMX_$process.root",
+    "HIST": "h$region",
+    "HIST_DOWN": "h$region_$syst_down",
+    "HIST_UP": "h$region_$syst_up",
+    "SIGNAME": [
+      "Signal_M1MeV_SR_random",
+      "Signal_M10MeV_SR_random",
+      "Signal_M100MeV_SR_random",
+      "Signal_M1000MeV_SR_random"
+    ],
+    "path": "./histograms_for_2DAlphabet_v2"
+  },
+  "NAME": "NoHcalLDMX",
+  "OPTIONS": {
+    "blindedPlotsNA": [
+      "pass"
+    ],
+    "plotEvtsPerUnitVolt": true,
+    "plotTemplateComparisonsNA": true
+  },
+  "PROCESSES": {
+    "SIGNAME": {
+      "COLOR": "red",
+      "LOC": "./histograms_for_2DAlphabet_v2/NoHcalLDMX_$process.root:h$region",
+      "NAME": "SIGNAME",
+      "SCALE": 1.0,
+      "SYSTEMATICS": [
+        "lumi"
+      ],
+      "SYSTEMATICSNA": [
+        "lumi",
+        "RNN",
+        "pT",
+        "t0"
+      ],
+      "TITLE": "DM Signal",
+      "TYPE": "SIGNAL",
+      "VARIATION": "nominal"
+    },
+    "data_obs": {
+      "ALIAS": "ElectroNuclearBkg_SR",
+      "COLOR": "black",
+      "LOC": "./histograms_for_2DAlphabet_v2/NoHcalLDMX_$process.root:h$region",
+      "NAME": "data_obs",
+      "SCALE": 1,
+      "SYSTEMATICS": [],
+      "TITLE": "ElectroNuclearBkg_SR",
+      "TYPE": "DATA",
+      "VARIATION": "nominal"
+    }
+  },
+  "REGIONS": {
+    "fail": {
+      "BINNING": "default",
+      "PROCESSES": [
+        "SIGNAME"
+      ]
+    },
+    "pass": {
+      "BINNING": "default",
+      "PROCESSES": [
+        "SIGNAME"
+      ]
+    }
+  },
+  "SYSTEMATICS": {
+    "lumi": {
+      "CODE": 0,
+      "VAL": 1.05
+    }
+  }
+}

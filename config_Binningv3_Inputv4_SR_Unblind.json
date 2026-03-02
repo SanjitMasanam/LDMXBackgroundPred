@@ -1,0 +1,74 @@
+{
+    "NAME": "NoHcalLDMX",
+    "GLOBAL": {
+        "FILE": "NoHcalLDMX_$process.root",
+        "HIST": "h$region",
+        "HIST_UP": "h$region_$syst_up",
+        "HIST_DOWN": "h$region_$syst_down",
+        "path": "./histograms_for_2DAlphabet_v4",
+        "SIGNAME": ["Signal_M1MeV_SR","Signal_M10MeV_SR","Signal_M100MeV_SR","Signal_M1000MeV_SR"]
+    },
+    "REGIONS": {
+        "pass": {
+            "PROCESSES": ["SIGNAME"],
+            "BINNING": "default"
+        },
+        "fail": {
+            "PROCESSES": ["SIGNAME"],
+            "BINNING": "default"
+        }
+    },
+    "PROCESSES": {
+        "data_obs": {
+            "SYSTEMATICS":[],
+            "COLOR": "black",
+            "SCALE": 1,
+            "TYPE": "DATA",
+            "TITLE": "Pseudo-Data",
+            "ALIAS": "EcalPNBkg_SR",
+            "LOC": "path/FILE:HIST"
+        },
+        "SIGNAME": {
+            "SYSTEMATICS": ["lumi"],
+            "SYSTEMATICSNA":["lumi","RNN","pT","t0"],
+            "COLOR": "red",
+            "SCALE": 1.0,
+            "TYPE": "SIGNAL",
+            "TITLE": "DM Signal",
+            "LOC": "path/FILE:HIST"
+        }
+    },
+    "SYSTEMATICS": {
+        "lumi": {
+                "CODE": 0,
+                "VAL": 1.05
+        }
+    },
+    "BINNING": {
+        "default": {
+            "X": {
+                "NAME": "pT",
+                "TITLE": "p_{T}",
+                "BINS": [0,20,40,90,180,1000],
+                "SIGSTART":40,
+                "SIGEND": 90,
+                "NBINSna": 5,
+                "MINna": 0,
+                "MAXna": 1000
+            },
+            "Y": {
+                "NAME": "N",
+                "TITLE": "N",
+                "NBINS": 1,
+                "MIN": 0,
+                "MAX": 10
+            }
+        }
+    },
+    "OPTIONS": {
+        "blindedPlotsNA": ["pass"],
+        "plotTemplateComparisonsNA": true,
+        "plotEvtsPerUnitVolt" : true
+    }
+}
+

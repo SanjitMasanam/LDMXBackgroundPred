@@ -1,0 +1,7 @@
+,process,region,binning,color,process_type,scale,variation,source_filename,source_histname,alias,title,combine_idx,lnN,shapes,syst_type,direction,variation_alias
+0,data_obs,pass,default,black,DATA,1.0,nominal,./histograms_for_2DAlphabet_v4/NoHcalLDMX_EcalPNBkg_SR.root,hpass,EcalPNBkg_SR,Pseudo-Data,,,,,,
+7,Signal_M1000MeV_SR,pass,default,red,SIGNAL,1.0,lumi,./histograms_for_2DAlphabet_v4/NoHcalLDMX_Signal_M1000MeV_SR.root,hpass,Signal_M1000MeV_SR,DM Signal,,1.05,,lnN,,
+8,Signal_M1000MeV_SR,pass,default,red,SIGNAL,1.0,nominal,./histograms_for_2DAlphabet_v4/NoHcalLDMX_Signal_M1000MeV_SR.root,hpass,Signal_M1000MeV_SR,DM Signal,,,,,,
+9,data_obs,fail,default,black,DATA,1.0,nominal,./histograms_for_2DAlphabet_v4/NoHcalLDMX_EcalPNBkg_SR.root,hfail,EcalPNBkg_SR,Pseudo-Data,,,,,,
+16,Signal_M1000MeV_SR,fail,default,red,SIGNAL,1.0,lumi,./histograms_for_2DAlphabet_v4/NoHcalLDMX_Signal_M1000MeV_SR.root,hfail,Signal_M1000MeV_SR,DM Signal,,1.05,,lnN,,
+17,Signal_M1000MeV_SR,fail,default,red,SIGNAL,1.0,nominal,./histograms_for_2DAlphabet_v4/NoHcalLDMX_Signal_M1000MeV_SR.root,hfail,Signal_M1000MeV_SR,DM Signal,,,,,,
